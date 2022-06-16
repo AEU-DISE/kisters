@@ -1,0 +1,761 @@
+Processed by,Species,ID,SN,Date,Time,Gear,FL (mm),wt (g),Fullness,Digestion,full wt,empty wt,Prey Taxa,LH,Higher level,Count,wt (g),Comments,QA/QC
+as,CHN,2016Ad_plus_F,1,1/29/2016,9:48,STTD,39,0.49,2,1,0.0163,0.0105,Insect matter,,Insecta,,0.0000,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Insect matter,,Insecta,,0.0002,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Chironomidae,pupae,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Chironomidae,larvae,Diptera,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Eurycercus lamellatus,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Daphnia pulex/pulicaria grp.,,Cladocera,14,0.0007,,bo
+as,CHN,2016Ad_plus_F,2,2/5/2016,9:21,BL-6,34,0.2965,3,5,0.0081,0.0017,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,3,2/5/2016,9:21,BL-6,40,0.5686,3,5,,0.0097,Unidentified,,Unidentified,,0.0016,,bo
+as,CHN,2016Ad_plus_F,3,2/5/2016,9:21,BL-6,40,0.5686,3,5,,0.0097,Daphnia pulex/pulicaria grp.,,Cladocera,16,0.0000,,bo
+as,CHN,2016Ad_plus_F,4,2/5/2016,9:21,BL-6,39,0.4844,4,5,0.0170,0.0037,Unidentified,,Unidentified,,0.0008,,bo
+as,CHN,2016Ad_plus_F,4,2/5/2016,9:21,BL-6,39,0.4844,4,5,0.0170,0.0037,Macrocyclops sp,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,4,2/5/2016,9:21,BL-6,39,0.4844,4,5,0.0170,0.0037,Ephemeroptera,pupae,Ephemeroptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,4,2/5/2016,9:21,BL-6,39,0.4844,4,5,0.0170,0.0037,Daphnia pulex/pulicaria grp.,,Cladocera,31,lost,sample spilled,bo
+as,CHN,2016Ad_plus_F,5,2/5/2016,9:21,BL-6,44,0.7817,5,3,0.0269,0.0120,Daphnia pulex/pulicaria grp.,,Cladocera,38,0.0016,,bo
+as,CHN,2016Ad_plus_F,5,2/5/2016,9:21,BL-6,44,0.7817,5,3,0.0269,0.0120,Macrocyclops sp,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,5,2/5/2016,9:21,BL-6,44,0.7817,5,3,0.0269,0.0120,Unidentified,,Unidentified,,0.0026,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Unidentified,,Unidentified,,0.0030,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Chironomidae,larvae,Diptera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Hydroptilidae,adult,Trichoptera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Camptocercus sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Chydorus sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Daphnia sp,,Cladocera,20,0.0011,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Daphnia pulex/pulicaria grp.,,Cladocera,9,0.0005,,bo
+as,CHN,2016Ad_plus_F,6,2/5/2016,9:12,BL-6,38,0.4041,5,5,0.0189,0.0088,Macrocyclops sp,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,37,2/10/2016,11:17,STTD,37,0.44,4,3,0.0165,0.0059,Unidentified,,Unidentified,,0.0011,,bo
+as,CHN,2016Ad_plus_F,37,2/10/2016,11:17,STTD,37,0.44,4,3,0.0165,0.0059,Daphnia sp,,Cladocera,21,0.0010,,bo
+as,CHN,2016Ad_plus_F,37,2/10/2016,11:17,STTD,37,0.44,4,3,0.0165,0.0059,Daphnia pulex/pulicaria grp.,,Cladocera,18,0.0019,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Unidentified,,Unidentified,,0.0005,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Coenagrionidae,nymph,Odonata,1,0.0016,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Hydroptilidae,adult,Trichoptera,1,0.0006,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Diptera,larvae,Diptera,1,0.0012,only part of body,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Hyalella azteca,,Amphipoda,3,0.0033,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Macrocyclops sp,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,38,2/11/2016,10:02,STTD,45,0.85,5,5,0.0304,0.0209,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,39,2/11/2016,10:13,STTD,48,1.19,5,3,0.0391,0.0108,Insect matter,,Insecta,,0.0073,,bo
+as,CHN,2016Ad_plus_F,39,2/11/2016,10:13,STTD,48,1.19,5,3,0.0391,0.0108,Chironomidae,adult,Diptera,9,0.0056,,bo
+as,CHN,2016Ad_plus_F,39,2/11/2016,10:13,STTD,48,1.19,5,3,0.0391,0.0108,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,39,2/11/2016,10:13,STTD,48,1.19,5,3,0.0391,0.0108,Hydroptilidae,adult,Trichoptera,1,0.0000,thorax only,bo
+as,CHN,2016Ad_plus_F,40,2/17/2016,10:13,STTD,50,1.2,2,3,0.0293,0.0264,Insect matter,,Insecta,,0.0000,,bo
+as,CHN,2016Ad_plus_F,40,2/17/2016,10:13,STTD,50,1.2,2,3,0.0293,0.0264,Chironomidae,adult,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,41,2/17/2016,10:13,,54,1.49,3,6,0.0403,0.0324,Chironomidae,pupae,Diptera,2,0.0021,,bo
+as,CHN,2016Ad_plus_F,42,2/17/2016,10:13,,49,1.06,1,,0.0280,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Insect matter,,Insecta,,0.0067,,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Hyalella azteca,,Amphipoda,3,0.0024,,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Carabidae,adult,Coleoptera,1,0.0019,,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Formicidae,adult,Hymenoptera,1,0.0007,wingless,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Psyllidae,adult,Hemiptera,2,0.0009,winged,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Chironomidae,adult,Diptera,13,0.0032,mainly thoraces,bo
+as,CHN,2016Ad_plus_F,49,2/18/2016,10:00,,48,1.32,6,3,0.0472,0.0103,Hydroptilidae,adult,Trichoptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Insect matter,,Insecta,,0.0174,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Chironomidae,pupae,Diptera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Chironomidae,adult,Diptera,7,0.0018,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Aphididae,,Hemiptera,1,0.0005,winged,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Dytiscidae,larvae,Coleoptera,1,0.0001,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Ephydridae,adult,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,50,2/18/2016,10:00,,47,1.44,6,3,0.0700,0.0225,Plant matter,,Plant Matter,,0.0000,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Insect matter,,Insecta,,0.0015,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Hyalella azteca,,Amphipoda,1,0.0017,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Entomobryiidae,,Collembola,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Chironomidae,adult,Diptera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Daphnia sp,,Cladocera,3,0.0001,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Daphnia pulex/pulicaria grp.,,Cladocera,3,0.0002,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,61,2/19/2016,8:55,,53,1.66,3,4,0.0394,0.0284,Acanthocyclops robustus,,Cyclopoida,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,62,2/19/2016,8:55,,43,1.25,1,,0.0318,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,63,2/19/2016,8:55,,44,0.88,4,2,0.0236,0.0149,Insect matter,,Insecta,,0.0042,,bo
+as,CHN,2016Ad_plus_F,63,2/19/2016,8:55,,44,0.88,4,2,0.0236,0.0149,Chironomidae,adult,Diptera,2,0.0000,mainly thoraces,bo
+as,CHN,2016Ad_plus_F,64,2/19/2016,8:55,STTD,55,1.85,1,,0.0467,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,65,2/22/2016,10:41,BL-6,50,1.25,3,5,0.0382,0.0248,Unidentified,,Unidentified,,0.0000,,bo
+as,CHN,2016Ad_plus_F,65,2/22/2016,10:41,BL-6,50,1.25,3,5,0.0382,0.0248,Osteichthyes,,Chordata,3,0.0029,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Insect matter,,Insecta,,0.0073,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Osteichthyes,,Chordata,2,0.0003,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Hyalella azteca,,Amphipoda,1,0.0021,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Psyllidae,adult,Hemiptera,1,0.0008,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Aphididae,adult,Hemiptera,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Hydroptilidae,adult,Trichoptera,1,0.0012,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Chironomidae,adult,Diptera,6,0.0013,thorax only,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,66,2/22/2016,10:41,BL-6,56,1.84,5,4,0.0593,0.0304,Eurytemora sp,,Calanoida,2,0.0003,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Insect matter,,Insecta,,0.0014,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Hyalella azteca,,Amphipoda,17,0.0248,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Eurytemora sp,,Calanoida,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Coenagrionidae,nymph,Odonata,6,0.0246,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Chironomidae,pupae,Diptera,6,0.0051,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Aphididae,adult,Hemiptera,1,0.0005,,bo
+as,CHN,2016Ad_plus_F,67,2/22/2016,10:41,BL-6,54,1.79,6,5,0.1266,0.0287,Osteichthyes,,Chordata,1,0.0012,,bo
+as,CHN,2016Ad_plus_F,68,2/22/2016,10:41,BL-6,38,0.55,5,4,0.0163,0.0079,Insect matter,,Insecta,,0.0010,,bo
+as,CHN,2016Ad_plus_F,68,2/22/2016,10:41,BL-6,38,0.55,5,4,0.0163,0.0079,Chironomidae,emergent,Diptera,1,0.0016,,bo
+as,CHN,2016Ad_plus_F,68,2/22/2016,10:41,BL-6,38,0.55,5,4,0.0163,0.0079,Daphnia pulex/pulicaria grp.,,Cladocera,6,0.0001,,bo
+as,CHN,2016Ad_plus_F,69,2/24/2016,10:11,STTD,50,1.37,5,2,0.0389,0.0271,Insect matter,,Insecta,,0.0040,,bo
+as,CHN,2016Ad_plus_F,69,2/24/2016,10:11,STTD,50,1.37,5,2,0.0389,0.0271,Daphnia pulex/pulicaria grp.,,Cladocera,9,0.0007,,bo
+as,CHN,2016Ad_plus_F,69,2/24/2016,10:11,STTD,50,1.37,5,2,0.0389,0.0271,Chironomidae,adult,Diptera,4,0.0012,thorax only,bo
+as,CHN,2016Ad_plus_F,70,2/24/2016,10:11,STTD,45,0.93,4,6,0.0287,0.0226,Chironomidae,adult,Diptera,1,0.0015,,bo
+as,CHN,2016Ad_plus_F,70,2/24/2016,10:11,STTD,45,0.93,4,6,0.0287,0.0226,Daphnia pulex/pulicaria grp.,,Cladocera,2,0.0007,,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Animal matter,,Animalia,,0.0022,,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Chironomidae,adult,Diptera,9,0.0010,,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Collembola,,Collembola,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Coccoidea,adult,Hemiptera,1,0.0000,winged,bo
+as,CHN,2016Ad_plus_F,71,2/24/2016,10:11,STTD,41,0.68,5,3,0.0234,0.0164,Eurytemora sp,,Calanoida,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Animal matter,,Animalia,,0.0076,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Daphnia pulex/pulicaria grp.,,Cladocera,29,0.0056,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Daphnia sp,,Cladocera,11,0.0016,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Hyalella azteca,,Amphipoda,2,0.0012,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Chironomidae,adult,Diptera,4,0.0034,,bo
+as,CHN,2016Ad_plus_F,74,2/24/2016,8:30,BL-4,57,2.21,5,4,0.0819,0.0372,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Animal matter,,Animalia,,0.0070,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Daphnia sp,,Cladocera,25,0.0044,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Daphnia pulex/pulicaria grp.,,Cladocera,7,0.0012,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Daphnia grp 2,,Cladocera,13,0.0041,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Chironomidae,adult,Diptera,3,0.0027,thorax only,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Psyllidae,adult,Hemiptera,1,0.0007,winged,bo
+as,CHN,2016Ad_plus_F,75,3/2/2016,8:30,BL-4,51,1.61,6,4,0.0710,0.0177,Corophiidae,juvenile,Amphipoda,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Animal matter,,Animalia,,0.0009,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Cyclopoida,,Cyclopoida,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Chironomidae,emergent,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Daphnia sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,81,3/8/2016,11:48,STTD,59,2.5,3,2,0.0497,0.0456,Amphipoda,,Amphipoda,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,83,3/8/2016,11:48,STTD,60,2.83,2,1,0.0653,0.0477,Animal matter,,Animalia,,0.0045,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Unidentified,,Unidentified,,0.0100,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Corophiidae,,Amphipoda,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Hyalella azteca,,Amphipoda,1,0.0005,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Daphnia sp,,Cladocera,14,0.0029,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Daphnia grp 2,,Cladocera,2,0.0005,,bo
+as,CHN,2016Ad_plus_F,84,3/8/2016,11:48,STTD,54,1.98,5,3,0.0542,0.0230,Daphnia pulex/pulicaria grp.,,Cladocera,3,0.0003,,bo
+as,CHN,2016Ad_plus_F,85,3/8/2016,11:48,,53,1.97,1,,0.0504,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Animal matter,,Animalia,,0.0053,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Plant matter,,Plant Matter,,0.0002,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Corixidae,adult,Hemiptera,1,0.0027,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Hypogastruridae,,Collembola,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Chironomidae,emergent,Diptera,3,0.0006,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Daphnia sp,,Cladocera,9,0.0007,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Daphnia pulex/pulicaria grp.,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Daphnia grp 2,,Cladocera,4,0.0003,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Simocephalus sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Corophiidae,,Amphipoda,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Cyclopoida,,Cyclopoida,3,0.0000,,bo
+as,CHN,2016Ad_plus_F,86,3/8/2016,11:48,,56,2.02,5,3,0.0564,0.0248,Amphipoda,,Amphipoda,2,0.0003,only part of body,bo
+as,CHN,2016Ad_plus_F,93,3/8/2016,11:48,STTD,30,0.22,1,,0.0023,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Animal matter,,Animalia,,0.0003,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Daphnia sp,,Cladocera,13,0.0013,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Daphnia grp 2,,Cladocera,16,0.0018,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Daphnia pulex/pulicaria grp.,,Cladocera,21,0.0035,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Corixidae,nymph,Hemiptera,1,0.0010,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Eucyclops sp,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,94,3/8/2016,11:48,STTD,37,0.53,6,5,0.0296,0.0022,Hyalella azteca,,Amphipoda,1,0.0008,,bo
+as,CHN,2016Ad_plus_F,95,3/8/2016,11:48,STTD,29,0.3,5,6,0.0088,0.0023,Animal matter,,Animalia,,0.0002,,bo
+as,CHN,2016Ad_plus_F,95,3/8/2016,11:48,STTD,29,0.3,5,6,0.0088,0.0023,Daphnia pulex/pulicaria grp.,,Cladocera,14,0.0013,,bo
+as,CHN,2016Ad_plus_F,95,3/8/2016,11:48,STTD,29,0.3,5,6,0.0088,0.0023,Daphnia sp,,Cladocera,5,0.0000,,bo
+as,CHN,2016Ad_plus_F,95,3/8/2016,11:48,STTD,29,0.3,5,6,0.0088,0.0023,Corophiidae,,Amphipoda,1,0.0001,,bo
+as,CHN,2016Ad_plus_F,96,3/8/2016,11:48,STTD,32,0.31,1,,0.0049,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,99,3/8/2016,11:48,STTD,31,0.27,1,,0.0028,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Animal matter,,Animalia,,0.0025,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Aranae,,Arachnida,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Entomobryiidae,,Collembola,3,0.0000,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Delphacidae,nymph,Hemiptera,4,0.0000,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Daphnia sp,,Cladocera,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Braconidae,adult,Hymenoptera,13,0.0011,,bo
+as,CHN,2016Ad_plus_F,126,3/16/2016,9:28,FW-1,38,0.47,6,4,0.0192,0.0058,Aphididae,,Hemiptera,2,0.0007,wingless,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Animal matter,,Animalia,,0.0003,,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Sciaridae,adult,Diptera,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Aphididae,,Hemiptera,1,0.0000,wingless,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Entomobryiidae,,Collembola,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Chironomidae,larvae,Diptera,3,0.0000,,bo
+as,CHN,2016Ad_plus_F,127,3/16/2016,9:38,FW-1,38,0.42,4,4,0.0122,0.0077,Daphnia sp,,Cladocera,2,0.0003,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Animal matter,,Animalia,,0.0009,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Chironomidae,larvae,Diptera,25,0.0038,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Daphnia sp,,Cladocera,10,0.0004,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Daphnia grp 2,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Cyclopoida,,Cyclopoida,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Acanthocyclops robustus,,Cyclopoida,6,0.0005,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Macrocyclops sp,,Cyclopoida,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,128,3/16/2016,13:05,BL-5,34,0.35,6,5,0.0169,0.0054,Eucyclops sp,,Cyclopoida,3,0.0000,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Animal matter,,Animalia,,0.0004,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Chironomidae,larvae,Diptera,16,0.0013,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Daphnia sp,,Cladocera,31,0.0017,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Daphnia pulex/pulicaria grp.,,Cladocera,16,0.0015,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Daphnia grp 2,,Cladocera,8,0.0007,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Cyclopoida,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Chydorus sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,129,3/16/2016,13:05,BL-5,37,0.52,6,5,0.0174,0.0026,Simocephalus sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Unidentified,,Unidentified,,0.0019,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Culex sp,larvae,Diptera,8,0.0012,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Chironomidae,larvae,Diptera,56,0.0075,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Corixidae,nymph,Hemiptera,1,0.0009,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Insecta,pupae,Insecta,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Entomobryiidae,,Collembola,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Daphnia sp,,Cladocera,20,0.0015,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Daphnia pulex/pulicaria grp.,,Cladocera,17,0.0021,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Daphnia grp 2,,Cladocera,8,0.0004,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Simocephalus sp,,Cladocera,7,0.0006,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Ceriodaphnia sp,,Cladocera,1,0.0001,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Scapholeberis sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Leydigia sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Calanoida,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Eurytemora sp,,Calanoida,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Eucyclops sp,,Cyclopoida,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,130,3/16/2016,13:05,BL-5,38,0.6,6,5,0.0412,0.0088,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Unidentified,,Unidentified,,0.0005,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Culex sp,larvae,Diptera,1,0.0000,Culicidae,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Chironomidae,larvae,Diptera,54,0.0060,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Chironomidae,pupae,Diptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Chironomidae,emergent,Diptera,3,0.0002,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Cicadellidae,nymph,Hemiptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Daphnia sp,,Cladocera,7,0.0005,,bo
+as,CHN,2016Ad_plus_F,131,3/16/2016,15:53,AL-3,36,0.43,5,5,0.0225,0.0068,Daphnia pulex/pulicaria grp.,,Cladocera,4,0.0005,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Unidentified,,Unidentified,,0.0020,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Chironomidae,larvae,Diptera,57,0.0109,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Chironomidae,pupae,Diptera,9,0.0016,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Crangonyx sp,,Amphipoda,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Daphnia sp,,Cladocera,44,0.0070,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Daphnia pulex/pulicaria grp.,,Cladocera,11,0.0023,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Daphnia grp 2,,Cladocera,5,0.0002,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Simocephalus sp,,Cladocera,4,0.0006,,bo
+as,CHN,2016Ad_plus_F,132,3/16/2016,16:34,AL-1,47,1.2,6,5,0.0588,0.0202,Culicidae,larvae,Diptera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,133,3/16/2016,13:20,FW-1,36,0.265,1,,0.0054,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,135,3/21/2016,8:39,FW-1,36,0.37,6,6,0.0110,0.0037,Chironomidae,emergent,Diptera,20,0.0023,,bo
+as,CHN,2016Ad_plus_F,135,3/21/2016,8:39,FW-1,36,0.37,6,6,0.0110,0.0037,Simuliidae,larvae,Diptera,1,0.0001,,bo
+as,CHN,2016Ad_plus_F,135,3/21/2016,8:39,FW-1,36,0.37,6,6,0.0110,0.0037,Daphnia sp,,Cladocera,3,0.0000,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Chironomidae,larvae,Diptera,9,0.0000,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Chironomidae,emergent,Diptera,12,0.0019,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Chironomidae,adult,Diptera,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Acanthocyclops robustus,,Cyclopoida,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Daphnia sp,,Cladocera,16,0.0007,,bo
+as,CHN,2016Ad_plus_F,136,3/21/2016,8:39,FW-1,38,0.5,4,6,0.0151,0.0066,Daphnia pulex/pulicaria grp.,,Cladocera,24,0.0022,,bo
+as,CHN,2016Ad_plus_F,137,3/21/2016,8:39,FW-1,37,0.41,1,,0.0091,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,138,3/21/2016,8:38,FW-1,39,0.42,4,4,0.0117,0.0075,Insect matter,,Insecta,,0.0002,,bo
+as,CHN,2016Ad_plus_F,138,3/21/2016,8:38,FW-1,39,0.42,4,4,0.0117,0.0075,Chironomidae,larvae,Diptera,4,0.0006,,bo
+as,CHN,2016Ad_plus_F,138,3/21/2016,8:38,FW-1,39,0.42,4,4,0.0117,0.0075,Chironomidae,adult,Diptera,7,0.0007,thorax only,bo
+as,CHN,2016Ad_plus_F,138,3/21/2016,8:38,FW-1,39,0.42,4,4,0.0117,0.0075,Cyclopoida,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,139,3/22/2016,10:25,BL-5,41,0.68,5,5,0.0293,0.0117,Daphnia sp,,Cladocera,17,0.0036,,bo
+as,CHN,2016Ad_plus_F,139,3/22/2016,10:25,BL-5,41,0.68,5,5,0.0293,0.0117,Daphnia pulex/pulicaria grp.,,Cladocera,16,0.0020,,bo
+as,CHN,2016Ad_plus_F,139,3/22/2016,10:25,BL-5,41,0.68,5,5,0.0293,0.0117,Simocephalus sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,139,3/22/2016,10:25,BL-5,41,0.68,5,5,0.0293,0.0117,Acanthocyclops robustus,,Cyclopoida,38,0.0017,,bo
+as,CHN,2016Ad_plus_F,139,3/22/2016,10:25,BL-5,41,0.68,5,5,0.0293,0.0117,Chironomidae,larvae,Diptera,7,0.0009,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Daphnia sp,,Cladocera,39,0.0023,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0000,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Daphnia grp 2,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Eucyclops sp,,Cyclopoida,4,0.0000,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Acanthocyclops robustus,,Cyclopoida,24,0.0003,,bo
+as,CHN,2016Ad_plus_F,140,3/22/2016,10:25,BL-5,30,0.25,5,4,0.0105,0.0041,Chironomidae,larvae,Diptera,3,0.0001,,bo
+as,CHN,2016Ad_plus_F,143,4/5/2016,9:58,BL-5,62,2.46,4,5,0.0594,0.0376,Unidentified,,Unidentified,,0.0020,,bo
+as,CHN,2016Ad_plus_F,143,4/5/2016,9:58,BL-5,62,2.46,4,5,0.0594,0.0376,Daphnia pulex/pulicaria grp.,,Cladocera,7,0.0014,,bo
+as,CHN,2016Ad_plus_F,143,4/5/2016,9:58,BL-5,62,2.46,4,5,0.0594,0.0376,Daphnia grp 2,,Cladocera,10,0.0015,,bo
+as,CHN,2016Ad_plus_F,143,4/5/2016,9:58,BL-5,62,2.46,4,5,0.0594,0.0376,Simocephalus sp,,Cladocera,2,0.0037,,bo
+as,CHN,2016Ad_plus_F,143,4/5/2016,9:58,BL-5,62,2.46,4,5,0.0594,0.0376,Daphnia sp,,Cladocera,5,0.0009,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Unidentified,,Unidentified,,0.0006,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Daphnia sp,,Cladocera,35,0.0051,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Daphnia pulex/pulicaria grp.,,Cladocera,24,0.0052,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Daphnia grp 2,,Cladocera,6,0.0012,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Simocephalus sp,,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Chironomidae,emergent,Diptera,2,0.0004,,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Aphididae,adult,Hemiptera,1,0.0002,winged,bo
+as,CHN,2016Ad_plus_F,144,4/5/2016,10:45,BL-4,48,1.23,5,4,0.0415,0.0186,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Unidentified,,Unidentified,,0.0004,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Daphnia sp,,Cladocera,31,0.0024,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Daphnia pulex/pulicaria grp.,,Cladocera,21,0.0030,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Daphnia grp 2,,Cladocera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Chironomidae,emergent,Diptera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Chironomidae,larvae,Diptera,1,0.0001,,bo
+as,CHN,2016Ad_plus_F,145,4/5/2016,10:45,BL-4,51,1.42,4,5,0.0367,0.0207,Acanthocyclops robustus,,Cyclopoida,4,0.0000,,bo
+as,CHN,2016Ad_plus_F,146,4/5/2016,13:44,STTD,63,2.75,4,3,0.0563,0.0348,Unidentified,,Unidentified,,0.0040,,bo
+as,CHN,2016Ad_plus_F,146,4/5/2016,13:44,STTD,63,2.75,4,3,0.0563,0.0348,Daphnia sp,,Cladocera,17,0.0036,,bo
+as,CHN,2016Ad_plus_F,146,4/5/2016,13:44,STTD,63,2.75,4,3,0.0563,0.0348,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0008,,bo
+as,CHN,2016Ad_plus_F,146,4/5/2016,13:44,STTD,63,2.75,4,3,0.0563,0.0348,Daphnia grp 2,,Cladocera,2,0.0009,,bo
+as,CHN,2016Ad_plus_F,146,4/5/2016,13:44,STTD,63,2.75,4,3,0.0563,0.0348,Insect matter,,Insecta,,0.0011,,bo
+as,CHN,2016Ad_plus_F,147,4/5/2016,13:44,STTD,57,2.12,4,3,0.0467,0.0300,Unidentified,,Unidentified,,0.0050,,bo
+as,CHN,2016Ad_plus_F,147,4/5/2016,13:44,STTD,57,2.12,4,3,0.0467,0.0300,Daphnia sp,,Cladocera,7,0.0014,,bo
+as,CHN,2016Ad_plus_F,147,4/5/2016,13:44,STTD,57,2.12,4,3,0.0467,0.0300,Daphniidae,ephippium,Cladocera,4,0.0002,,bo
+as,CHN,2016Ad_plus_F,147,4/5/2016,13:44,STTD,57,2.12,4,3,0.0467,0.0300,Aphididae,adult,Hemiptera,1,0.0003,winged,bo
+as,CHN,2016Ad_plus_F,147,4/5/2016,13:44,STTD,57,2.12,4,3,0.0467,0.0300,Chironomidae,adult,Diptera,1,0.0002,thorax only,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Unidentified,,Unidentified,,0.0032,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Daphnia sp,,Cladocera,27,0.0056,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Daphnia pulex/pulicaria grp.,,Cladocera,39,0.0097,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Daphnia grp 2,,Cladocera,3,0.0009,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Simocephalus sp,,Cladocera,3,0.0002,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Americorophium sp,,Amphipoda,1,0.0009,,bo
+as,CHN,2016Ad_plus_F,148,4/6/2016,14:49,STTD,68,3.35,6,4,0.0930,0.0439,Chironomidae,adult,Diptera,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,149,4/6/2016,14:49,STTD,62,2.44,5,3,0.0538,0.0370,Unidentified,,Unidentified,,0.0070,daphnia mush,bo
+as,CHN,2016Ad_plus_F,149,4/6/2016,14:49,STTD,62,2.44,5,3,0.0538,0.0370,Daphniidae,ephippium,Cladocera,5,0.0005,,bo
+as,CHN,2016Ad_plus_F,149,4/6/2016,14:49,STTD,62,2.44,5,3,0.0538,0.0370,Daphnia sp,,Cladocera,7,0.0007,,bo
+as,CHN,2016Ad_plus_F,149,4/6/2016,14:49,STTD,62,2.44,5,3,0.0538,0.0370,Chironomidae,pupae,Diptera,1,0.0004,,bo
+as,CHN,2016Ad_plus_F,149,4/6/2016,14:49,STTD,62,2.44,5,3,0.0538,0.0370,Aphididae,adult,Hemiptera,1,0.0006,,bo
+as,CHN,2016Ad_plus_F,150,4/6/2016,14:49,,60,2.19,3,3,0.0430,0.0324,Unidentified,,Unidentified,,0.0014,,bo
+as,CHN,2016Ad_plus_F,150,4/6/2016,14:49,,60,2.19,3,3,0.0430,0.0324,Daphniidae,ephippium,Cladocera,2,0.0004,,bo
+as,CHN,2016Ad_plus_F,150,4/6/2016,14:49,,60,2.19,3,3,0.0430,0.0324,Daphnia sp,,Cladocera,3,0.0012,,bo
+as,CHN,2016Ad_plus_F,150,4/6/2016,14:49,,60,2.19,3,3,0.0430,0.0324,Chironomidae,adult,Diptera,1,0.0000,thorax only,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Unidentified,,Unidentified,,0.0048,,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Daphniidae,ephippium,Cladocera,9,0.0012,,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Daphnia sp,,Cladocera,22,0.0046,,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Daphnia pulex/pulicaria grp.,,Cladocera,3,0.0008,,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Aphididae,adult,Hemiptera,3,0.0005,thorax only,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Chironomidae,emergent,Diptera,3,0.0004,thorax only,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Calanoida,,Calanoida,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,153,4/6/2016,14:49,STTD,61,2.29,5,3,0.0588,0.0316,Amphipoda,,Amphipoda,1,0.0007,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Unidentified,,Unidentified,,0.0017,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Daphnia sp,,Cladocera,13,0.0018,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0007,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Daphniidae,ephippium,Cladocera,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Eurytemora sp,,Calanoida,14,0.0009,,bo
+as,CHN,2016Ad_plus_F,155,4/6/2016,14:49,STTD,48,1.13,6,4,0.0357,0.0170,Acanthocyclops robustus,,Cyclopoida,39,0.0023,,bo
+as,CHN,2016Ad_plus_F,156,4/6/2016,14:49,STTD,46,0.93,3,2,0.0212,0.0146,Unidentified,,Unidentified,,0.0007,,bo
+as,CHN,2016Ad_plus_F,156,4/6/2016,14:49,STTD,46,0.93,3,2,0.0212,0.0146,Daphniidae,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,156,4/6/2016,14:49,STTD,46,0.93,3,2,0.0212,0.0146,Daphniidae,ephippium,Cladocera,8,0.0005,,bo
+as,CHN,2016Ad_plus_F,157,4/6/2016,14:49,STTD,46,0.96,3,3,0.0189,0.0143,Unidentified,,Unidentified,,0.0008,,bo
+as,CHN,2016Ad_plus_F,157,4/6/2016,14:49,STTD,46,0.96,3,3,0.0189,0.0143,Daphniidae,ephippium,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,157,4/6/2016,14:49,STTD,46,0.96,3,3,0.0189,0.0143,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,157,4/6/2016,14:49,STTD,46,0.96,3,3,0.0189,0.0143,Chironomidae,pupae,Diptera,1,0.0003,,bo
+as,CHN,2016Ad_plus_F,193,4/13/2016,17:28,STTD,78,1.47,6,5,0.0609,0.0150,Unidentified,,Unidentified,,0.0006,,bo
+as,CHN,2016Ad_plus_F,193,4/13/2016,17:28,STTD,78,1.47,6,5,0.0609,0.0150,Daphnia sp,,Cladocera,50,0.0052,,bo
+as,CHN,2016Ad_plus_F,193,4/13/2016,17:28,STTD,78,1.47,6,5,0.0609,0.0150,Daphnia pulex/pulicaria grp.,,Cladocera,105,0.0126,,bo
+as,CHN,2016Ad_plus_F,193,4/13/2016,17:28,STTD,78,1.47,6,5,0.0609,0.0150,Daphnia grp 2,,Cladocera,9,0.0009,,bo
+as,CHN,2016Ad_plus_F,194,4/13/2016,17:28,STTD/RSTR,78,5.08,3,3,0.0785,0.0629,Unidentified,,Unidentified,,0.0035,,bo
+as,CHN,2016Ad_plus_F,194,4/13/2016,17:28,STTD/RSTR,78,5.08,3,3,0.0785,0.0629,Corixidae,adult,Hemiptera,1,0.0030,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Unidentified,,Unidentified,,0.0081,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Crangonyx sp,,Amphipoda,1,0.0053,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Osteichthyes,,Chordata,1,0.0013,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Plant matter,,Plant Matter,,0.0003,,bo
+as,CHN,2016Ad_plus_F,202,4/15/2016,9:18,BL-6,66,3.26,4,4,0.0835,0.0477,Crangonyx sp,,Amphipoda,1,0.0013,,bo
+as,CHN,2016Ad_plus_F,203,4/15/2016,11:06,STTD,44,0.79,3,4,0.0194,0.0139,Daphnia sp,,Cladocera,10,0.0010,,bo
+as,CHN,2016Ad_plus_F,203,4/15/2016,11:06,STTD,44,0.79,3,4,0.0194,0.0139,Daphnia pulex/pulicaria grp.,,Cladocera,2,0.0005,,bo
+as,CHN,2016Ad_plus_F,203,4/15/2016,11:06,STTD,44,0.79,3,4,0.0194,0.0139,Daphnia grp 2,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,204,4/15/2016,11:06,STTD,48,1.15,2,1,0.0190,0.0173,Insect matter,,Insecta,,0.0000,,bo
+as,CHN,2016Ad_plus_F,205,4/15/2016,11:06,STTD,54,1.74,2,1,0.0305,0.0274,Unidentified,,Unidentified,,0.0007,,bo
+as,CHN,2016Ad_plus_F,206,4/15/2016,11:06,STTD,68,3.5,3,3,0.0624,0.0504,Unidentified,,Unidentified,,0.0013,,bo
+as,CHN,2016Ad_plus_F,206,4/15/2016,11:06,STTD,68,3.5,3,3,0.0624,0.0504,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,206,4/15/2016,11:06,STTD,68,3.5,3,3,0.0624,0.0504,Daphnia grp 2,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,206,4/15/2016,11:06,STTD,68,3.5,3,3,0.0624,0.0504,Chironomidae,emergent,Diptera,5,0.0003,Thorax only,bo
+as,CHN,2016Ad_plus_F,206,4/15/2016,11:06,STTD,68,3.5,3,3,0.0624,0.0504,Chironomidae,adult,Diptera,1,0.0002,Thorax only,bo
+as,CHN,2016Ad_plus_F,207,4/15/2016,11:06,STTD,57,1.53,4,3,0.0366,0.0232,Unidentified,,Unidentified,,0.0019,,bo
+as,CHN,2016Ad_plus_F,207,4/15/2016,11:06,STTD,57,1.53,4,3,0.0366,0.0232,Daphniidae,,Cladocera,3,0.0008,,bo
+as,CHN,2016Ad_plus_F,207,4/15/2016,11:06,STTD,57,1.53,4,3,0.0366,0.0232,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0008,,bo
+as,CHN,2016Ad_plus_F,207,4/15/2016,11:06,STTD,57,1.53,4,3,0.0366,0.0232,Daphnia grp 2,,Cladocera,4,0.0015,,bo
+as,CHN,2016Ad_plus_F,207,4/15/2016,11:06,STTD,57,1.53,4,3,0.0366,0.0232,Chironomidae,emergent,Diptera,11,0.0004,,bo
+as,CHN,2016Ad_plus_F,208,4/15/2016,11:06,STTD,69,3.5,1,,0.0579,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,209,4/15/2016,11:06,STTD,72,4.08,1,,0.0661,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Unidentified,,Unidentified,,0.0143,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Daphnia grp 2,,Cladocera,19,0.0066,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Daphnia pulex/pulicaria grp.,,Cladocera,30,0.0044,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Daphnia sp,,Cladocera,40,0.0070,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Osteichthyes,,Chordata,3,0.0136,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Chydorus sp,,Cladocera,24,0.0000,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Daphniidae,ephippium,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Chironomidae,adult,Diptera,3,0.0009,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Chironomidae,emergent,Diptera,3,0.0006,,bo
+as,CHN,2016Ad_plus_F,212,4/15/2016,11:06,BL-3,67,3.25,6,5,0.1312,0.0349,Aphididae,adult,Hemiptera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Unidentified,,Unidentified,,0.0031,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Daphnia pulex/pulicaria grp.,,Cladocera,96,0.0166,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Daphnia grp 2,,Cladocera,64,0.0098,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Daphnia sp,,Cladocera,169,0.0213,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Daphniidae,ephippium,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Eurytemora sp,,Calanoida,17,0.0017,,bo
+as,CHN,2016Ad_plus_F,213,4/15/2016,12:29,BL-3,63,3.13,6,5,0.1365,0.0394,Chironomidae,emergent,Diptera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Unidentified,,Unidentified,,0.0056,broken,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Daphnia grp 2,,Cladocera,19,0.0052,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Daphnia pulex/pulicaria grp.,,Cladocera,4,0.0011,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Daphnia sp,,Cladocera,31,0.0071,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Acanthocyclops robustus,,Cyclopoida,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Eurytemora sp,,Calanoida,2,0.0002,,bo
+as,CHN,2016Ad_plus_F,215,4/19/2016,11:20,STTD,58,2.34,,4,,,Chironomidae,adult,Diptera,4,0.0014,,bo
+as,CHN,2016Ad_plus_F,216,4/19/2016,11:20,STTD,66,3.3,3,3,0.0612,0.0397,Unidentified,,Unidentified,,0.0052,,bo
+as,CHN,2016Ad_plus_F,216,4/19/2016,11:20,STTD,66,3.3,3,3,0.0612,0.0397,Daphnia grp 2,,Cladocera,2,0.0007,,bo
+as,CHN,2016Ad_plus_F,216,4/19/2016,11:20,STTD,66,3.3,3,3,0.0612,0.0397,Daphnia sp,,Cladocera,1,0.0008,,bo
+as,CHN,2016Ad_plus_F,216,4/19/2016,11:20,STTD,66,3.3,3,3,0.0612,0.0397,Chironomidae,adult,Diptera,1,0.0006,,bo
+as,CHN,2016Ad_plus_F,217,2/19/2016,11:20,STTD,65,3.43,2,6,0.0604,0.0492,Chironomidae,adult,Diptera,1,0.0005,,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Unidentified,,Unidentified,,0.0257,Daphnia mush,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Daphniidae,ephippium,Cladocera,5,0.0007,,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Daphnia grp 2,,Cladocera,2,0.0007,,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0000,,bo
+as,CHN,2016Ad_plus_F,229,4/27/2016,14:20,BL-6,74,4.68,6,2,0.1438,0.0777,Chironomidae,adult,Diptera,3,0.0002,Thorax only,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Unidentified,,Unidentified,,,sample spilled,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Daphnia sp,,Cladocera,25,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Daphnia pulex/pulicaria grp.,,Cladocera,13,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Daphnia grp 2,,Cladocera,9,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Aphididae,adult,Hemiptera,2,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Margarodidae,adult,Hemiptera,2,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Chironomidae,emergent,Diptera,1,,,bo
+as,CHN,2016Ad_plus_F,234,4/28/2016,14:04,BL-4,54,1.86,5,5,0.0675,,Psocoptera,adult,Psocoptera,1,,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Unidentified,,Unidentified,,0.0111,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Daphnia grp 2,,Cladocera,61,0.0244,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Daphnia pulex/pulicaria grp.,,Cladocera,3,0.0007,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Daphnia sp,,Cladocera,22,0.0053,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Daphniidae,ephippium,Cladocera,2,0.0000,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Chironomidae,emergent,Diptera,1,0.0008,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Chironomidae,pupae,Diptera,2,0.0005,,bo
+as,CHN,2016Ad_plus_F,235,5/4/2016,9:05,STTD,78,4.88,5,5,0.1464,0.0545,Chironomidae,adult,Diptera,1,0.0004,Thorax only,bo
+as,CHN,2016Ad_plus_F,236,5/4/2016,9:05,STTD,80,5.15,1,,0.1026,,No animals,,0,,,,bo
+as,CHN,2016Ad_plus_F,237,5/12/2016,14:25,,61,2.54,2,1,0.0476,0.0433,Insect matter,,Insecta,,0.0000,,bo
+as,CHN,2016Ad_plus_F,238,5/12/2016,14:25,STTD,78,5.24,2,1,0.0750,0.0676,Insect matter,,Insecta,,0.0008,,bo
+as,CHN,2016Ad_plus_F,238,5/12/2016,14:25,STTD,78,5.24,2,1,0.0750,0.0676,Plant matter,,Plant Matter,,0.0004,,bo
+as,CHN,2016Ad_plus_F,239,5/20/2016,14:41,STTD,85,5.46,3,5,0.0861,0.0685,Corixidae,nymph,Hemiptera,2,0.0018,,bo
+as,CHN,2016Ad_plus_F,239,5/20/2016,14:41,STTD,85,5.46,3,5,0.0861,0.0685,Chironomidae,pupae,Diptera,1,0.0002,,bo
+as,CHN,2016Ad_plus_F,239,5/20/2016,14:41,STTD,85,5.46,3,5,0.0861,0.0685,Daphniidae,,Cladocera,1,0.0000,,bo
+as,DSM,2016_DSM_001,1,2/3/2016,8:48,BL-3,70,2.66,3,4,0.0178,0.0123,Unidentified,,Unidentified,,0.0004,,bo
+as,DSM,2016_DSM_001,1,2/3/2016,8:48,BL-3,70,2.66,3,4,0.0178,0.0123,Daphnia sp,,Cladocera,9,0.0002,,bo
+as,DSM,2016_DSM_001,1,2/3/2016,8:48,BL-3,70,2.66,3,4,0.0178,0.0123,Eurytemora sp,,Calanoida,2,0.0000,,bo
+as,DSM,2016_DSM_001,1,2/3/2016,8:48,BL-3,70,2.66,3,4,0.0178,0.0123,Eucyclops sp,,Cyclopoida,4,0.0003,,bo
+as,DSM,2016_DSM_001,1,2/3/2016,8:48,BL-3,70,2.66,3,4,0.0178,0.0123,Cyclopoida,,Cyclopoida,3,0.0000,,bo
+as,DSM,2016_DSM_005,5,2/18/2016,10:00,STTD,65,2.58,1,,0.0117,,No animals,,0,,,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Unidentified,,Unidentified,,0.0052,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Daphnia sp,,Cladocera,3,0.0003,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Eurytemora sp,,Calanoida,172,0.0041,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Calanoida,,Calanoida,19,0.0003,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Cyclopoida,,Cyclopoida,7,0.0007,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Diacyclops thomasi,,Cyclopoida,9,0.0002,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Acanthocyclops robustus,,Cyclopoida,8,0.0004,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,DSM,2016_DSM_006,6,2/18/2016,10:00,STTD,70,3.1,5,4,0.0524,0.0076,Chironomidae,adult,Diptera,1,0.0002,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Unidentified,,Unidentified,,0.0025,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Daphniidae,,Cladocera,31,0.0008,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Daphnia grp 2,,Cladocera,6,0.0002,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Daphnia pulex/pulicaria grp.,,Cladocera,3,0.0002,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Calanoida,,Calanoida,20,0.0002,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Eurytemora sp,,Calanoida,181,0.0039,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Pseudodiaptomus forbesi,,Calanoida,4,0.0000,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Diaptomidae,,Calanoida,8,0.0003,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Cyclopoida,,Cyclopoida,8,0.0002,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Acanthocyclops robustus,,Cyclopoida,6,0.0000,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Diacyclops thomasi,,Cyclopoida,4,0.0000,,bo
+as,DSM,2016_DSM_007,7,2/19/2016,8:55,STTD,67,2.94,5,5,0.0412,0.0116,Hyalella azteca,,Amphipoda,1,0.0017,,bo
+as,DSM,2016_DSM_008,8,2/19/2016,8:55,STTD,63,2.32,1,,0.0116,,No animals,,0,,,,bo
+as,DSM,2016_DSM_012,12,4/26/2016,9:21,STTD,31,0.19,1,,,,No animals,,0,,,broken,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Unidentified,,Unidentified,,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Daphniidae,,Cladocera,6,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Bosmina sp,,Cladocera,6,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Diaptomidae,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Acanthocyclops robustus,,Cyclopoida,9,0.0000,,bo
+as,DSM,2016_DSM_013,13,4/27/2016,14:20,BL-6,31,0.21,3,5,0.0027,0.0011,Cyclopoida,,Cyclopoida,4,0.0000,,bo
+as,DSM,2016_DSM_014,14,4/27/2016,14:20,BL-6,35,0.27,1,,,,No animals,,0,,,broken,bo
+as,DSM,2016_DSM_015,15,4/27/2016,14:20,BL-6,30,0.16,,4,,,Calanoida,,Calanoida,6,0.0000,,bo
+as,DSM,2016_DSM_015,15,4/27/2016,14:20,BL-6,30,0.16,,4,,,Acanthocyclops robustus,,Cyclopoida,1,0.0000,,bo
+as,DSM,2016_DSM_015,15,4/27/2016,14:20,BL-6,30,0.16,,4,,,Pseudodiaptomus forbesi,,Calanoida,3,0.0000,,bo
+as,DSM,2016_DSM_016,16,4/27/2016,14:20,BL-6,33,0.28,,4,,,Copepoda,,Copepoda,9,0.0000,broken,bo
+as,DSM,2016_DSM_016,16,4/27/2016,14:20,BL-6,33,0.28,,4,,,Pseudodiaptomus forbesi,,Calanoida,19,0.0003,,bo
+as,DSM,2016_DSM_016,16,4/27/2016,14:20,BL-6,33,0.28,,4,,,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,DSM,2016_DSM_016,16,4/27/2016,14:20,BL-6,33,0.28,,4,,,Cyclopoida,,Cyclopoida,10,0.0000,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Chydorus sp,,Cladocera,1,0.0000,broken,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Copepoda,juvenile,Copepoda,33,0.0003,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Pseudodiaptomus forbesi,,Calanoida,47,0.0004,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Diaptomidae,,Calanoida,3,0.0000,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Calanoida,juvenile,Calanoida,17,0.0001,,bo
+as,DSM,2016_DSM_017,17,4/27/2016,14:20,BL-6,32,0.18,,,,,Cyclopoida,juvenile,Cyclopoida,9,0.0000,,bo
+as,DSM,2016_DSM_018,18,5/3/2016,9:49,STTD,35,0.32,4,5,0.0047,0.0020,Daphniidae,,Cladocera,5,0.0000,,bo
+as,DSM,2016_DSM_018,18,5/3/2016,9:49,STTD,35,0.32,4,5,0.0047,0.0020,Pseudodiaptomus forbesi,,Calanoida,18,0.0000,,bo
+as,DSM,2016_DSM_018,18,5/3/2016,9:49,STTD,35,0.32,4,5,0.0047,0.0020,Eurytemora sp,,Calanoida,7,0.0003,,bo
+as,DSM,2016_DSM_018,18,5/3/2016,9:49,STTD,35,0.32,4,5,0.0047,0.0020,Acanthocyclops robustus,,Cyclopoida,6,0.0000,,bo
+as,DSM,2016_DSM_018,18,5/3/2016,9:49,STTD,35,0.32,4,5,0.0047,0.0020,Cyclopoida,,Cyclopoida,2,0.0000,,bo
+as,DSM,2016_DSM_019,19,5/3/2016,9:49,STTD,33,0.23,,4,,,Unidentified,,Unidentified,,0.0002,,bo
+as,DSM,2016_DSM_019,19,5/3/2016,9:49,STTD,33,0.23,,4,,,Daphniidae,,Cladocera,5,0.0000,,bo
+as,DSM,2016_DSM_019,19,5/3/2016,9:49,STTD,33,0.23,,4,,,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_019,19,5/3/2016,9:49,STTD,33,0.23,,4,,,Acanthocyclops robustus,,Cyclopoida,5,0.0000,,bo
+as,DSM,2016_DSM_019,19,5/3/2016,9:49,STTD,33,0.23,,4,,,Cyclopoida,,Cyclopoida,1,0.0000,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Copepoda,,Copepoda,4,0.0001,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Daphnia sp,,Cladocera,12,0.0002,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Pseudodiaptomus forbesi,,Calanoida,4,0.0000,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Diaptomidae,,Calanoida,5,0.0000,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Cyclopoida,juvenile,Cyclopoida,7,0.0000,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Acanthocyclops robustus,,Cyclopoida,11,0.0001,,bo
+as,DSM,2016_DSM_020,20,5/3/2016,9:49,STTD,32,0.24,4,5,0.0040,0.0021,Diacyclops thomasi,,Cyclopoida,1,0.0000,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Unidentified,,Unidentified,,0.0001,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Daphnia sp,,Cladocera,10,0.0000,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Daphnia grp 2,,Cladocera,3,0.0000,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Pseudodiaptomus forbesi,,Calanoida,14,0.0002,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Acanthocyclops robustus,,Cyclopoida,8,0.0000,,bo
+as,DSM,2016_DSM_021,21,5/6/2016,12:24,STTD,34,0.29,4,4,0.0037,0.0015,Cyclopoida,,Cyclopoida,5,0.0000,,bo
+as,DSM,2016_DSM_022,22,5/6/2016,12:24,STTD,34,0.31,,5,,0.0021,Cyclopoida,,Cyclopoida,3,0.0000,broken,bo
+as,DSM,2016_DSM_022,22,5/6/2016,12:24,STTD,34,0.31,,5,,0.0021,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,DSM,2016_DSM_022,22,5/6/2016,12:24,STTD,34,0.31,,5,,0.0021,Diaptomidae,,Calanoida,5,0.0000,,bo
+as,DSM,2016_DSM_022,22,5/6/2016,12:24,STTD,34,0.31,,5,,0.0021,Pseudodiaptomus forbesi,,Calanoida,2,0.0000,,bo
+as,DSM,2016_DSM_022,22,5/6/2016,12:24,STTD,34,0.31,,5,,0.0021,Acanthocyclops robustus,,Cyclopoida,5,0.0003,,bo
+as,DSM,2016_DSM_023,23,5/24/2016,11:28,STTD,35,0.29,5,5,0.0046,0.0024,Copepoda,,Copepoda,6,0.0000,,bo
+as,DSM,2016_DSM_023,23,5/24/2016,11:28,STTD,35,0.29,5,5,0.0046,0.0024,Diaptomidae,,Calanoida,11,0.0002,,bo
+as,DSM,2016_DSM_023,23,5/24/2016,11:28,STTD,35,0.29,5,5,0.0046,0.0024,Pseudodiaptomus forbesi,,Calanoida,17,0.0003,,bo
+as,DSM,2016_DSM_023,23,5/24/2016,11:28,STTD,35,0.29,5,5,0.0046,0.0024,Cyclopoida,,Cyclopoida,1,0.0000,,bo
+as,DSM,2016_DSM_023,23,5/24/2016,11:28,STTD,35,0.29,5,5,0.0046,0.0024,Daphnia sp,,Cladocera,5,0.0000,,bo
+as,DSM,2016_DSM_024,24,5/26/2016,9:15,AL-3,40,0.44,4,4,0.0051,0.0028,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_024,24,5/26/2016,9:15,AL-3,40,0.44,4,4,0.0051,0.0028,Daphniidae,,Cladocera,32,0.0007,,bo
+as,DSM,2016_DSM_025,25,5/26/2016,11:17,STTD,36,0.33,3,5,0.0037,0.0006,Unidentified,,Unidentified,,0.0000,,bo
+as,DSM,2016_DSM_025,25,5/26/2016,11:17,STTD,36,0.33,3,5,0.0037,0.0006,Pseudodiaptomus forbesi,,Calanoida,17,0.0000,,bo
+as,DSM,2016_DSM_025,25,5/26/2016,11:17,STTD,36,0.33,3,5,0.0037,0.0006,Diaptomidae,,Calanoida,13,0.0002,,bo
+as,DSM,2016_DSM_025,25,5/26/2016,11:17,STTD,36,0.33,3,5,0.0037,0.0006,Daphniidae,,Cladocera,9,0.0000,,bo
+as,DSM,2016_DSM_025,25,5/26/2016,11:17,STTD,36,0.33,3,5,0.0037,0.0006,Bosmina sp,,Cladocera,2,0.0000,,bo
+as,DSM,2016_DSM_026,26,6/9/2016,11:30,STTD,37,0.38,5,4,0.0043,0.0014,Unidentified,,Unidentified,,0.0003,,bo
+as,DSM,2016_DSM_026,26,6/9/2016,11:30,STTD,37,0.38,5,4,0.0043,0.0014,Pseudodiaptomus forbesi,,Calanoida,19,0.0005,,bo
+as,DSM,2016_DSM_026,26,6/9/2016,11:30,STTD,37,0.38,5,4,0.0043,0.0014,Diaptomidae,,Calanoida,10,0.0002,,bo
+as,DSM,2016_DSM_026,26,6/9/2016,11:30,STTD,37,0.38,5,4,0.0043,0.0014,Daphniidae,,Cladocera,7,0.0000,,bo
+as,DSM,2016_DSM_026,26,6/9/2016,11:30,STTD,37,0.38,5,4,0.0043,0.0014,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Unidentified,,Unidentified,,0.0010,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Pseudodiaptomus forbesi,,Calanoida,90,0.0020,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Diaptomidae,,Calanoida,11,0.0005,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Cyclopoida,,Cyclopoida,3,0.0000,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Cladocera,,Cladocera,63,0.0004,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Bosmina sp,,Cladocera,7,0.0000,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Ceriodaphnia sp,,Cladocera,27,0.0000,,bo
+as,DSM,2016_DSM_027,27,6/9/2016,13:18,BL-3,51,0.95,5,4,0.0157,0.0055,Daphniidae,,Cladocera,3,0.0000,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Unidentified,,Unidentified,,0.0004,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Calanoida,,Calanoida,13,0.0001,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Pseudodiaptomus forbesi,,Calanoida,37,0.0007,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Diaptomidae,,Calanoida,8,0.0001,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Cyclopoida,,Cyclopoida,3,0.0000,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Cladocera,,Cladocera,121,0.0014,,bo
+as,DSM,2016_DSM_028,28,6/9/2016,10:10,STTD,39,0.34,6,4,0.0088,0.0015,Bosmina sp,,Cladocera,7,0.0000,,bo
+as,DSM,2016_DSM_029,29,6/6/2016,10:15,STTD,38,0.41,2,6,0.0031,0.0018,Pseudodiaptomus forbesi,,Calanoida,3,0.0000,,bo
+as,DSM,2016_DSM_029,29,6/6/2016,10:15,STTD,38,0.41,2,6,0.0031,0.0018,Diaptomidae,,Calanoida,1,0.0000,,bo
+as,DSM,2016_DSM_030,30,6/30/2016,13:25,STTD,43,0.73,1,,0.0129,,No animals,,0,,,,bo
+as,,2016_Ad_min_F_001,1,1/27/2016,11:00,STTD,42,0.2426,4,3,0.0145,0.0055,Unidentified,,Unidentified,,0.0011,,bo
+as,,2016_Ad_min_F_001,1,1/27/2016,11:00,STTD,42,0.2426,4,3,0.0145,0.0055,Chironomidae,emergent,Diptera,3,0.0012,,bo
+as,,2016_Ad_min_F_001,1,1/27/2016,11:00,STTD,42,0.2426,4,3,0.0145,0.0055,Collembola,,Collembola,1,0.0000,,bo
+as,,2016_Ad_min_F_001,1,1/27/2016,11:00,STTD,42,0.2426,4,3,0.0145,0.0055,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,,2016_Ad_min_F_001,1,1/27/2016,11:00,STTD,42,0.2426,4,3,0.0145,0.0055,Eucyclops sp,,Cyclopoida,1,0.0000,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Unidentified,,Unidentified,,0.0034,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Hyalella azteca,,Amphipoda,3,0.0007,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Chironomidae,adult,Diptera,7,0.0020,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Coenagrionidae,nymph,Odonata,1,0.0004,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Thysanoptera,adult,Thysanoptera,1,0.0000,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Aphididae,,Hemiptera,1,0.0006,winged,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Ephydridae,adult,Diptera,1,0.0000,,bo
+as,,2016_Ad_min_F_002,2,2/18/2016,10:00,STTD,45,0.8142,5,4,0.0269,0.0075,Aranae,,Arachnida,1,0.0001,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Unidentified,,Unidentified,,0.0094,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Hyalella azteca,,Amphipoda,1,0.0010,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Entomobryiidae,,Collembola,5,0.0000,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Psocoptera,adult,Psocoptera,1,0.0011,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Psyllidae,adult,Hemiptera,1,0.0011,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Chironomidae,pupae,Diptera,2,0.0002,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Chironomidae,emergent,Diptera,12,0.0009,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Chironomidae,adult,Diptera,20,0.0029,,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Trichoptera,adult,Trichoptera,3,0.0004,thorax only,bo
+as,,2016_Ad_min_F_004,4,2/18/2016,10:00,,51,1.6836,5,3,0.0684,0.0269,Coenagrionidae,nymph,Odonata,1,0.0005,very digested,bo
+as,,2016_Ad_min_F_005,5,2/19/2016,8:55,STTD,49,1.29,2,1,0.0411,0.0251,Unidentified,,Unidentified,,0.0082,may be all stomach lining,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Unidentified,,Unidentified,,0.0066,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Daphniidae,,Cladocera,6,0.0015,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0007,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Simocephalus sp,,Cladocera,5,0.0004,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Daphniidae,ephippium,Cladocera,1,0.0001,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Hyalella azteca,,Amphipoda,1,0.0000,,bo
+as,,2016_Ad_min_F_026,26,3/8/2016,11:48,STTD,56,2.11 (field)/1.98(lab),5,3,0.0669,0.0331,Chironomidae,adult,Diptera,1,0.0000,,bo
+as,,2016_Ad_min_F_059,59,3/9/2016,11:31,STTD,53,1.59(field)/1.5579(lab),1,,0.0466,,No animals,,0,,,,bo
+as,,2016_Ad_min_F_061,61,3/9/2016,11:31,STTD,56,1.75,4,2,0.0627,0.0379,Unidentified,,Unidentified,,0.0073,,bo
+as,,2016_Ad_min_F_061,61,3/9/2016,11:31,STTD,56,1.75,4,2,0.0627,0.0379,Hyalella azteca,,Amphipoda,1,0.0005,,bo
+as,,2016_Ad_min_F_066,66,3/4/2016,11:31,STTD,54,1.66,3,4,0.0447,0.0307,Unidentified,,Unidentified,,0.0015,,bo
+as,,2016_Ad_min_F_066,66,3/4/2016,11:31,STTD,54,1.66,3,4,0.0447,0.0307,Plant matter,,Plant Matter,,0.0000,,bo
+as,,2016_Ad_min_F_066,66,3/4/2016,11:31,STTD,54,1.66,3,4,0.0447,0.0307,Daphnia sp,,Cladocera,6,0.0010,,bo
+as,,2016_Ad_min_F_066,66,3/4/2016,11:31,STTD,54,1.66,3,4,0.0447,0.0307,Daphniidae,ephippium,Cladocera,1,0.0000,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Unidentified,,Unidentified,,0.0189,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Chironomidae,emergent,Diptera,39,0.0061,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Chironomidae,adult,Diptera,7,0.0017,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Daphnia sp,,Cladocera,6,0.0013,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Hybotidae,adult,Diptera,1,0.0015,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Crangonyx sp,,Amphipoda,9,0.0082,,bo
+as,,2016_Ad_min_S_001,1,3/24/2016,10:50,STTD,91,8.43,5,4,0.2152,0.1302,Americorophium spinicorne,,Amphipoda,1,0.0024,,bo
+as,,2016_Ad_min_S_002,2,3/25/2016,10:29,STTD,89,10.34(field)/9.113(lab),2,3,0.2060,0.1231,Unidentified,,Unidentified,,0.0366,may be all stomach lining,bo
+as,,2016_Ad_min_S_002,2,3/25/2016,10:29,STTD,89,10.34(field)/9.113(lab),2,3,0.2060,0.1231,Chironomidae,emergent,Diptera,5,0.0013,,bo
+as,,2016_Ad_min_S_002,2,3/25/2016,10:29,STTD,89,10.34(field)/9.113(lab),2,3,0.2060,0.1231,Chironomidae,adult,Diptera,1,0.0011,,bo
+as,,2016_Ad_min_S_002,2,3/25/2016,10:29,STTD,89,10.34(field)/9.113(lab),2,3,0.2060,0.1231,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,,2016_Ad_min_W_002,2,3/16/2016,12:14,FW-1,95,9.12(field)/8.654(lab),2,5,0.1783,0.1340,Formicidae,adult,Hymenoptera,1,0.0049,wingless,bo
+as,,2016_Ad_min_W_002,2,3/16/2016,12:14,FW-1,95,9.12(field)/8.654(lab),2,5,0.1783,0.1340,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Animal matter,,Animalia,,0.0066,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Daphnia sp,,Cladocera,6,0.0014,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Daphnia pulex/pulicaria grp.,,Cladocera,2,0.0003,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Daphnia grp 2,,Cladocera,1,0.0007,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Chironomidae,adult,Diptera,2,0.0027,,bo
+as,,2016_Ad_min_W_003,3,3/23/2016,11:15,,108,14.35(field)/14.22(lab),4,5,0.2924,0.2007,Osteichthyes,,Chordata,1,0.0117,very digested,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Unidentified,,Unidentified,,0.1184,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Crangonyx sp,,Amphipoda,2,0.0035,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Corixidae,nymph,Hemiptera,3,0.0110,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Corixidae,adult,Hemiptera,1,0.0098,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Daphnia sp,,Cladocera,163,0.1036,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Daphnia grp 2,,Cladocera,287,0.3126,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0006,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Simocephalus sp,,Cladocera,4,0.0018,,bo
+as,RBT,RBTTAd-005,5,3/25/2016,10:29,,236,111.98,5,5,3.7151,1.9733,Chironomidae,pupae,Diptera,1,0.0001,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Gastropoda,,Gastropoda,1,0.0012,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Corixidae,nymph,Hemiptera,5,0.0110,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Crangonyx sp,,Amphipoda,3,0.0023,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Plant matter,,Plant Matter,,0.0017,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Chironomidae,adult,Diptera,2,0.0002,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Eurytemora sp,,Calanoida,2,0.0000,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Unidentified,,Unidentified,,0.2042,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Daphnia sp,,Cladocera,285,0.1416,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Daphnia grp 2,,Cladocera,489,0.4455,,bo
+as,RBT,RBTTAd-006,6,3/25/2016,10:29,,233,133.14,5,5,4.3334,2.2290,Simocephalus sp,,Cladocera,14,0.0062,,bo
+as,RBT,RBTTAd-007,7,3/25/2016,,STTD,219,104.95,2,3,2.6259,1.9100,Unidentified,,Unidentified,,0.2337,,bo
+as,RBT,RBTTAd-007,7,3/25/2016,,STTD,219,104.95,2,3,2.6259,1.9100,Aranae,,Arachnida,1,0.0457,,bo
+as,RBT,RBTTAd-007,7,3/25/2016,,STTD,219,104.95,2,3,2.6259,1.9100,Daphnia sp,,Cladocera,3,0.0017,,bo
+as,RBT,RBTTAd-007,7,3/25/2016,,STTD,219,104.95,2,3,2.6259,1.9100,Chironomidae,adult,Diptera,1,0.0003,,bo
+as,RBT,RBTTAd-007,7,3/25/2016,,STTD,219,104.95,2,3,2.6259,1.9100,Osteichthyes matter,,Chordata,,0.0367,too digested to count,bo
+as,WAG,2016WAG001,1,4/15/2016,11:06,STTD,35,0.23,2,6,0.0025,0.0017,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG002,2,4/28/2016,12:35,STTD,38,0.25,1,,,,No animals,,0,,,,bo
+as,WAG,2016WAG003,3,4/29/2016,10:40,STTD,34,0.19,1,,0.0017,,No animals,,0,,,,bo
+as,WAG,2016WAG004,4,5/3/2016,9:49,STTD,34,0.26,2,6,0.0016,0.0014,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Daphnia sp,,Cladocera,15,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Bosmina sp,,Cladocera,2,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Ceriodaphnia sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Pseudodiaptomus forbesi,,Calanoida,5,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Diaptomidae,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG005,5,5/3/2016,9:49,STTD,34,0.24,4,5,0.0037,0.0024,Cyclopoida,juvenile,Cyclopoida,2,0.0000,,bo
+as,WAG,2016WAG006,6,5/4/2016,9:05,STTD,34,0.24,5,5,0.0034,0.0023,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG006,6,5/4/2016,9:05,STTD,34,0.24,5,5,0.0034,0.0023,Pseudodiaptomus forbesi,,Calanoida,14,0.0003,,bo
+as,WAG,2016WAG006,6,5/4/2016,9:05,STTD,34,0.24,5,5,0.0034,0.0023,Eurytemora sp,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG006,6,5/4/2016,9:05,STTD,34,0.24,5,5,0.0034,0.0023,Daphniidae,,Cladocera,11,0.0002,,bo
+as,WAG,2016WAG006,6,5/4/2016,9:05,STTD,34,0.24,5,5,0.0034,0.0023,Cyclopoida,juvenile,Cyclopoida,17,0.0001,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Daphnia sp,,Cladocera,4,0.0000,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Acanthocyclops robustus,,Cyclopoida,13,0.0003,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Diacyclops thomasi,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG007,7,5/6/2016,12:24,STTD,36,0.3,4,5,0.0052,0.0030,Cyclopoida,juvenile,Cyclopoida,4,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Daphnia sp,,Cladocera,3,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Chironomidae,larvae,Diptera,1,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Diaptomidae,,Calanoida,3,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Cyclopoida,,Cyclopoida,4,0.0000,,bo
+as,WAG,2016WAG008,8,5/6/2016,12:24,STTD,32,0.34,4,5,0.0038,0.0019,Acanthocyclops robustus,,Cyclopoida,17,0.0002,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Daphnia sp,,Cladocera,5,0.0001,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Diaptomidae,,Calanoida,4,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Cyclopoida,,Cyclopoida,6,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Eucyclops sp,,Cyclopoida,2,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Diacyclops thomasi,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG009,9,5/6/2016,12:24,STTD,32,0.2,4,5,0.0031,0.0014,Acanthocyclops robustus,,Cyclopoida,13,0.0002,,bo
+as,WAG,2016WAG010,10,5/6/2016,12:24,STTD,33,0.23,3,4,0.0030,0.0020,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG010,10,5/6/2016,12:24,STTD,33,0.23,3,4,0.0030,0.0020,Calanoida,,Calanoida,9,0.0000,,bo
+as,WAG,2016WAG010,10,5/6/2016,12:24,STTD,33,0.23,3,4,0.0030,0.0020,Acanthocyclops robustus,,Cyclopoida,8,0.0000,,bo
+as,WAG,2016WAG010,10,5/6/2016,12:24,STTD,33,0.23,3,4,0.0030,0.0020,Cyclopoida,,Cyclopoida,8,0.0000,,bo
+as,WAG,2016WAG011,11,5/6/2016,12:24,STTD,33,0.25,5,5,0.0043,0.0021,Daphnia sp,,Cladocera,2,0.0000,,bo
+as,WAG,2016WAG011,11,5/6/2016,12:24,STTD,33,0.25,5,5,0.0043,0.0021,Pseudodiaptomus forbesi,,Calanoida,4,0.0001,,bo
+as,WAG,2016WAG011,11,5/6/2016,12:24,STTD,33,0.25,5,5,0.0043,0.0021,Acanthocyclops robustus,,Cyclopoida,16,0.0003,,bo
+as,WAG,2016WAG011,11,5/6/2016,12:24,STTD,33,0.25,5,5,0.0043,0.0021,Cyclopoida,,Cyclopoida,4,0.0000,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Daphnia sp,,Cladocera,2,0.0000,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Diaptomidae,,Calanoida,6,0.0000,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Pseudodiaptomus forbesi,,Calanoida,3,0.0000,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Acanthocyclops robustus,,Cyclopoida,9,0.0001,,bo
+as,WAG,2016WAG012,12,5/6/2016,12:24,STTD,33,0.24,4,4,0.0042,0.0024,Cyclopoida,,Cyclopoida,4,0.0000,,bo
+as,WAG,2016WAG014,14,5/6/2016,12:24,STTD,37,0.33,5,5,0.0051,0.0024,Daphnia sp,,Cladocera,13,0.0000,,bo
+as,WAG,2016WAG014,14,5/6/2016,12:24,STTD,37,0.33,5,5,0.0051,0.0024,Diaptomidae,,Calanoida,4,0.0000,,bo
+as,WAG,2016WAG014,14,5/6/2016,12:24,STTD,37,0.33,5,5,0.0051,0.0024,Pseudodiaptomus forbesi,,Calanoida,8,0.0000,,bo
+as,WAG,2016WAG014,14,5/6/2016,12:24,STTD,37,0.33,5,5,0.0051,0.0024,Acanthocyclops robustus,,Cyclopoida,41,0.0005,,bo
+as,WAG,2016WAG014,14,5/6/2016,12:24,STTD,37,0.33,5,5,0.0051,0.0024,Cyclopoida,,Cyclopoida,22,0.0002,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Daphniidae,,Cladocera,2,0.0000,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Pseudodiaptomus forbesi,,Calanoida,4,0.0000,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Eurytemora sp,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG015,15,5/6/2016,12:24,STTD,37,0.35,3,3,0.0037,0.0022,Calanoida,,Calanoida,4,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Pseudodiaptomus forbesi,,Calanoida,6,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Acanthocyclops robustus,,Cyclopoida,27,0.0004,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Eucyclops sp,,Cyclopoida,2,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Cyclopoida,,Cyclopoida,17,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Corophiidae,juvenile,Amphipoda,1,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Daphniidae,,Cladocera,8,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG016,16,5/6/2016,12:24,STTD,37,0.38,4,5,0.0054,0.0025,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Unidentified,,Unidentified,,0.0001,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Daphniidae,,Cladocera,3,0.0000,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Chironomidae,larvae,Diptera,1,0.0000,only part of body,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Acanthocyclops robustus,,Cyclopoida,12,0.0002,,bo
+as,WAG,2016WAG017,17,5/6/2016,12:24,STTD,37,0.33,3,3,0.0050,0.0029,Cyclopoida,,Cyclopoida,17,0.0002,,bo
+as,WAG,2016WAG018,18,5/6/2016,12:24,STTD,38,0.32,4,4,0.0032,0.0021,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG018,18,5/6/2016,12:24,STTD,38,0.32,4,4,0.0032,0.0021,Daphniidae,,Cladocera,3,0.0000,,bo
+as,WAG,2016WAG018,18,5/6/2016,12:24,STTD,38,0.32,4,4,0.0032,0.0021,Diaptomidae,,Calanoida,3,0.0000,,bo
+as,WAG,2016WAG018,18,5/6/2016,12:24,STTD,38,0.32,4,4,0.0032,0.0021,Acanthocyclops robustus,,Cyclopoida,8,0.0000,,bo
+as,WAG,2016WAG018,18,5/6/2016,12:24,STTD,38,0.32,4,4,0.0032,0.0021,Cyclopoida,,Cyclopoida,7,0.0000,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Daphniidae,,Cladocera,4,0.0001,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Harpacticoida,,Harpacticoida,1,0.0000,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Pseudodiaptomus forbesi,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Acanthocyclops robustus,,Cyclopoida,7,0.0004,,bo
+as,WAG,2016WAG019,19,5/6/2016,12:24,STTD,39,0.38,4,4,0.0054,0.0033,Cyclopoida,,Cyclopoida,8,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Daphniidae,,Cladocera,4,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Cyclopoida,,Cyclopoida,10,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Eucyclops sp,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG020,20,5/6/2016,12:24,STTD,39,0.41,4,4,0.0053,0.0034,Acanthocyclops robustus,,Cyclopoida,10,0.0001,,bo
+as,WAG,2016WAG021,21,5/11/2016,10:33,STTD,36,0.37,1,,0.0033,,No animals,,0,,,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Unidentified,,Unidentified,,0.0019,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Chironomidae,larvae,Diptera,2,0.0000,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Cyclopoida,juvenile,Cyclopoida,17,0.0000,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Daphniidae,,Cladocera,79,0.0012,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Daphnia sp,,Cladocera,25,0.0003,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Bosmina sp,,Cladocera,7,0.0000,,bo
+as,WAG,2016WAG022,22,5/11/2016,12:53,AL-3,40,0.52,6,3,0.0113,0.0032,Moina sp,,Cladocera,64,0.0006,,bo
+as,WAG,2016WAG023,23,5/12/2016,14:25,STTD,35,0.28,1,,0.0009,,No animals,,0,,,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Pseudodiaptomus forbesi,,Calanoida,56,0.0022,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Calanoida,,Calanoida,5,0.0000,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Cyclopoida,juvenile,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Bosmina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Daphniidae,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG024,24,5/13/2016,8:14,BL-4,45,0.6,5,5,0.0088,0.0042,Harpacticoida,,Harpacticoida,4,0.0000,,bo
+as,WAG,2016WAG025,25,5/17/2016,8:58,STTD,34,0.29,4,5,0.0043,0.0010,Pseudodiaptomus forbesi,,Calanoida,23,0.0006,,bo
+as,WAG,2016WAG025,25,5/17/2016,8:58,STTD,34,0.29,4,5,0.0043,0.0010,Acanthocyclops robustus,,Cyclopoida,2,0.0000,,bo
+as,WAG,2016WAG025,25,5/17/2016,8:58,STTD,34,0.29,4,5,0.0043,0.0010,Unidentified,,Unidentified,,0.0002,,bo
+as,WAG,2016WAG026,26,5/17/2016,8:58,STTD,35,0.31,4,5,0.0044,0.0017,Pseudodiaptomus forbesi,,Calanoida,20,0.0005,,bo
+as,WAG,2016WAG026,26,5/17/2016,8:58,STTD,35,0.31,4,5,0.0044,0.0017,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG026,26,5/17/2016,8:58,STTD,35,0.31,4,5,0.0044,0.0017,Acanthocyclops robustus,,Cyclopoida,5,0.0001,,bo
+as,WAG,2016WAG026,26,5/17/2016,8:58,STTD,35,0.31,4,5,0.0044,0.0017,Daphnia sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG026,26,5/17/2016,8:58,STTD,35,0.31,4,5,0.0044,0.0017,Chydoridae,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG027,27,5/19/2016,11:20,,40,0.42,4,5,0.0071,0.0033,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG027,27,5/19/2016,11:20,,40,0.42,4,5,0.0071,0.0033,Pseudodiaptomus forbesi,,Calanoida,75,0.0013,,bo
+as,WAG,2016WAG027,27,5/19/2016,11:20,,40,0.42,4,5,0.0071,0.0033,Daphniidae,,Cladocera,3,0.0000,,bo
+as,WAG,2016WAG027,27,5/19/2016,11:20,,40,0.42,4,5,0.0071,0.0033,Cyclopoida,juvenile,Cyclopoida,2,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Daphniidae,,Cladocera,97,0.0007,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Ceriodaphnia sp,,Cladocera,42,0.0004,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Daphnia sp,,Cladocera,18,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Bosmina sp,,Cladocera,13,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Pseudodiaptomus forbesi,,Calanoida,16,0.0005,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Diaptomidae,,Calanoida,6,0.0002,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Acanthocyclops robustus,,Cyclopoida,10,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Diacyclops thomasi,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Corophiidae,,Amphipoda,1,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Moinidae,,Cladocera,11,0.0000,,bo
+as,WAG,2016WAG028,28,5/24/2016,11:28,STTD,37,0.46,6,4,0.0067,,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG029,29,5/24/2016,11:28,STTD,40,0.46,1,,0.0036,,No animals,,0,,,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Diaptomidae,,Calanoida,189,0.0068,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Pseudodiaptomus forbesi,,Calanoida,19,0.0005,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Cladocera,,Cladocera,9,0.0000,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Bosmina sp,,Cladocera,6,0.0000,,bo
+as,WAG,2016WAG030,30,5/26/2016,13:28,BL-3,50,0.85,6,5,0.0168,0.0047,Calanoida,,Calanoida,12,0.0002,,bo
+as,WAG,2016WAG031,31,5/27/2016,9:38,STTD,47,0.73,1,,0.0050,,No animals,,0,,,,bo
+as,WAG,2016WAG032,32,6/3/2016,10:32,STTD,38,0.035,5,5,0.0086,0.0043,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG032,32,6/3/2016,10:32,STTD,38,0.035,5,5,0.0086,0.0043,Pseudodiaptomus forbesi,,Calanoida,34,0.0005,,bo
+as,WAG,2016WAG032,32,6/3/2016,10:32,STTD,38,0.035,5,5,0.0086,0.0043,Diaptomidae,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG032,32,6/3/2016,10:32,STTD,38,0.035,5,5,0.0086,0.0043,Eucyclops sp,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG032,32,6/3/2016,10:32,STTD,38,0.035,5,5,0.0086,0.0043,Daphniidae,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG033,33,6/9/2016,9:25,AL-4,49,0.79,2,3,0.0087,0.0047,Unidentified,,Unidentified,,0.0001,,bo
+as,WAG,2016WAG033,33,6/9/2016,9:25,AL-4,49,0.79,2,3,0.0087,0.0047,Diaptomidae,,Calanoida,1,0.0000,,bo
+as,WAG,2016WAG033,33,6/9/2016,9:25,AL-4,49,0.79,2,3,0.0087,0.0047,Moina sp,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG033,33,6/9/2016,9:25,AL-4,49,0.79,2,3,0.0087,0.0047,Daphniidae,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Unidentified,,Unidentified,,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Daphniidae,,Cladocera,1,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Diaptomidae,,Calanoida,2,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Eucyclops sp,,Cyclopoida,1,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Acanthocyclops robustus,,Cyclopoida,5,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Cyclopoida,,Cyclopoida,4,0.0000,,bo
+as,WAG,2016WAG,,5/6/2016,12:24,STTD,33,0.25,3,5,0.0035,0.0019,Pseudodiaptomus forbesi,,Calanoida,1,0.0000,,bo

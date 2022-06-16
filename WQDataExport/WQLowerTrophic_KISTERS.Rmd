@@ -1,0 +1,269 @@
+---
+title: "WQLowerTrophic"
+author: "Catarina Pien"
+date: "7/27/2020"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read in data 
+```{r import data}
+library(tidyverse)
+library(lubridate)
+
+phys <- read.csv("Data/TblPhysicalData.csv")
+light <- read.csv("Data/TblLight.csv")
+WDL <- read.csv("Data/WDL_SAM_Codes_20201002.csv")
+sta <- read.csv("Data/YBFMP_Stations_Coordinates_Info_20200716.csv")
+
+names(phys)
+```
+
+Rename and restructure variables
+```{r rename}
+phys <- phys %>% mutate(Datetime = paste(Date, Time, sep = " "))
+phys$Datetime <-  mdy_hm(phys$Datetime)
+phys$Date<- mdy(phys$Date)
+phys$Time <- strptime(phys$Time, format = "%H:%M") %>%
+  strftime(phys$Time, format = "%H:%M:%S")
+phys$Year <- ordered(year(phys$Date))
+phys$Month <- ordered(month(phys$Date))
+phys$Tide <- as.factor(phys$Tide)
+ str(phys)
+
+phys.s <- phys %>%
+  rename(Secchi = SecchiDiskDepth,
+         Turb = Turbidity,
+         StationCode = Station.Code,
+         Microcyst = MicrocystisVisualRank,
+         YSI = YSI..,
+         SamplingDate = Date,
+         QAQCBy = QA.QC.dBy,
+         FieldComments_WQ = Comments,
+         `150_ZoopData` = ZoopsData,
+         `50_ZoopData` = X50_ZoopsData,
+         SamplingTime = Time) %>%
+  select(-c(StartMeter:MeterSetTime))
+summary(phys.s)
+
+light.s <- light %>%
+  rename(FieldComments_Light = FieldComments) %>%
+  select(-Field1)
+```
+
+
+QC - standardize variables
+```{r standardize qc}
+phys.s <- phys.s %>%
+  mutate(
+    Tide = replace(Tide, Tide == "FLD", "Flood"))
+
+WDL.s <- WDL %>% 
+  select(c(ACT_UNIT_NAME, RUN_CODE, STATION_NUM, NAME, RUN_NAME, SAM_CODE, SAM_COLLECTION_DATE, SAM_SAM_CODE_PARENT, SPP_DESCRIPTION)) %>%
+  filter(RUN_NAME == "YB - Fall Study" | RUN_NAME == "YB - Fall Study - SFSU 2 Depths" | ACT_UNIT_NAME == "Aquatic Ecology") %>%
+  rename(
+    RunCode = RUN_CODE,
+    RunName = RUN_NAME,
+    StationNumber = STATION_NUM,
+    StationName = NAME, 
+    SAM_Code = SAM_CODE,
+    SAM_Code_Parent = SAM_SAM_CODE_PARENT,
+    Datetime = SAM_COLLECTION_DATE,
+    SampleType = SPP_DESCRIPTION)
+  
+
+WDL.s$Datetime <- mdy_hm(WDL.s$Datetime)
+WDL.s$SamplingDate <- as.Date(WDL.s$Datetime)
+```
+
+
+QC - from publication QC code 
+
+```{r QC, warning = FALSE, message = FALSE}
+# Edits to data
+to_drop <- c(1575, 1631, 1632, 1722, 1724, 1867, 1308, 748)
+
+# To change
+phys.s$WaterTemperature[phys.s$PhysicalDataID == 688] <- 16.7 # Was Fahrenheit
+phys.s$WaterTemperature[phys.s$WaterTemperature == 0.169] <- 16.9 # Decimal place
+phys.s$Turb[phys.s$PhysicalDataID==680] <- 15.4 # Typo
+phys.s$Turb[phys.s$PhysicalDataID==656] <- 94.2 # Typo
+phys.s$EC[phys.s$PhysicalDataID==748] <- 732 # Typo
+phys.s$EC[phys.s$PhysicalDataID==926] <- 1284 # Typo
+phys.s$EC[phys.s$PhysicalDataID==1847] <- 170 # Typo
+phys.s$SpCnd[phys.s$PhysicalDataID==1140] <- 848 # Typo
+phys.s$SpCnd[phys.s$PhysicalDataID==1139] <- 889 # Typo
+phys.s$SpCnd[phys.s$PhysicalDataID==1847] <- 101 # Typo
+phys.s$Secchi[phys.s$PhysicalDataID==708] <- NA # Previously 0, but actually was not taken
+phys.s$Secchi[phys.s$PhysicalDataID==708] <- NA # Previously 0, but actually was not taken
+phys.s$DO[phys.s$PhysicalDataID==1409] <- NA # Previously 0, but actually was not taken
+phys.s$pH[phys.s$PhysicalDataID==1501] <- 7.92 # Typo
+
+# One entry was not entered
+phys.s$StationCode[phys.s$PhysicalDataID==1752] <- "STTD"
+phys.s$EC[phys.s$PhysicalDataID==1752] <- 530
+phys.s$SpCnd[phys.s$PhysicalDataID==1752] <- 563
+phys.s$Turb[phys.s$PhysicalDataID==1752] <- 16.5
+phys.s$Tide[phys.s$PhysicalDataID==1752] <- "Ebb"
+phys.s$SamplingDate[phys.s$PhysicalDataID==1752] <-as.Date("2018-09-27", format = "%Y-%m-%d")
+phys.s$pH[phys.s$PhysicalDataID==1752] <- 8.13
+
+# Formatting
+phys.s$SamplingTime[phys.s$PhysicalDataID==401] <- hms("13:22:00")
+phys.s$SamplingTime[phys.s$PhysicalDataID==1602] <- hms("13:50:00")
+
+# Remove rows with no data
+phys.s <- phys.s%>%
+  filter(!PhysicalDataID %in% to_drop)
+
+
+
+
+```
+
+
+Merge data
+```{r merge}
+
+# Station name and number
+station_simple <- sta %>% 
+  select(1:2) %>% 
+  rename(StationCode = Station.Name, StationNumber = Station.Number)
+
+# Join physical, light, station number - this is all the data in our database.
+physlight <- full_join(phys.s, light.s, by = "PhysicalDataID") %>%
+  arrange(LightData==TRUE)
+# Filter out prior to 2010
+physlightsta <- left_join(physlight, station_simple, by = "StationCode") %>%
+  filter(Year > 2009)
+
+# Join with WDL data.
+WDL_phys1 <- left_join(physlightsta, WDL.s, by = c("StationNumber", "Datetime")) %>%
+  arrange(Datetime, StationCode)
+WDL_phys2 <- left_join(physlightsta, WDL.s, by = c("StationNumber", "SamplingDate")) %>%
+  arrange(SamplingDate, StationCode)
+
+# Since 2019 has duplicates, we are merging by datetime to line things up
+WDL_phys_pre2019 <- WDL_phys2 %>%
+  filter(Year<2019)
+WDL_phys_2019 <- WDL_phys1 %>%
+  filter(Year > 2018)%>%
+  mutate(Datetime.y = Datetime) %>%
+  rename(Datetime.x = Datetime,
+         SamplingDate = SamplingDate.x)%>%
+  select(-SamplingDate.y)
+
+
+WDL_phys_anti <- anti_join(physlightsta, WDL.s, by = c("StationNumber", "SamplingDate")) %>%
+  arrange(SamplingDate, StationCode)
+
+# Prior to 2010 not on WDL
+# After Sept 2019 not on WDL
+
+WDL_phys_anti2 <- anti_join(WDL.s, physlightsta, by = c("StationNumber", "SamplingDate")) %>%
+  filter(StationNumber != "Blank; Field",
+         !RunName %in% c("Cache Slough Study", "Yolo Bypass - Knaggs Ranch Project",
+                         "YB - Fall Study - SFSU 2 Depths", "Surface Water Diel Variation",
+                         " Special Studies - UCD Chl a", "Cache Slough Study SFEI"),
+         StationName != "Knagg's Ranch") 
+
+# NOT ADDRESSED
+# Changes to be made in data from database: 
+# Check KNA station numbers - are they supposed to be the same between database and WDL?
+# Might want to check "No chl, no nutrient" comments to make sure there really wasn't any data collected
+
+# ADDRESSED in either ChangesToMakeForNewDatabase or with Matt
+# 2014-2015: There are some stations that might not have had nutrient/chl collected, but there are some entries in WDL unmatched that are within a day of these. Not sure what is happening here. They are RD22, I80, LIS, RCS. Sometimes these stations are repeated with others that match, and other times they are unique. 
+# 2017: NDFA data is not in WDL - I can get some of this one.
+# 2018: NDFA data is not in WDL - I can probably get the numbers for this one.
+# WWT and DWT not always entered into database in 2016, 2015 - can we do this later or should I have this data entered?
+
+# Changes in WDL data?
+# 2012: Knaggs not entered in database - can we do this later or should I have this data entered?
+# 2012 - 2013: Fall Study not entered in database - can we do this later or should I have this data entered?
+# 2014: YB - Fall Study from 0310 -KP???
+# 2015: Seems like every other NDFA is not entered into database? There is a collection followed by a few days where there are some NDFA stations. First set is not entered. That second set has some similar stations and dates in the database, but only for a few stations. INVESTIGATE
+# 2012, 2017: some user defined stations? Not sure if these are blanks. ASK MATT
+# 2019: blanks - not sure what to do with those. ASK MATT
+
+
+# 8.25.2016, 9.8.2016, 8.9.2016, 7.28.2016
+
+```
+
+Write files
+
+Up to date files:
+* For info about what else needs to be entered/investigated in YBFMP database, see notjoined2_20201012_edit.xlsx
+* For info about what has been joined, but some WDL 
+```{r}
+today <- format(today(), "%Y%m%d")
+write.csv(WDL_phys_anti, paste0("R_write/notjoined_", today, ".csv"))
+write.csv(WDL_phys_anti2, paste0("R_write/notjoined2_", today, ".csv"))
+write.csv(WDL_phys1, paste0("R_write/joinedDatetime_", today, ".csv"))
+write.csv(WDL_phys2, paste0("R_write/joinedDate_", today, ".csv"))
+```
+
+Reorder to follow template
+```{r reorder}
+NDFA <- c("BL5", "DWT", "I80", "LIB", "RCS", "RD22", "RMB", "RVB", "RYI", "SDI", "SRV", "WWT")
+
+dataset_pre2019 <- WDL_phys_pre2019 %>%
+  rename(SampleDate.field = Datetime.x,
+         SampleDate.WDL = Datetime.y) %>%
+  mutate(MeasuringProgram = ifelse(StationCode %in% NDFA, "NDFA", "YBFMP")) %>%
+  mutate(SampleNumber = "",
+         SampleTime = "", 
+         LabOrField = "",
+         VegRank = "") %>%
+  select(c("RunCode", "RunName", "MeasuringProgram", "StationCode", "StationName", "StationNumber", "SAM_Code", "SAM_Code_Parent", "SampleType", 
+  "PhysicalDataID", "SampleDate.field", "SampleDate.WDL", "SamplingDate", "SamplingTime", "SampleNumber", "SampleTime", "LabOrField",
+  "Recorder", "Field.Check", "Crew", "YSI", "WeatherCode", 
+  "Secchi", "WaterTemperature", "DO", "SpCnd", "EC", "pH", 
+  "Tide", "Microcyst", "VegRank", "Turb", 
+  "SurfaceIRR", "Depth1", "Depth2", "Depth3", "Depth4", 
+  "SubSurfaceIRR1", "SubSurfaceIRR2", "SubSurfaceIRR3", "SubSurfaceIRR4", "FieldComments_Light",
+  "LightData", "DriftData", "LarvalData", "150_ZoopData", "50_ZoopData", 
+  "PhytoData", "ChlData", "NutrData", 
+  "FieldComments_WQ", "DataCorrectionComments", "EnteredBy", "QAQCBy"))
+
+dataset_2019 <- WDL_phys_2019 %>%
+  rename(SampleDate.field = Datetime.x,
+         SampleDate.WDL = Datetime.y) %>%
+  mutate(MeasuringProgram = ifelse(StationCode %in% NDFA, "NDFA", "YBFMP")) %>%
+  mutate(SampleNumber = "",
+         SampleTime = "", 
+         LabOrField = "",
+         VegRank = "") %>%
+  select(c("RunCode", "RunName", "MeasuringProgram", "StationCode", "StationName", "StationNumber", "SAM_Code", "SAM_Code_Parent", "SampleType", 
+  "PhysicalDataID", "SampleDate.field", "SampleDate.WDL", "SamplingDate", "SamplingTime", "SampleNumber", "SampleTime", "LabOrField",
+  "Recorder", "Field.Check", "Crew", "YSI", "WeatherCode", 
+  "Secchi", "WaterTemperature", "DO", "SpCnd", "EC", "pH", 
+  "Tide", "Microcyst", "VegRank", "Turb", 
+  "SurfaceIRR", "Depth1", "Depth2", "Depth3", "Depth4", 
+  "SubSurfaceIRR1", "SubSurfaceIRR2", "SubSurfaceIRR3", "SubSurfaceIRR4", "FieldComments_Light",
+  "LightData", "DriftData", "LarvalData", "150_ZoopData", "50_ZoopData", 
+  "PhytoData", "ChlData", "NutrData", 
+  "FieldComments_WQ", "DataCorrectionComments", "EnteredBy", "QAQCBy"))
+
+dataset <- rbind(dataset_pre2019, dataset_2019)
+```
+
+
+
+Change NA to blanks
+```{r}
+
+```
+
+
+Write final
+```{r}
+write.csv(dataset, "R_write/AES_DiscreteWQ_KiECO_20201022.csv", row.names = FALSE)
+```
+

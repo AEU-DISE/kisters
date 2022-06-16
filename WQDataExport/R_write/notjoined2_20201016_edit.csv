@@ -1,0 +1,595 @@
+ACT_UNIT_NAME,RunCode,StationNumber,StationName,RunName,SAM_Code,Datetime,SampleType,SamplingDate
+Aquatic Ecology,ESF0212B0034,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0324,2/9/2012 10:50,Replicate Sample,2/9/2012
+Aquatic Ecology,ESF0212B0034,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0322,2/9/2012 10:50,Normal Sample,2/9/2012
+Aquatic Ecology,ESF0212B0034,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0323,2/9/2012 12:00,Replicate Sample,2/9/2012
+Aquatic Ecology,ESF0212B0034,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0321,2/9/2012 12:00,Normal Sample,2/9/2012
+Aquatic Ecology,ESF0212B0035,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0328,2/16/2012 11:15,Replicate Sample,2/16/2012
+Aquatic Ecology,ESF0212B0035,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0326,2/16/2012 11:15,Normal Sample,2/16/2012
+Aquatic Ecology,ESF0212B0035,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0327,2/16/2012 12:40,Replicate Sample,2/16/2012
+Aquatic Ecology,ESF0212B0035,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0325,2/16/2012 12:40,Normal Sample,2/16/2012
+Aquatic Ecology,ESF0212B0037,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0333,2/22/2012 11:20,Normal Sample,2/22/2012
+Aquatic Ecology,ESF0212B0037,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0312B0353,2/22/2012 11:20,Replicate Sample,2/22/2012
+Aquatic Ecology,ESF0212B0037,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0312B0354,2/22/2012 12:20,Replicate Sample,2/22/2012
+Aquatic Ecology,ESF0212B0037,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0334,2/22/2012 12:20,Normal Sample,2/22/2012
+Aquatic Ecology,ESF0212B0038,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0212B0338,2/29/2012 11:15,Normal Sample,2/29/2012
+Aquatic Ecology,ESF0212B0038,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0312B0350,2/29/2012 11:15,Replicate Sample,2/29/2012
+Aquatic Ecology,ESF0212B0038,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0312B0349,2/29/2012 12:15,Replicate Sample,2/29/2012
+Aquatic Ecology,ESF0212B0038,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0212B0337,2/29/2012 12:15,Normal Sample,2/29/2012
+Aquatic Ecology,ESF0312B0039,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0312B0345,3/8/2012 11:00,Replicate Sample,3/8/2012
+Aquatic Ecology,ESF0312B0039,A0L842113851,Knaggs Ranch - Inlet,Yolo Bypass 2012,ESF0312B0341,3/8/2012 11:00,Normal Sample,3/8/2012
+Aquatic Ecology,ESF0312B0039,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0312B0346,3/8/2012 12:00,Replicate Sample,3/8/2012
+Aquatic Ecology,ESF0312B0039,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0312B0342,3/8/2012 12:00,Normal Sample,3/8/2012
+Aquatic Ecology,ESH0812B0004,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESH0812B0016,8/7/2012 10:07,Replicate Sample,8/7/2012
+Aquatic Ecology,ESH0812B0004,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESH0812B0014,8/7/2012 10:07,Normal Sample,8/7/2012
+Aquatic Ecology,ESH0812B0008,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESH0812B0029,8/31/2012 13:38,Normal Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass 2012,ESH0812B0030,8/31/2012 14:22,Normal Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,A0D83441350,Toe Drain@ I-80,Yolo Bypass 2012,ESH0812B0031,8/31/2012 14:54,Normal Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESH0812B0037,8/31/2012 15:30,Normal Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESH0812B0039,8/31/2012 15:30,Replicate Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,A0D82691360,Toe Drain Bl YWA,Yolo Bypass 2012,ESH0812B0038,8/31/2012 15:52,Normal Sample,8/31/2012
+Aquatic Ecology,ESH0812B0008,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESH0812B0032,8/31/2012 16:23,Normal Sample,8/31/2012
+Aquatic Ecology,ESF0912B0001,B9D80951412,D24A,Yolo Bypass 2012,ESF0912B0021,9/4/2012 12:11,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,A8200000,Ryer Island,Yolo Bypass 2012,ESF0912B0020,9/4/2012 12:24,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,B9D81431410,Liberty Is @ Base,Yolo Bypass 2012,ESF0912B0006,9/4/2012 12:45,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass 2012,ESF0912B0007,9/4/2012 12:56,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass 2012,ESF0912B0010,9/4/2012 12:56,Replicate Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESF0912B0008,9/4/2012 13:15,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0912B0001,9/4/2012 17:00,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass 2012,ESF0912B0002,9/4/2012 17:06,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,A0D83441350,Toe Drain@ I-80,Yolo Bypass 2012,ESF0912B0003,9/4/2012 17:34,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESF0912B0004,9/4/2012 18:00,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0001,A0D82691360,Toe Drain Bl YWA,Yolo Bypass 2012,ESF0912B0005,9/4/2012 18:16,Normal Sample,9/4/2012
+Aquatic Ecology,ESF0912B0003,B9D80951412,D24A,Yolo Bypass 2012,ESF0912B0022,9/7/2012 8:15,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A4000000,Below Sacramento,Yolo Bypass 2012,ESF0912B0023,9/7/2012 8:28,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A8200000,Ryer Island,Yolo Bypass 2012,ESF0912B0024,9/7/2012 8:43,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,B9D81431410,Liberty Is @ Base,Yolo Bypass 2012,ESF0912B0025,9/7/2012 8:55,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass 2012,ESF0912B0030,9/7/2012 9:15,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESF0912B0031,9/7/2012 9:30,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A0D82691360,Toe Drain Bl YWA,Yolo Bypass 2012,ESF0912B0032,9/7/2012 9:45,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESF0912B0037,9/7/2012 9:55,Replicate Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESF0912B0033,9/7/2012 9:55,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A0D83441350,Toe Drain@ I-80,Yolo Bypass 2012,ESF0912B0034,9/7/2012 15:20,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass 2012,ESF0912B0035,9/7/2012 15:57,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0003,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0912B0036,9/7/2012 16:47,Normal Sample,9/7/2012
+Aquatic Ecology,ESF0912B0005,B9D80951412,D24A,Yolo Bypass 2012,ESF0912B0049,9/11/2012 8:55,Replicate Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,B9D80951412,D24A,Yolo Bypass 2012,ESF0912B0038,9/11/2012 8:55,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A4000000,Below Sacramento,Yolo Bypass 2012,ESF0912B0039,9/11/2012 9:07,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A8200000,Ryer Island,Yolo Bypass 2012,ESF0912B0040,9/11/2012 9:18,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,B9D81431410,Liberty Is @ Base,Yolo Bypass 2012,ESF0912B0041,9/11/2012 9:25,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass 2012,ESF0912B0042,9/11/2012 9:40,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A0D82120386,Toe Drain at STTD,Yolo Bypass 2012,ESF0912B0043,9/11/2012 9:55,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A0D82691360,Toe Drain Bl YWA,Yolo Bypass 2012,ESF0912B0044,9/11/2012 10:20,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,B9D82851352,Toe Drain YB LISBON,Yolo Bypass 2012,ESF0912B0045,9/11/2012 10:30,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A0D83441350,Toe Drain@ I-80,Yolo Bypass 2012,ESF0912B0046,9/11/2012 14:30,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass 2012,ESF0912B0047,9/11/2012 15:10,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0005,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass 2012,ESF0912B0048,9/11/2012 15:50,Normal Sample,9/11/2012
+Aquatic Ecology,ESF0912B0007,B9D80951412,D24A,Yolo Bypass - Fall Study,ESF0912B0062,9/14/2012 8:03,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A4000000,Below Sacramento,Yolo Bypass - Fall Study,ESF0912B0063,9/14/2012 8:15,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A8200000,Ryer Island,Yolo Bypass - Fall Study,ESF0912B0064,9/14/2012 8:22,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,B9D81431410,Liberty Is @ Base,Yolo Bypass - Fall Study,ESF0912B0065,9/14/2012 8:28,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass - Fall Study,ESF0912B0066,9/14/2012 8:40,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A0D82120386,Toe Drain at STTD,Yolo Bypass - Fall Study,ESF0912B0067,9/14/2012 8:53,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A0D82691360,Toe Drain Bl YWA,Yolo Bypass - Fall Study,ESF0912B0068,9/14/2012 9:07,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,B9D82851352,Toe Drain YB LISBON,Yolo Bypass - Fall Study,ESF0912B0069,9/14/2012 9:25,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A0D83441350,Toe Drain@ I-80,Yolo Bypass - Fall Study,ESF0912B0073,9/14/2012 16:10,Replicate Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A0D83441350,Toe Drain@ I-80,Yolo Bypass - Fall Study,ESF0912B0072,9/14/2012 16:10,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass - Fall Study,ESF0912B0071,9/14/2012 16:50,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0007,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass - Fall Study,ESF0912B0070,9/14/2012 17:32,Normal Sample,9/14/2012
+Aquatic Ecology,ESF0912B0008,B9D80951412,D24A,Yolo Bypass - Fall Study,ESF0912B0074,9/17/2012 9:01,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A4000000,Below Sacramento,Yolo Bypass - Fall Study,ESF0912B0075,9/17/2012 9:13,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A8200000,Ryer Island,Yolo Bypass - Fall Study,ESF0912B0076,9/17/2012 9:25,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,B9D81431410,Liberty Is @ Base,Yolo Bypass - Fall Study,ESF0912B0077,9/17/2012 9:35,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass - Fall Study,ESF0912B0078,9/17/2012 9:53,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A0D82120386,Toe Drain at STTD,Yolo Bypass - Fall Study,ESF0912B0079,9/17/2012 10:08,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A0D82691360,Toe Drain Bl YWA,Yolo Bypass - Fall Study,ESF0912B0080,9/17/2012 10:27,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,B9D82851352,Toe Drain YB LISBON,Yolo Bypass - Fall Study,ESF0912B0081,9/17/2012 10:47,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,B9D82851352,Toe Drain YB LISBON,Yolo Bypass - Fall Study,ESF0912B0085,9/17/2012 10:47,Replicate Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A0D83441350,Toe Drain@ I-80,Yolo Bypass - Fall Study,ESF0912B0084,9/17/2012 15:20,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass - Fall Study,ESF0912B0083,9/17/2012 16:00,Normal Sample,9/17/2012
+Aquatic Ecology,ESF0912B0008,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass - Fall Study,ESF0912B0082,9/17/2012 16:30,Normal Sample,9/17/2012
+Aquatic Ecology,ESH0912B0010,B9D80951412,D24A,Yolo Bypass - Fall Study,ESH0912B0040,9/25/2012 9:00,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A4000000,Below Sacramento,Yolo Bypass - Fall Study,ESH0912B0041,9/25/2012 9:12,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A8200000,Ryer Island,Yolo Bypass - Fall Study,ESH0912B0042,9/25/2012 9:24,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,B9D81431410,Liberty Is @ Base,Yolo Bypass - Fall Study,ESH0912B0043,9/25/2012 9:35,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass - Fall Study,ESH0912B0044,9/25/2012 9:50,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A0D82120386,Toe Drain at STTD,Yolo Bypass - Fall Study,ESH0912B0045,9/25/2012 10:07,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A0D82691360,Toe Drain Bl YWA,Yolo Bypass - Fall Study,ESH0912B0046,9/25/2012 10:30,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,B9D82851352,Toe Drain YB LISBON,Yolo Bypass - Fall Study,ESH0912B0051,9/25/2012 11:15,Replicate Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,B9D82851352,Toe Drain YB LISBON,Yolo Bypass - Fall Study,ESH0912B0047,9/25/2012 11:15,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A0D83441350,Toe Drain@ I-80,Yolo Bypass - Fall Study,ESH0912B0050,9/25/2012 11:27,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,J06179704281767,Tule Canal@ Rd 22,Yolo Bypass - Fall Study,ESH0912B0049,9/25/2012 13:00,Normal Sample,9/25/2012
+Aquatic Ecology,ESH0912B0010,A0L842113852,Knaggs Ranch - Oulet,Yolo Bypass - Fall Study,ESH0912B0048,9/25/2012 13:45,Normal Sample,9/25/2012
+Aquatic Ecology,ESF1012B0012,B9D80951412,D24A,Yolo Bypass - Fall Study,ESF1012B0114,10/15/2012 9:20,Normal Sample,10/15/2012
+Aquatic Ecology,ESF1012B0012,A8200000,Ryer Island,Yolo Bypass - Fall Study,ESF1012B0116,10/15/2012 9:56,Normal Sample,10/15/2012
+Aquatic Ecology,ESF1012B0012,B9D81431410,Liberty Is @ Base,Yolo Bypass - Fall Study,ESF1012B0117,10/15/2012 10:20,Normal Sample,10/15/2012
+Aquatic Ecology,ESF1012B0012,B9D81651399,BL5 -Below Toe Drain,Yolo Bypass - Fall Study,ESF1012B0118,10/15/2012 10:45,Normal Sample,10/15/2012
+Aquatic Ecology,ESF1012B0012,A4000000,Below Sacramento,Yolo Bypass - Fall Study,ESF1012B0124,10/15/2012 11:30,Normal Sample,10/15/2012
+Aquatic Ecology,ESH0513B0022,A0200000,SHER,Yolo Bypass 2013,ESH0513B0101,5/31/2013 9:32,Normal Sample,5/31/2013
+Aquatic Ecology,ESH0513B0022,A0200000,SHER,Yolo Bypass 2013,ESH0513B0103,5/31/2013 9:32,Replicate Sample,5/31/2013
+Aquatic Ecology,ESH0613B0026,(NONE),( None ),Yolo Bypass 2013,ESH0613B0133,6/25/2013 0:00,Normal Sample,6/25/2013
+Aquatic Ecology,EA0713B0187,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0713B1256,7/31/2013 5:17,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0713B1257,7/31/2013 5:17,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0713B0187,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0713B1272,7/31/2013 10:35,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0713B1273,7/31/2013 10:35,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0713B1271,7/31/2013 11:11,Replicate Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0713B1270,7/31/2013 11:11,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0713B1269,7/31/2013 11:31,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0713B1268,7/31/2013 11:31,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81450411,Liberty at S End,YB - Fall Study,EA0713B1267,7/31/2013 11:50,Replicate Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81450411,Liberty at S End,YB - Fall Study,EA0713B1266,7/31/2013 11:50,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0713B1264,7/31/2013 12:06,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0713B1265,7/31/2013 12:06,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0713B0187,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0713B1254,7/31/2013 12:28,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0713B1255,7/31/2013 12:28,Replicate Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,EA0713B1258,7/31/2013 14:15,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,EA0713B1259,7/31/2013 14:15,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0713B0187,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0713B1260,7/31/2013 16:07,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0713B1261,7/31/2013 16:07,Replicate Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0713B1262,7/31/2013 16:23,Normal Sample,7/31/2013
+Aquatic Ecology,EA0713B0187,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0713B1263,7/31/2013 16:23,"Replicate, Specific Analyte(s)",7/31/2013
+Aquatic Ecology,EA0813B0197,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1340,8/6/2013 9:58,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1341,8/6/2013 9:58,"Replicate, Specific Analyte(s)",8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1339,8/6/2013 10:15,Replicate Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1338,8/6/2013 10:15,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1336,8/6/2013 10:32,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1337,8/6/2013 10:32,"Replicate, Specific Analyte(s)",8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1335,8/6/2013 10:45,Replicate Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1334,8/6/2013 10:45,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1323,8/6/2013 10:53,Replicate Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1322,8/6/2013 10:53,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1333,8/6/2013 10:57,"Replicate, Specific Analyte(s)",8/6/2013
+Aquatic Ecology,EA0813B0197,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1332,8/6/2013 10:57,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1325,8/6/2013 11:29,"Replicate, Specific Analyte(s)",8/6/2013
+Aquatic Ecology,EA0813B0197,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1324,8/6/2013 11:29,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1329,8/6/2013 12:27,Replicate Sample,8/6/2013
+Aquatic Ecology,EA0813B0197,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1328,8/6/2013 12:27,Normal Sample,8/6/2013
+Aquatic Ecology,EA0813B0217,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1526,8/15/2013 10:30,"Replicate, Specific Analyte(s)",8/15/2013
+Aquatic Ecology,EA0813B0217,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1525,8/15/2013 10:30,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1523,8/15/2013 10:50,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1524,8/15/2013 10:50,Replicate Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1521,8/15/2013 11:08,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1522,8/15/2013 11:08,"Replicate, Specific Analyte(s)",8/15/2013
+Aquatic Ecology,EA0813B0217,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1508,8/15/2013 11:10,Replicate Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1507,8/15/2013 11:10,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1520,8/15/2013 11:20,Replicate Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1519,8/15/2013 11:20,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1517,8/15/2013 11:35,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1518,8/15/2013 11:35,"Replicate, Specific Analyte(s)",8/15/2013
+Aquatic Ecology,EA0813B0217,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1510,8/15/2013 12:54,"Replicate, Specific Analyte(s)",8/15/2013
+Aquatic Ecology,EA0813B0217,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1509,8/15/2013 12:54,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1514,8/15/2013 14:07,Replicate Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1513,8/15/2013 14:07,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0217,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0813B1516,8/15/2013 14:36,"Replicate, Specific Analyte(s)",8/15/2013
+Aquatic Ecology,EA0813B0217,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0813B1515,8/15/2013 14:36,Normal Sample,8/15/2013
+Aquatic Ecology,EA0813B0229,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1653,8/26/2013 9:29,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0813B1652,8/26/2013 9:29,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1651,8/26/2013 9:45,Replicate Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0813B1650,8/26/2013 9:45,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1648,8/26/2013 10:06,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0813B1649,8/26/2013 10:06,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1635,8/26/2013 10:11,Replicate Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0813B1634,8/26/2013 10:11,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1647,8/26/2013 10:22,Replicate Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81450411,Liberty at S End,YB - Fall Study,EA0813B1646,8/26/2013 10:22,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1644,8/26/2013 10:36,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0813B1645,8/26/2013 10:36,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1636,8/26/2013 10:50,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0813B1637,8/26/2013 10:50,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0813B1643,8/26/2013 10:53,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0813B1642,8/26/2013 10:53,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,EA0813B1639,8/26/2013 11:33,"Replicate, Specific Analyte(s)",8/26/2013
+Aquatic Ecology,EA0813B0229,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,EA0813B1638,8/26/2013 11:33,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1640,8/26/2013 11:50,Normal Sample,8/26/2013
+Aquatic Ecology,EA0813B0229,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0813B1641,8/26/2013 11:50,Replicate Sample,8/26/2013
+Aquatic Ecology,EA0913B0247,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B1794,9/5/2013 10:03,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B1795,9/5/2013 10:03,Replicate Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B1796,9/5/2013 10:32,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B1797,9/5/2013 10:32,"Replicate, Specific Analyte(s)",9/5/2013
+Aquatic Ecology,EA0913B0247,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B1801,9/5/2013 12:20,Replicate Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B1800,9/5/2013 12:20,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B1804,9/5/2013 12:30,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B1805,9/5/2013 12:30,"Replicate, Specific Analyte(s)",9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B1806,9/5/2013 12:45,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B1807,9/5/2013 12:45,Replicate Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B1809,9/5/2013 13:03,"Replicate, Specific Analyte(s)",9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B1808,9/5/2013 13:03,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B1810,9/5/2013 13:20,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B1811,9/5/2013 13:20,Replicate Sample,9/5/2013
+Aquatic Ecology,EA0913B0247,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B1813,9/5/2013 13:43,"Replicate, Specific Analyte(s)",9/5/2013
+Aquatic Ecology,EA0913B0247,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B1812,9/5/2013 13:43,Normal Sample,9/5/2013
+Aquatic Ecology,EA0913B0254,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B1923,9/12/2013 9:35,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B1924,9/12/2013 9:35,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B1934,9/12/2013 10:50,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B1933,9/12/2013 10:50,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B1926,9/12/2013 10:57,Replicate Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B1925,9/12/2013 10:57,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B1935,9/12/2013 11:10,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B1936,9/12/2013 11:10,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B1938,9/12/2013 11:37,Replicate Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B1937,9/12/2013 11:37,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B1939,9/12/2013 11:49,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B1940,9/12/2013 11:49,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B1941,9/12/2013 12:09,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B1942,9/12/2013 12:09,Replicate Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B1928,9/12/2013 12:20,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B1927,9/12/2013 12:20,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B1944,9/12/2013 12:24,"Replicate, Specific Analyte(s)",9/12/2013
+Aquatic Ecology,EA0913B0254,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B1943,9/12/2013 12:24,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B1931,9/12/2013 15:10,Normal Sample,9/12/2013
+Aquatic Ecology,EA0913B0254,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B1932,9/12/2013 15:10,Replicate Sample,9/12/2013
+Aquatic Ecology,EA0913B0265,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2049,9/17/2013 9:25,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2048,9/17/2013 9:25,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2050,9/17/2013 10:39,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2051,9/17/2013 10:39,Replicate Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2059,9/17/2013 11:15,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2052,9/17/2013 11:21,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2053,9/17/2013 11:21,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2061,9/17/2013 12:01,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2060,9/17/2013 12:01,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2057,9/17/2013 12:14,Replicate Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2056,9/17/2013 12:14,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2062,9/17/2013 12:18,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2063,9/17/2013 12:18,Replicate Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2065,9/17/2013 12:43,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2064,9/17/2013 12:43,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B2067,9/17/2013 13:00,Replicate Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B2066,9/17/2013 13:00,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0265,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2069,9/17/2013 13:20,"Replicate, Specific Analyte(s)",9/17/2013
+Aquatic Ecology,EA0913B0265,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2068,9/17/2013 13:20,Normal Sample,9/17/2013
+Aquatic Ecology,EA0913B0271,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2135,9/23/2013 9:20,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2134,9/23/2013 9:20,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D84331398,Wallace Weir,YB - Fall Study,EA0913B2208,9/23/2013 9:55,Replicate Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D84331398,Wallace Weir,YB - Fall Study,EA0913B2207,9/23/2013 9:55,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2155,9/23/2013 10:15,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2154,9/23/2013 10:15,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B2152,9/23/2013 10:42,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B2153,9/23/2013 10:42,Replicate Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2150,9/23/2013 10:51,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2151,9/23/2013 10:51,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2149,9/23/2013 11:14,Replicate Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2148,9/23/2013 11:14,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2146,9/23/2013 11:20,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2147,9/23/2013 11:20,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B2145,9/23/2013 11:45,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B2144,9/23/2013 11:45,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2137,9/23/2013 11:50,Replicate Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2136,9/23/2013 11:50,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2139,9/23/2013 12:35,"Replicate, Specific Analyte(s)",9/23/2013
+Aquatic Ecology,EA0913B0271,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2138,9/23/2013 12:35,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2142,9/23/2013 13:25,Normal Sample,9/23/2013
+Aquatic Ecology,EA0913B0271,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2143,9/23/2013 13:25,Replicate Sample,9/23/2013
+Aquatic Ecology,EA0913B0276,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2225,9/26/2013 9:45,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA0913B2224,9/26/2013 9:45,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D84331398,Wallace Weir,YB - Fall Study,EA0913B2247,9/26/2013 10:21,Replicate Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D84331398,Wallace Weir,YB - Fall Study,EA0913B2246,9/26/2013 10:21,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2227,9/26/2013 11:08,Replicate Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA0913B2226,9/26/2013 11:08,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2237,9/26/2013 11:20,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA0913B2236,9/26/2013 11:20,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2238,9/26/2013 11:35,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81450411,Liberty at S End,YB - Fall Study,EA0913B2239,9/26/2013 11:35,Replicate Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2228,9/26/2013 11:44,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA0913B2229,9/26/2013 11:44,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2240,9/26/2013 12:00,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2241,9/26/2013 12:00,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81040386,SRV - Vieira's,YB - Fall Study,EA0913B2242,9/26/2013 12:23,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA0913B2243,9/26/2013 12:23,Replicate Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2233,9/26/2013 12:36,Replicate Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA0913B2232,9/26/2013 12:36,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2244,9/26/2013 12:40,Normal Sample,9/26/2013
+Aquatic Ecology,EA0913B0276,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA0913B2245,9/26/2013 12:40,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B2235,9/26/2013 13:12,"Replicate, Specific Analyte(s)",9/26/2013
+Aquatic Ecology,EA0913B0276,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA0913B2234,9/26/2013 13:12,Normal Sample,9/26/2013
+Aquatic Ecology,EA1013B0287,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA1013B2353,10/1/2013 9:46,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,A0D84761435,Ridge Cut Slough,YB - Fall Study,EA1013B2352,10/1/2013 9:46,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D84331398,Wallace Weir,YB - Fall Study,EA1013B2405,10/1/2013 10:25,Replicate Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D84331398,Wallace Weir,YB - Fall Study,EA1013B2404,10/1/2013 10:25,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA1013B2362,10/1/2013 11:03,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D82120386,Toe Drain at STTD,YB - Fall Study,EA1013B2363,10/1/2013 11:03,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA1013B2365,10/1/2013 11:32,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,EA1013B2364,10/1/2013 11:32,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81450411,Liberty at S End,YB - Fall Study,EA1013B2366,10/1/2013 11:50,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA1013B2355,10/1/2013 11:50,Replicate Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,EA1013B2354,10/1/2013 11:50,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81450411,Liberty at S End,YB - Fall Study,EA1013B2367,10/1/2013 11:50,Replicate Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA1013B2368,10/1/2013 12:00,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81281402,RYI - Cache Slough,YB - Fall Study,EA1013B2369,10/1/2013 12:00,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81040386,SRV - Vieira's,YB - Fall Study,EA1013B2370,10/1/2013 12:19,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D81040386,SRV - Vieira's,YB - Fall Study,EA1013B2371,10/1/2013 12:19,Replicate Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA1013B2372,10/1/2013 12:30,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,B9D80960412,RVB - Rio Vista,YB - Fall Study,EA1013B2373,10/1/2013 12:30,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA1013B2357,10/1/2013 13:00,"Replicate, Specific Analyte(s)",10/1/2013
+Aquatic Ecology,EA1013B0287,A0D83441350,Toe Drain@ I-80,YB - Fall Study,EA1013B2356,10/1/2013 13:00,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA1013B2360,10/1/2013 13:47,Normal Sample,10/1/2013
+Aquatic Ecology,EA1013B0287,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,EA1013B2361,10/1/2013 13:47,Replicate Sample,10/1/2013
+Aquatic Ecology,ES1013B0041,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1013B0148,10/4/2013 13:07,"Replicate, Specific Analyte(s)",10/4/2013
+Aquatic Ecology,ES1013B0041,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1013B0147,10/4/2013 13:07,Normal Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1013B0176,10/4/2013 13:27,Replicate Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1013B0169,10/4/2013 13:27,Normal Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1013B0149,10/4/2013 14:25,Normal Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1013B0150,10/4/2013 14:25,Replicate Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1013B0151,10/4/2013 15:50,Normal Sample,10/4/2013
+Aquatic Ecology,ES1013B0041,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1013B0152,10/4/2013 15:50,"Replicate, Specific Analyte(s)",10/4/2013
+Aquatic Ecology,ES1013B0043,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1013B0180,10/8/2013 9:47,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,A0290400,Lisbon Sl @Toe Drain,YB - Fall Study,ES1013B0203,10/8/2013 10:18,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES1013B0200,10/8/2013 10:54,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1013B0182,10/8/2013 11:08,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,B9D81040386,SRV - Vieira's,YB - Fall Study,ES1013B0198,10/8/2013 11:21,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES1013B0196,10/8/2013 11:41,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1013B0184,10/8/2013 11:54,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,B9D81450411,Liberty at S End,YB - Fall Study,ES1013B0194,10/8/2013 11:58,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES1013B0192,10/8/2013 12:10,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES1013B0190,10/8/2013 12:31,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0043,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,ES1013B0188,10/8/2013 13:52,Normal Sample,10/8/2013
+Aquatic Ecology,ES1013B0045,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1013B0236,10/15/2013 9:37,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,A0290400,Lisbon Sl @Toe Drain,YB - Fall Study,ES1013B0258,10/15/2013 10:20,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES1013B0248,10/15/2013 10:24,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,B9D81450411,Liberty at S End,YB - Fall Study,ES1013B0250,10/15/2013 10:37,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES1013B0252,10/15/2013 10:50,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,B9D81040386,SRV - Vieira's,YB - Fall Study,ES1013B0254,10/15/2013 11:08,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1013B0238,10/15/2013 11:10,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES1013B0256,10/15/2013 11:20,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1013B0240,10/15/2013 11:46,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0045,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,ES1013B0244,10/15/2013 12:32,Normal Sample,10/15/2013
+Aquatic Ecology,ES1013B0049,A0D82691360,Toe Drain Bl YWA,YB - Fall Study,ES1013B0295,10/22/2013 0:46,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1013B0287,10/22/2013 9:19,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES1013B0307,10/22/2013 10:20,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES1013B0299,10/22/2013 10:23,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,B9D81040386,SRV - Vieira's,YB - Fall Study,ES1013B0305,10/22/2013 10:36,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1013B0289,10/22/2013 10:46,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES1013B0303,10/22/2013 11:00,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,B9D81450411,Liberty at S End,YB - Fall Study,ES1013B0301,10/22/2013 11:12,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1013B0291,10/22/2013 11:32,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0049,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES1013B0297,10/22/2013 11:42,Normal Sample,10/22/2013
+Aquatic Ecology,ES1013B0060,A0000000,YB @ RSTR,Yolo Bypass 2013,ES1013B0430,10/30/2013 8:50,Normal Sample,10/30/2013
+Aquatic Ecology,ES1013B0060,A0290400,Lisbon Sl @Toe Drain,Yolo Bypass 2013,ES1013B0431,10/30/2013 10:24,Normal Sample,10/30/2013
+Aquatic Ecology,ES0614B0033,A0290400,Lisbon Sl @Toe Drain,Yolo Bypass 2013,ES0614B0160,6/9/2014 10:50,Normal Sample,6/9/2014
+Aquatic Ecology,ES0814B0039,B9D81450411,Liberty at S End,YB - Fall Study from 0310 -KP,ES0814B0216,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A0D82120386,Toe Drain at STTD,YB - Fall Study from 0310 -KP,ES0814B0214,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A0D84761435,Ridge Cut Slough,YB - Fall Study from 0310 -KP,ES0814B0208,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,B9D81040386,SRV - Vieira's,YB - Fall Study from 0310 -KP,ES0814B0218,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,B9D80960412,RVB - Rio Vista,YB - Fall Study from 0310 -KP,ES0814B0219,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,B9D81281402,RYI - Cache Slough,YB - Fall Study from 0310 -KP,ES0814B0217,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A1030000,Woodland Wasetwater,YB - Fall Study from 0310 -KP,ES0814B0209,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A0033300,Davis Wastewater,YB - Fall Study from 0310 -KP,ES0814B0211,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study from 0310 -KP,ES0814B0215,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study from 0310 -KP,ES0814B0210,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0038,A0D84761435,Ridge Cut Slough,YB - Fall Study from 0310 -KP,ES0814B0183,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0039,A0D83441350,Toe Drain@ I-80,YB - Fall Study from 0310 -KP,ES0814B0212,8/4/2014 0:00,Normal Sample,8/4/2014
+Aquatic Ecology,ES0814B0042,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0814B0261,8/6/2014 10:34,Normal Sample,8/6/2014
+Aquatic Ecology,ES0814B0048,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0814B0316,8/21/2014 9:23,Normal Sample,8/21/2014
+Aquatic Ecology,ES0814B0052,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0814B0356,8/27/2014 9:30,Normal Sample,8/27/2014
+Aquatic Ecology,ES1014B0069,A1030000,Woodland Wasetwater,YB - Fall Study,ES1014B0533,10/13/2014 0:00,Normal Sample,10/13/2014
+Aquatic Ecology,ES1114B0073,B9D82851352,Toe Drain YB LISBON,Lisbon Weir - Nutrient and Phyto,ES1114B0581,11/6/2014 10:17,"Replicate, Specific Analyte(s)",11/6/2014
+Aquatic Ecology,ES1114B0073,B9D82851352,Toe Drain YB LISBON,Lisbon Weir - Nutrient and Phyto,ES1114B0579,11/6/2014 10:17,Normal Sample,11/6/2014
+Aquatic Ecology,ES0815B0045,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0815B0245,8/3/2015 8:45,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0045,A1030000,Woodland Wasetwater,YB - Fall Study,ES0815B0246,8/3/2015 9:11,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0045,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0815B0257,8/3/2015 9:30,"Replicate, Specific Analyte(s)",8/3/2015
+Aquatic Ecology,ES0815B0045,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0815B0247,8/3/2015 9:30,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0045,A0033300,Davis Wastewater,YB - Fall Study,ES0815B0248,8/3/2015 10:20,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0045,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0815B0249,8/3/2015 10:45,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0045,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0815B0250,8/3/2015 11:16,Normal Sample,8/3/2015
+Aquatic Ecology,ES0815B0048,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0815B0373,8/13/2015 8:36,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0050,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0815B0394,8/13/2015 9:51,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0815B0379,8/13/2015 9:55,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0815B0380,8/13/2015 10:20,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0815B0385,8/13/2015 10:20,"Replicate, Specific Analyte(s)",8/13/2015
+Aquatic Ecology,ES0815B0048,A1030000,Woodland Wasetwater,YB - Fall Study,ES0815B0374,8/13/2015 10:26,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D81450411,Liberty at S End,YB - Fall Study,ES0815B0381,8/13/2015 10:35,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0815B0382,8/13/2015 10:45,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0815B0375,8/13/2015 10:49,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0815B0383,8/13/2015 11:00,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0815B0384,8/13/2015 11:10,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,A0033300,Davis Wastewater,YB - Fall Study,ES0815B0376,8/13/2015 11:20,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0815B0377,8/13/2015 11:50,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0048,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0815B0378,8/13/2015 12:05,Normal Sample,8/13/2015
+Aquatic Ecology,ES0815B0052,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0815B0425,8/18/2015 6:55,"Replicate, Specific Analyte(s)",8/18/2015
+Aquatic Ecology,ES0815B0052,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0815B0413,8/18/2015 6:55,Normal Sample,8/18/2015
+Aquatic Ecology,ES0815B0053,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0815B0428,8/18/2015 7:19,Normal Sample,8/18/2015
+Aquatic Ecology,ES0815B0052,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0815B0417,8/18/2015 14:44,Normal Sample,8/18/2015
+Aquatic Ecology,ES0815B0052,A0033300,Davis Wastewater,YB - Fall Study,ES0815B0416,8/18/2015 15:04,Normal Sample,8/18/2015
+Aquatic Ecology,ES0815B0052,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0815B0415,8/18/2015 15:40,Normal Sample,8/18/2015
+Aquatic Ecology,ES0815B0052,A1030000,Woodland Wasetwater,YB - Fall Study,ES0815B0414,8/19/2015 10:12,Normal Sample,8/19/2015
+Aquatic Ecology,ES0815B0055,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0815B0447,8/27/2015 9:03,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0815B0453,8/27/2015 9:37,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0057,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0815B0465,8/27/2015 9:40,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0815B0454,8/27/2015 9:50,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0815B0449,8/27/2015 10:01,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D81450411,Liberty at S End,YB - Fall Study,ES0815B0455,8/27/2015 10:04,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0815B0456,8/27/2015 10:13,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0815B0457,8/27/2015 10:28,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0815B0458,8/27/2015 10:38,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,A1030000,Woodland Wasetwater,YB - Fall Study,ES0815B0448,8/27/2015 11:30,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,A0033300,Davis Wastewater,YB - Fall Study,ES0815B0450,8/27/2015 12:03,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0815B0451,8/27/2015 12:24,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0815B0452,8/27/2015 13:52,Normal Sample,8/27/2015
+Aquatic Ecology,ES0815B0055,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0815B0459,8/27/2015 13:52,"Replicate, Specific Analyte(s)",8/27/2015
+Aquatic Ecology,ES0915B0058,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0915B0478,9/1/2015 9:05,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0915B0479,9/1/2015 9:40,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,A1030000,Woodland Wasetwater,YB - Fall Study,ES0915B0480,9/1/2015 10:20,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0915B0481,9/1/2015 10:55,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,A0033300,Davis Wastewater,YB - Fall Study,ES0915B0482,9/1/2015 11:20,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0915B0483,9/1/2015 11:45,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0058,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0915B0484,9/1/2015 12:25,Normal Sample,9/1/2015
+Aquatic Ecology,ES0915B0060,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0915B0505,9/10/2015 9:15,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0915B0504,9/10/2015 9:52,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0915B0506,9/10/2015 10:02,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0033300,Davis Wastewater,YB - Fall Study,ES0915B0503,9/10/2015 10:12,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0915B0507,9/10/2015 10:20,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,B9D81450411,Liberty at S End,YB - Fall Study,ES0915B0508,9/10/2015 10:32,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0915B0509,9/10/2015 10:50,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0915B0499,9/10/2015 11:00,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0915B0510,9/10/2015 11:00,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0915B0511,9/10/2015 11:12,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0915B0500,9/10/2015 11:40,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A1030000,Woodland Wasetwater,YB - Fall Study,ES0915B0501,9/10/2015 12:11,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0060,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0915B0512,9/10/2015 12:30,"Replicate, Specific Analyte(s)",9/10/2015
+Aquatic Ecology,ES0915B0060,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0915B0502,9/10/2015 12:30,Normal Sample,9/10/2015
+Aquatic Ecology,ES0915B0061,A0033300,Davis Wastewater,YB - Fall Study,ES0915B0518,9/15/2015 7:25,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0061,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0915B0519,9/15/2015 7:48,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0061,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0915B0517,9/15/2015 14:45,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0061,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0915B0514,9/15/2015 15:11,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0061,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0915B0515,9/15/2015 15:36,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0061,A1030000,Woodland Wasetwater,YB - Fall Study,ES0915B0516,9/15/2015 16:00,Normal Sample,9/15/2015
+Aquatic Ecology,ES0915B0064,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0915B0538,9/21/2015 9:03,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A0L842113852,Knaggs Ranch - Oulet,YB - Fall Study,ES0915B0539,9/21/2015 9:28,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A1030000,Woodland Wasetwater,YB - Fall Study,ES0915B0540,9/21/2015 9:57,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0915B0541,9/21/2015 10:19,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0915B0545,9/21/2015 10:26,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0915B0546,9/21/2015 10:44,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A0033300,Davis Wastewater,YB - Fall Study,ES0915B0542,9/21/2015 10:54,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D81450411,Liberty at S End,YB - Fall Study,ES0915B0547,9/21/2015 10:55,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0915B0548,9/21/2015 11:05,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0915B0543,9/21/2015 11:16,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0915B0549,9/21/2015 11:20,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0915B0550,9/21/2015 11:35,Normal Sample,9/21/2015
+Aquatic Ecology,ES0915B0064,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0915B0551,9/21/2015 11:35,"Replicate, Specific Analyte(s)",9/21/2015
+Aquatic Ecology,ES0915B0064,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0915B0544,9/21/2015 11:48,Normal Sample,9/21/2015
+Aquatic Ecology,ES1015B0067,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1015B0571,10/1/2015 8:29,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0067,A1030000,Woodland Wasetwater,YB - Fall Study,ES1015B0573,10/1/2015 9:21,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0067,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1015B0574,10/1/2015 9:39,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0067,A0033300,Davis Wastewater,YB - Fall Study,ES1015B0575,10/1/2015 11:17,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0067,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1015B0576,10/1/2015 11:41,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0067,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1015B0577,10/1/2015 12:10,Normal Sample,10/1/2015
+Aquatic Ecology,ES1015B0069,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1015B0592,10/8/2015 8:20,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,A1030000,Woodland Wasetwater,YB - Fall Study,ES1015B0594,10/8/2015 8:55,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1015B0595,10/8/2015 9:14,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES1015B0599,10/8/2015 9:44,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,A0033300,Davis Wastewater,YB - Fall Study,ES1015B0596,10/8/2015 9:50,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES1015B0600,10/8/2015 10:00,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1015B0597,10/8/2015 10:10,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D81450411,Liberty at S End,YB - Fall Study,ES1015B0605,10/8/2015 10:11,"Replicate, Specific Analyte(s)",10/8/2015
+Aquatic Ecology,ES1015B0069,B9D81450411,Liberty at S End,YB - Fall Study,ES1015B0601,10/8/2015 10:11,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES1015B0602,10/8/2015 10:23,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1015B0598,10/8/2015 10:35,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D81040386,SRV - Vieira's,YB - Fall Study,ES1015B0603,10/8/2015 10:39,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0069,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES1015B0604,10/8/2015 10:51,Normal Sample,10/8/2015
+Aquatic Ecology,ES1015B0070,A0033300,Davis Wastewater,YB - Fall Study,ES1015B0611,10/14/2015 8:00,Normal Sample,10/14/2015
+Aquatic Ecology,ES1015B0070,A1030000,Woodland Wasetwater,YB - Fall Study,ES1015B0609,10/14/2015 10:10,Normal Sample,10/14/2015
+Aquatic Ecology,ES1015B0072,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1015B0628,10/19/2015 8:15,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,A1030000,Woodland Wasetwater,YB - Fall Study,ES1015B0630,10/19/2015 8:52,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1015B0641,10/19/2015 9:20,"Replicate, Specific Analyte(s)",10/19/2015
+Aquatic Ecology,ES1015B0072,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1015B0631,10/19/2015 9:20,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,A0033300,Davis Wastewater,YB - Fall Study,ES1015B0632,10/19/2015 10:00,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES1015B0635,10/19/2015 10:00,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1015B0633,10/19/2015 10:21,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES1015B0636,10/19/2015 10:26,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D81450411,Liberty at S End,YB - Fall Study,ES1015B0637,10/19/2015 10:48,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1015B0634,10/19/2015 11:00,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES1015B0638,10/19/2015 11:00,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D81040386,SRV - Vieira's,YB - Fall Study,ES1015B0639,10/19/2015 11:15,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0072,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES1015B0640,10/19/2015 11:36,Normal Sample,10/19/2015
+Aquatic Ecology,ES1015B0073,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES1015B0643,10/27/2015 9:03,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0073,A1030000,Woodland Wasetwater,YB - Fall Study,ES1015B0645,10/27/2015 9:44,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0073,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES1015B0646,10/27/2015 10:05,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0073,A0033300,Davis Wastewater,YB - Fall Study,ES1015B0647,10/27/2015 10:39,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0073,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES1015B0648,10/27/2015 10:58,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0073,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES1015B0649,10/27/2015 11:24,Normal Sample,10/27/2015
+Aquatic Ecology,ES1015B0074,A0200000,SHER,Yolo Bypass 2013,ES1015B0657,10/28/2015 9:04,Normal Sample,10/28/2015
+Aquatic Ecology,ES1015B0074,A0200000,SHER,Yolo Bypass 2013,ES1015B0660,10/28/2015 9:04,Replicate Sample,10/28/2015
+Aquatic Ecology,ES0616B0040,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0616B0335,6/23/2016 8:45,"Replicate, Specific Analyte(s)",6/23/2016
+Aquatic Ecology,ES0616B0040,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0616B0322,6/23/2016 8:45,Normal Sample,6/23/2016
+Aquatic Ecology,ES0616B0040,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0616B0325,6/23/2016 10:05,Normal Sample,6/23/2016
+Aquatic Ecology,ES0616B0040,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0616B0327,6/23/2016 11:41,Normal Sample,6/23/2016
+Aquatic Ecology,ES0616B0040,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0616B0329,6/23/2016 13:03,Normal Sample,6/23/2016
+Aquatic Ecology,ES0716B0046,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0716B0396,7/14/2016 11:00,Normal Sample,7/14/2016
+Aquatic Ecology,ES0716B0048,A1030000,Woodland Wasetwater,YB - Fall Study,ES0716B0417,7/20/2016 10:53,Normal Sample,7/20/2016
+Aquatic Ecology,ES0716B0048,A0033300,Davis Wastewater,YB - Fall Study,ES0716B0419,7/20/2016 12:30,Normal Sample,7/20/2016
+Aquatic Ecology,ES0716B0049,A0200000,SHER,Yolo Bypass 2013,ES0716B0429,7/20/2016 12:51,Normal Sample,7/20/2016
+Aquatic Ecology,ES0716B0053,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0716B0454,7/28/2016 8:10,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,A1030000,Woodland Wasetwater,YB - Fall Study,ES0716B0456,7/28/2016 9:07,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0716B0457,7/28/2016 9:35,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0716B0461,7/28/2016 9:48,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,A0033300,Davis Wastewater,YB - Fall Study,ES0716B0458,7/28/2016 10:15,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0716B0459,7/28/2016 10:40,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0716B0462,7/28/2016 11:15,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0716B0460,7/28/2016 11:16,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D81450411,Liberty at S End,YB - Fall Study,ES0716B0463,7/28/2016 11:35,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D81450411,Liberty at S End,YB - Fall Study,ES0716B0467,7/28/2016 11:35,"Replicate, Specific Analyte(s)",7/28/2016
+Aquatic Ecology,ES0716B0053,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0716B0464,7/28/2016 11:48,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0716B0465,7/28/2016 12:05,Normal Sample,7/28/2016
+Aquatic Ecology,ES0716B0053,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0716B0466,7/28/2016 12:17,Normal Sample,7/28/2016
+Aquatic Ecology,ES0816B0060,A1030000,Woodland Wasetwater,YB - Fall Study,ES0816B0555,8/3/2016 12:03,Normal Sample,8/3/2016
+Aquatic Ecology,ES0816B0060,A0033300,Davis Wastewater,YB - Fall Study,ES0816B0557,8/3/2016 12:45,Normal Sample,8/3/2016
+Aquatic Ecology,ES0816B0062,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0816B0577,8/9/2016 8:54,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,A1030000,Woodland Wasetwater,YB - Fall Study,ES0816B0576,8/9/2016 9:20,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0816B0581,8/9/2016 10:00,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,A0033300,Davis Wastewater,YB - Fall Study,ES0816B0578,8/9/2016 10:02,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0816B0582,8/9/2016 10:15,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0816B0579,8/9/2016 10:26,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D81450411,Liberty at S End,YB - Fall Study,ES0816B0583,8/9/2016 10:35,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0816B0584,8/9/2016 10:45,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0816B0585,8/9/2016 11:00,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0816B0587,8/9/2016 11:09,"Replicate, Specific Analyte(s)",8/9/2016
+Aquatic Ecology,ES0816B0062,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0816B0580,8/9/2016 11:09,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0062,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0816B0586,8/9/2016 11:12,Normal Sample,8/9/2016
+Aquatic Ecology,ES0816B0064,A1030000,Woodland Wasetwater,YB - Fall Study,ES0816B0606,8/17/2016 9:22,Normal Sample,8/17/2016
+Aquatic Ecology,ES0816B0064,A0033300,Davis Wastewater,YB - Fall Study,ES0816B0608,8/17/2016 10:59,Normal Sample,8/17/2016
+Aquatic Ecology,ES0816B0069,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0816B0680,8/22/2016 10:45,"Replicate, Specific Analyte(s)",8/22/2016
+Aquatic Ecology,ES0816B0069,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0816B0679,8/22/2016 10:45,Normal Sample,8/22/2016
+Aquatic Ecology,ES0816B0068,A1030000,Woodland Wasetwater,YB - Fall Study,ES0816B0654,8/25/2016 8:32,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0816B0655,8/25/2016 9:08,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,A0033300,Davis Wastewater,YB - Fall Study,ES0816B0656,8/25/2016 9:46,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0816B0657,8/25/2016 10:08,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0816B0659,8/25/2016 10:25,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0816B0658,8/25/2016 10:44,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0816B0660,8/25/2016 11:45,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D81450411,Liberty at S End,YB - Fall Study,ES0816B0661,8/25/2016 12:00,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0816B0662,8/25/2016 12:10,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0816B0665,8/25/2016 12:25,"Replicate, Specific Analyte(s)",8/25/2016
+Aquatic Ecology,ES0816B0068,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0816B0663,8/25/2016 12:25,Normal Sample,8/25/2016
+Aquatic Ecology,ES0816B0068,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0816B0664,8/25/2016 12:35,Normal Sample,8/25/2016
+Aquatic Ecology,ES0916B0073,A1030000,Woodland Wasetwater,YB - Fall Study,ES0916B0720,9/8/2016 8:40,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0916B0721,9/8/2016 9:00,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,A0D82120386,Toe Drain at STTD,YB - Fall Study,ES0916B0725,9/8/2016 9:40,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,A0033300,Davis Wastewater,YB - Fall Study,ES0916B0722,9/8/2016 10:20,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0916B0731,9/8/2016 10:50,"Replicate, Specific Analyte(s)",9/8/2016
+Aquatic Ecology,ES0916B0073,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0916B0723,9/8/2016 10:50,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D81651399,BL5 -Below Toe Drain,YB - Fall Study,ES0916B0726,9/8/2016 10:50,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D81450411,Liberty at S End,YB - Fall Study,ES0916B0727,9/8/2016 11:10,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D81281402,RYI - Cache Slough,YB - Fall Study,ES0916B0728,9/8/2016 11:25,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0916B0724,9/8/2016 11:30,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D81040386,SRV - Vieira's,YB - Fall Study,ES0916B0729,9/8/2016 11:45,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0073,B9D80960412,RVB - Rio Vista,YB - Fall Study,ES0916B0730,9/8/2016 12:00,Normal Sample,9/8/2016
+Aquatic Ecology,ES0916B0074,A1030000,Woodland Wasetwater,YB - Fall Study,ES0916B0735,9/13/2016 10:52,Normal Sample,9/13/2016
+Aquatic Ecology,ES0916B0074,A0033300,Davis Wastewater,YB - Fall Study,ES0916B0737,9/13/2016 11:55,Normal Sample,9/13/2016
+Aquatic Ecology,ES0117B0019,A0835502,YWA Midfield,Yolo Bypass 2013,ES0117B0264,1/31/2017 13:20,Replicate Sample,1/31/2017
+Aquatic Ecology,ES0117B0019,A0835502,YWA Midfield,Yolo Bypass 2013,ES0117B0261,1/31/2017 13:20,Normal Sample,1/31/2017
+Aquatic Ecology,ES0217B0023,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0303,2/10/2017 15:50,Normal Sample,2/10/2017
+Aquatic Ecology,ES0217B0023,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0306,2/10/2017 15:50,Replicate Sample,2/10/2017
+Aquatic Ecology,ES0217B0023,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0305,2/15/2017 12:45,Normal Sample,2/15/2017
+Aquatic Ecology,ES0217B0023,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0308,2/15/2017 12:45,Replicate Sample,2/15/2017
+Aquatic Ecology,ES0217B0030,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0400,2/24/2017 13:30,Normal Sample,2/24/2017
+Aquatic Ecology,ES0217B0030,A0835502,YWA Midfield,Yolo Bypass 2013,ES0217B0403,2/24/2017 13:30,Replicate Sample,2/24/2017
+Aquatic Ecology,ES0317B0033,A0835502,YWA Midfield,Yolo Bypass 2013,ES0317B0431,3/7/2017 13:30,Replicate Sample,3/7/2017
+Aquatic Ecology,ES0317B0033,A0835502,YWA Midfield,Yolo Bypass 2013,ES0317B0429,3/7/2017 13:30,Normal Sample,3/7/2017
+Aquatic Ecology,ES0317B0042,A0835502,YWA Midfield,Yolo Bypass 2013,ES0317B0550,3/27/2017 10:00,Normal Sample,3/27/2017
+Aquatic Ecology,ES0317B0042,A0835502,YWA Midfield,Yolo Bypass 2013,ES0317B0553,3/27/2017 10:00,Replicate Sample,3/27/2017
+Aquatic Ecology,ES0617B0064,A1030000,Woodland Wasetwater,YB - Fall Study,ES0617B0984,6/29/2017 12:00,Normal Sample,6/29/2017
+Aquatic Ecology,ES0617B0064,A0033300,Davis Wastewater,YB - Fall Study,ES0617B0986,6/29/2017 13:56,Normal Sample,6/29/2017
+Aquatic Ecology,ES0717B0066,A0D84761435,Ridge Cut Slough,YB - Fall Study,ES0717B1005,7/6/2017 8:57,Normal Sample,7/6/2017
+Aquatic Ecology,ES0717B0066,A1030000,Woodland Wasetwater,YB - Fall Study,ES0717B1006,7/6/2017 9:30,Normal Sample,7/6/2017
+Aquatic Ecology,ES0717B0066,A0D84061386,Toe Drain at Rd. 22,YB - Fall Study,ES0717B1007,7/6/2017 9:51,Normal Sample,7/6/2017
+Aquatic Ecology,ES0717B0066,A0033300,Davis Wastewater,YB - Fall Study,ES0717B1008,7/6/2017 10:42,Normal Sample,7/6/2017
+Aquatic Ecology,ES0717B0066,A0D83441350,Toe Drain@ I-80,YB - Fall Study,ES0717B1009,7/6/2017 11:01,Normal Sample,7/6/2017
+Aquatic Ecology,ES0717B0066,B9D82851352,Toe Drain YB LISBON,YB - Fall Study,ES0717B1010,7/6/2017 11:38,Normal Sample,7/6/2017
+Aquatic Ecology,ES0817B0075,A1030000,Woodland Wasetwater,YB - Fall Study,ES0817B1193,8/3/2017 9:40,Normal Sample,8/3/2017
+Aquatic Ecology,ES0817B0075,A0033300,Davis Wastewater,YB - Fall Study,ES0817B1195,8/3/2017 11:10,Normal Sample,8/3/2017
+Aquatic Ecology,ES0819B0023,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0258,8/5/2019 12:30,Blank; Equipment,8/5/2019
+Aquatic Ecology,ES0819B0023c,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0259,8/6/2019 15:00,Blank; Equipment,8/6/2019
+Aquatic Ecology,ES0819B0023ca,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0260,8/7/2019 14:00,Blank; Equipment,8/7/2019
+Aquatic Ecology,ES0819B0027,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0337,8/19/2019 13:30,Blank; Equipment,8/19/2019
+Aquatic Ecology,ES0819B0027aa,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0338,8/20/2019 13:30,Blank; Equipment,8/20/2019
+Aquatic Ecology,ES0819B0027a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0819B0339,8/21/2019 16:00,Blank; Equipment,8/21/2019
+Aquatic Ecology,ES0919B0028,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0360,9/3/2019 14:30,Blank; Equipment,9/3/2019
+Aquatic Ecology,ES0919B0028a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0361,9/4/2019 15:00,Blank; Equipment,9/4/2019
+Aquatic Ecology,ES0919B0028a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0362,9/5/2019 12:30,Blank; Equipment,9/5/2019
+Aquatic Ecology,ES0919B0029,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0383,9/16/2019 12:00,Blank; Equipment,9/16/2019
+Aquatic Ecology,ES0919B0029a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0384,9/17/2019 12:30,Blank; Equipment,9/17/2019
+Aquatic Ecology,ES0919B0029aa,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES0919B0385,9/18/2019 13:30,Blank; Equipment,9/18/2019
+Aquatic Ecology,ES1019B0031,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0417,9/30/2019 12:30,Blank; Equipment,9/30/2019
+Aquatic Ecology,ES1019B0031a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0418,10/1/2019 14:00,Blank; Equipment,10/1/2019
+Aquatic Ecology,ES1019B0031aa,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0419,10/2/2019 14:30,Blank; Equipment,10/2/2019
+Aquatic Ecology,ES1019B0032,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0439,10/14/2019 12:30,Blank; Equipment,10/14/2019
+Aquatic Ecology,ES1019B0032a,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0440,10/15/2019 15:00,Blank; Equipment,10/15/2019
+Aquatic Ecology,ES1019B0032aa,Blank; Equipment,Blank; Equipment, North Delta Flow Action,ES1019B0441,10/16/2019 14:30,Blank; Equipment,10/16/2019

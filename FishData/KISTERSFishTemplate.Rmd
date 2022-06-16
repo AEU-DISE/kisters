@@ -1,0 +1,748 @@
+---
+title: "KISTERSFishTemplate"
+author: "Catarina Pien"
+date: "6/15/2020"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load libraries
+```{r load }
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+library(anytime)
+library(stringr)
+```
+
+Import data
+```{r importdata}
+
+# Data retrieved 6/15/2020
+# Revised: 7/22/2021
+fish_catch1 <- read.csv("Data/Catch1.csv")
+fish_catch2 <- read.csv("Data/Catch2.csv")
+fish_catch3 <- read.csv("Data/Catch3.csv")
+fish_catch4 <- read.csv("Data/Catch4.csv")
+fish_catch5 <- read.csv("Data/Catch5.csv")
+fish_catchM1 <- rbind(fish_catch1, fish_catch2)
+fish_catchM2 <- rbind(fish_catchM1, fish_catch3)
+fish_catchM3 <- rbind(fish_catchM2, fish_catch4)
+fish_catchM <- rbind(fish_catchM3, fish_catch5)
+fish_stations <- read.csv("Data/YBFMP_Stations_Coordinates_info.csv")
+fish_ref <- read.csv("Data/Sample_20210722.csv")
+fish_tax <- read.csv("Data/FishLookUp.csv")
+fish_tax_ed <- read.csv("Data/FishTaxonomyKISTERS.csv") #Edited for KISTERS, only has species present
+smelt_gen <- read.csv("Data/SmeltGenetics_20210722.csv")
+salm_gen <- read.csv("Data/SalmGenetics_20210722.csv")
+salm_diet1 <- read.csv("Data/SalmonDiet_2012_2015.csv")
+salm_diet2 <- read.csv("Data/SalmonDiet_2016.csv")
+salm_diet3 <- read.csv("Data/SalmonDiet_2017.csv")
+salm_diet4 <- read.csv("Data/SalmonDiet_2018.csv")
+smelt_diet <- read.csv("Data/SmeltDiets.csv")
+seine <- read.csv("Data/SeineEffort_20210722.csv")
+trap <- read.csv("Data/TrapEffort_20210722.csv")
+cwt <- read.csv("Data/CWT_20210722.csv")
+stationNum <- read.csv("Data/YBFMP_Stations_Coordinates_Info.csv")
+str(fish_ref)
+
+# Add and change date formats
+#fish_ref$SampleTime <- hms(fish_ref$SampleTime)
+fish_ref <- mutate(fish_ref, Datetime = paste(SampleDate, SampleTime, sep = " ")) 
+fish_ref$Datetime <-  mdy_hms(fish_ref$Datetime) 
+fish_ref <- arrange(fish_ref, Datetime)
+# fish_ref$Year <- ordered(year(fish_ref$Datetime))
+# fish_ref$Month <- ordered(month(fish_ref$DateTime))
+fish_ref$SampleDate <-as.Date(fish_ref$SampleDate,format ="%m/%d/%Y")
+fish_ref$SampleTime <- parse_date_time(fish_ref$SampleTime, '%I:%M:%S %p')
+
+# Make some lists
+dietOrgs <- c("CHN", "RBT", "WAG", "LFS", "DSM")
+salmonids <- c("CHN", "RBT")
+smelts <- c("DSM", "WAG", "LFS")
+
+str(fish_ref)
+```
+
+
+Clean 
+```{r clean}
+library(magrittr)
+
+## define a helper function
+empty_as_na <- function(x){
+    if("factor" %in% class(x)) x <- as.character(x) ## since ifelse wont work with factors
+    ifelse(as.character(x)!="", x, NA)
+}
+
+# Sample 
+fish_ref_clean <- fish_ref %>% 
+  select(-c(WeatherCode,MicrocystisVisualRank:s_Lineage)) %>%
+  filter(!StationCode %in% c("STB", "STB3", "STB5", "STFP", "YBSP1", "CCS5", "CCS6")) %>%
+  mutate(StationCode = replace(StationCode, StationCode == "STS", "BL4"),
+         StationCode = replace(StationCode, StationCode == "YBSP1", "YB")) %>%
+  mutate(StationCode = replace(as.character(StationCode), StationCode == "LI", "LIS")) %>%
+ mutate(MethodCode = replace(MethodCode, MethodCode == "FNET", "FKTR")) %>%
+ # mutate()
+  rename(SampleMethod = MethodCode)
+
+unique(fish_ref_clean$VegetationRank)
+unique(fish_ref_clean$GearConditionCode)
+unique(fish_ref_clean$StationCode)
+unique(fish_ref_clean$SampleMethod)
+unique(fish_ref_clean$GearID)
+
+# Catch
+fish_catch_clean <- fish_catch %>%
+  filter(!(OrganismCode == "CHN" & Count == 0)) %>%
+  select(-c(s_ColLineage:s_Lineage))%>%
+  mutate(OrganismCode = ifelse(as.character(OrganismCode) == "lp", "LP", as.character(OrganismCode)),
+         OrganismCode = ifelse(as.character(OrganismCode) == "tfs", "TFS", as.character(OrganismCode)),
+  OrganismCode = ifelse(as.character(OrganismCode) == "SF", "PKN", as.character(OrganismCode)))  %>%
+  rename(FishIDComments = Comments) %>%
+  mutate(Plus.Count = replace(Plus.Count, is.na(ForkLength) & Count >1, TRUE),
+         Plus.Count = replace(Plus.Count, !is.na(ForkLength) & Count == 1, FALSE)) %>%
+  mutate(Race = ifelse(Race == "f", "F",
+                       ifelse(Race == "U" | Race == "", "n/p", as.character(Race)))) %>%
+  mutate(Sex = ifelse(Sex == "Female", "F",
+                      ifelse(Sex == "Male", "M",
+                             ifelse(Sex == "Unknown", "U", NA)))) %>%
+  mutate(FishTagID = str_replace_all(FishTagID, "2019Ad_Plus", "2019Ad_plus")) %>%
+  mutate(MarkCode = replace(MarkCode, MarkCode == "none", "None")) %>%
+  mutate(Spawning.Condition = ifelse(Spawning.Condition == 
+                                       "Expressing Eggs", "EGGS",
+                                     ifelse(Spawning.Condition == "Expressing Milt", "MILT",
+                                            NA))) %>%
+  mutate(StageCode = ifelse(StageCode == "CHN_S", "SMT", 
+                           ifelse(StageCode == "CHN_P", "PAR",
+                                  ifelse(StageCode == "CHN_X", "TRS", 
+                                         ifelse(substring(FishTagID, 1L, 1L) == "A", "ADT",
+                                                ifelse(StageCode == "n/p", "n/p",
+                                                NA))))))
+fish_catch_clean$FishTagID <- gsub("minus", "min", fish_catch_clean$FishTagID)
+fish_catch_clean$FishTagID <- gsub("min", "minus", fish_catch_clean$FishTagID)
+
+empty <- filter(fish_catch_clean, is.na(SampleID)) 
+
+unique(fish_catch_clean$MarkCode)
+unique(fish_catch_clean$StageCode) ### Check if there are changes
+unique(fish_catch_clean$Spawning.Condition)
+unique(fish_catch_clean$Sex)
+unique(fish_catch_clean$Race)
+a <- filter(fish_catch_clean, Race == "n/p" & OrganismCode == "CHN")
+
+#51 Observations without SampleID. 
+
+# Taxa
+fish_tax_clean <- fish_tax %>%
+  select(c(2,4)) %>%
+  dplyr::rename(Field_ID_CommonName = CommonName)
+
+fish_tax_ed_clean <- fish_tax_ed %>%
+  dplyr::rename(OrganismCode = OrganismCode_FISH,
+                Field_ID_CommonName = CommonName)
+
+# Seine
+seine_clean <- seine %>%
+  select(c(1, 4:10, 11, 16)) %>%
+  rename(SeineComments=Comments) %>%
+  mutate(SubstrateCode =
+           ifelse(as.character(SubstrateCode) %in% c("Gravel", "grv", "GR"),
+             "GRV",
+             ifelse(as.character(SubstrateCode) %in% c("Mud", "MD", "md", "mud"),
+               "MUD",
+               ifelse(as.character(SubstrateCode) %in% c("PV", "Pavement"),
+                 "PAV",
+                 ifelse(as.character(SubstrateCode) %in% c("Vegetation", "VG"),
+                   "AVG",
+                   ifelse(as.character(SubstrateCode) %in% c("Sand", "SN", "silt"),
+                     "SND",
+                     ifelse(as.character(SubstrateCode) == "mud and gr",
+                       "GRV",
+                       ifelse(as.character(SubstrateCode) == "mud/veg",
+                         "AVG",
+                         ifelse(as.character(SubstrateCode) == "grass", 
+                           "TVG",
+                     as.character(SubstrateCode)
+                   )))))))))
+         
+
+unique(seine_clean$HabitatType) #good
+unique(seine_clean$SubstrateCode) # good
+unique(seine_clean$Region)
+
+# Trap
+trap_clean <- trap %>%
+  select(1, 4:6) %>%
+  rename(TrapComments = Comments)
+
+unique(trap_clean$TrapStatus)
+
+## genetics ##
+smelt_gen_clean <- smelt_gen %>%
+  select(-c("Active")) %>%
+  dplyr::rename(GenotypeRun = Genotype.Run,
+                GeneticID = SPECIES..Assay.ID.,
+                qDS = q..DS.,
+                qLFS = q..LF.,
+                qWAG = q..WK.,
+                numChrom = X..Chroms,
+                SmeltComments = COMMENTS)%>%
+  mutate(GeneticID = ifelse(GeneticID == "hybrid (LFS/WAG)", "HYB_LFS_WAG",
+                            ifelse(GeneticID == "hybrid (DSM/WAG)", "HYB_DSM_WAG",
+                                   ifelse(GeneticID == "missing data", "UNK", as.character(GeneticID)))))
+
+unique(smelt_gen_clean$GeneticID)
+unique(smelt_gen_clean$V.shape)
+
+salm_gen_clean <- salm_gen %>%
+  dplyr::rename(GeneticID1 = BestEstimate,
+                GeneticID2 = X2ndBestEstimate,
+                SalmComments = Comments) 
+salm_gen_clean$FishTagID <- gsub("minus", "min", salm_gen_clean$FishTagID)
+salm_gen_clean$FishTagID <- gsub("min", "minus", salm_gen_clean$FishTagID)
+
+
+# CWT
+cwt_clean <- cwt %>%
+  select(-CWTRowID) %>%
+  rename(CWTComments = Comments)
+
+# Station Number
+staNum_clean <- stationNum %>%
+  select(c(1,2)) %>%
+  rename(StationCode = Station.Name) 
+```
+
+Diet data
+```{r diet}
+
+# Salmon Diet
+
+salm_diet <- read.csv("Data/SalmonDiet_2012_2015.csv")
+diets2016 <- read.csv("Data/SalmonDiet_2016.csv")
+diets2017 <- read.csv("Data/SalmonDiet_2017.csv")
+diets2018 <- read.csv("Data/SalmonDiet_2018.csv")
+smelt_diet <- read.csv("Data/SmeltDiets.csv")
+
+salm_diet_c1 <- dplyr::rename(salm_diet,
+       ProcessedBy = Processed.by,
+       FishTagID = ID..,
+       ForkLength = FL,
+       ForkLengthLabel = FL..Label.if.different.from.data.sheet.,
+       WeightLabel = Label.Weight..If.does.not.match.weight.on.Inventory.,
+       SampleDate = Date,
+       StationCode = Site.Code,
+       Race = X,
+       WeightStomachFull = Damp.wt,
+       WeightStomachEmpty = Empty.wt,
+       PreyTaxa = Prey.taxa,
+       WeightPrey = Wt,
+       LifeStage = LH,
+       StomachBrokenDamaged = Stomach.broken.damaged,
+       ProcessedBy = Processed.by,
+       StomachComments = Comments,
+       HigherTaxa = REF,
+       QAQCBy = QA) %>%
+  mutate(OrganismCode = "CHN",
+         SN = NA,
+         SampleTime = NA) %>%
+ select(c("FishTagID", "SampleDate", "SampleTime", "StationCode", "Gear", "OrganismCode", "SN", "Race", "ForkLength", "Weight", "ForkLengthLabel", "WeightLabel", "Fullness", "Digestion", "WeightStomachFull", "WeightStomachEmpty", "PreyTaxa", "LifeStage", "HigherTaxa", "Count", "WeightPrey", "StomachBrokenDamaged", "StomachComments", "ProcessedBy", "QAQCBy"))
+
+
+diets2016c <- diets2016 %>%
+  rename(
+    ProcessedBy = Processed.by,
+    FishTagID = ID,
+    ForkLength = FL..mm.,
+    Weight = wt..g.,
+    OrganismCode = Species,
+    SampleDate = Date,
+    SampleTime = Time,
+    StationCode = Gear,
+    WeightStomachFull = full.wt,
+    WeightStomachEmpty = empty.wt,
+    PreyTaxa = Prey.Taxa,
+    WeightPrey = wt..g..1,
+    LifeStage = LH,
+    StomachComments = Comments,
+    HigherTaxa = Higher.level,
+    QAQCBy = QA.QC
+  ) %>%
+  mutate(Gear = NA,
+         Race = NA,
+         ForkLengthLabel = NA,
+         WeightLabel = NA,
+         StomachBrokenDamaged = NA,
+         Inventory = NA) %>%
+ select(c("FishTagID", "SampleDate", "SampleTime", "StationCode", "Gear", "OrganismCode", "SN", "Race", "ForkLength", "Weight", "ForkLengthLabel", "WeightLabel", "Fullness", "Digestion", "WeightStomachFull", "WeightStomachEmpty", "PreyTaxa", "LifeStage", "HigherTaxa", "Count", "WeightPrey", "StomachBrokenDamaged", "StomachComments", "ProcessedBy", "QAQCBy"))
+
+
+diets201718 <- rbind(diets2017, diets2018)
+
+diets201718c <-  diets201718 %>%
+  rename(
+    ProcessedBy = Processed.by,
+    FishTagID = ID,
+    ForkLength = FL..mm.,
+    Weight = wt..g.,
+    OrganismCode = Species,
+    SampleDate = Date,
+    SampleTime = Time,
+    WeightStomachFull = full.wt,
+    WeightStomachEmpty = empty.wt,
+    PreyTaxa = Prey.Taxa,
+    WeightPrey = wt..g..1,
+    LifeStage = LH,
+    StomachComments = Comments,
+    HigherTaxa = Higher.level,
+    QAQCBy = QA.QC
+  ) %>%
+  mutate(OrganismCode = ifelse(grepl("DSM", FishTagID), "DSM", 
+                               as.character(OrganismCode)),
+    StationCode = NA,
+    SN = NA,
+         Gear = NA,
+         Race = NA,
+         ForkLengthLabel = NA,
+         WeightLabel = NA,
+         StomachBrokenDamaged = NA,
+    Inventory = NA) %>%
+ select(c("FishTagID", "SampleDate", "SampleTime", "StationCode", "Gear", "OrganismCode", "SN", "Race", "ForkLength", "Weight", "ForkLengthLabel", "WeightLabel", "Fullness", "Digestion", "WeightStomachFull", "WeightStomachEmpty", "PreyTaxa", "LifeStage", "HigherTaxa", "Count", "WeightPrey", "StomachBrokenDamaged", "StomachComments", "ProcessedBy", "QAQCBy"))
+
+# salmonid
+salm_diet_c2 <- filter(diets2016c, OrganismCode == "CHN" |OrganismCode == "RBT")
+salm_diet_c3 <- filter(diets201718c, OrganismCode == "CHN")
+salm_diet_clean0 <- rbind(salm_diet_c2, salm_diet_c3)
+salm_diet_clean <- rbind(salm_diet_c1, salm_diet_clean0) 
+str(salm_diet_clean)
+salm_diet_clean$SampleDate <- as.Date(salm_diet_clean$SampleDate, format = "%m/%d/%Y")
+salm_diet_clean <- salm_diet_clean %>%
+  arrange(SampleDate, FishTagID)
+salm_diet_clean$FishTagID <- gsub("_Ad", "Ad", salm_diet_clean$FishTagID)
+salm_diet_clean$FishTagID <- gsub("minus", "min", salm_diet_clean$FishTagID)
+salm_diet_clean$FishTagID <- gsub("min", "minus", salm_diet_clean$FishTagID)
+
+# smelt 
+head(smelt_diet)
+
+smelt_diet_c1 <- dplyr::rename(smelt_diet,
+       ProcessedBy = Processed.by,
+       FishTagID = ID..,
+       ForkLength = FL,
+       ForkLengthLabel = FL..Label.if.different.from.data.sheet.,
+       WeightLabel = Weight.in.field,
+       SampleDate = Date,
+       HigherTaxa = X,
+       WeightStomachFull = Damp.wt,
+       WeightStomachEmpty = Empty.wt,
+       PreyTaxa = Prey.taxa,
+       WeightPrey = Wt,
+       LifeStage = LH,
+       StomachBrokenDamaged = Stomach.broken.damaged,
+       ProcessedBy = Processed.by,
+       StomachComments = Comments,
+       QAQCBy = QA) %>%
+       mutate(OrganismCode = ifelse(grepl("W", FishTagID), "WAG",
+                        ifelse(grepl("S", FishTagID), "DSM", NA)),
+         StationCode = NA,
+         Race=NA,
+         SN = NA,
+         Gear = NA,
+         SampleTime = NA) %>%
+ select(c("FishTagID", "SampleDate", "SampleTime", "StationCode", "Gear", "OrganismCode", "SN", "Race", "ForkLength", "Weight", "ForkLengthLabel", "WeightLabel", "Fullness", "Digestion", "WeightStomachFull", "WeightStomachEmpty", "PreyTaxa", "LifeStage", "HigherTaxa", "Count", "WeightPrey", "StomachBrokenDamaged", "StomachComments", "ProcessedBy", "QAQCBy"))
+
+
+smelt_diet_c2 <- filter(diets2016c, OrganismCode %in% c("DSM", "WAG")) 
+smelt_diet_c3 <- filter(diets201718c, OrganismCode %in% c("DSM", "WAG"))
+smelt_diet_clean0 <- rbind(smelt_diet_c2, smelt_diet_c3)
+smelt_diet_clean <- rbind(smelt_diet_c1, smelt_diet_clean0)
+smelt_diet_clean$SampleDate <- as.Date(smelt_diet_clean$SampleDate, format = "%m/%d/%Y")
+smelt_diet_clean <- smelt_diet_clean %>%
+    arrange(SampleDate, FishTagID)
+smelt_diet_clean$FishTagID <- gsub("2016WAG", "2016_WAG", smelt_diet_clean$FishTagID)
+smelt_diet_clean$FishTagID <- gsub("WAG0", "WAG_0", smelt_diet_clean$FishTagID)
+
+diet_clean <- rbind(salm_diet_clean, smelt_diet_clean)
+str(diet_clean)
+
+diet_clean$SampleTime <- strptime(diet_clean$SampleTime, format = "%H:%M")
+diet_clean$SampleTime <- as.POSIXct(diet_clean$SampleTime, format = "%H:%M")
+summary(diet_clean)
+```
+
+
+1. Join catch and genetics, QC
+```{r joinGenetics}
+
+### Genetics
+
+CatchGenetics <- left_join(fish_catch_clean, salm_gen_clean, by = "FishTagID")
+CatchGenetics2 <- left_join(CatchGenetics, smelt_gen_clean, by = "FishTagID") %>%
+    mutate_each(funs(empty_as_na))
+
+# QC Genetics
+checkGen <- filter(CatchGenetics2, FishTagID !="" & Genetic.Sample == "TRUE") %>%
+  arrange(OrganismCode)
+
+# Salmon
+checkGenSalm <- filter(checkGen, is.na(Prob1) & 
+                         OrganismCode == "CHN" & 
+                         !grepl("2020", FishTagID)  &
+                         !grepl("min", FishTagID)) %>%
+  arrange(FishTagID)
+
+# Add 2019_ACHN_001
+# Add 2017Ad_plus-F_02
+# Add all 2019Ad_Plus-S
+# Add all 2019Ad_Plus-W
+
+# Smelt 
+checkGenSmelt <- filter(checkGen, is.na(GeneticID) & 
+                          OrganismCode %in% c("DSM", "LFS", "WAG") & 
+                          !grepl("2020", FishTagID) & 
+                          is.na(GeneticID)) %>% arrange(FishTagID)
+
+# Add all of this in. I think some are missing. 
+
+# Sent to Amanda
+# write.csv(checkGenSalm, "R_write/SalmonMissing2.csv")
+# write.csv(checkGenSmelt, "R_write/SmeltMissing2.csv")
+
+```
+
+2. Join CWT, QC
+```{r joinCWT}
+CatchGenCWT <- left_join(CatchGenetics2, cwt_clean)
+
+checkCWT <- filter(CatchGenCWT, 
+                   OrganismCode == "CHN",
+                   grepl("min", FishTagID),
+                   is.na(CWT_TagCode),
+                   !grepl("no tag", CWTComments),
+                   !grepl("tag lost", CWTComments)) %>%
+  select(-c(SalmGenRowID:GenotypeRun))
+
+# Sent to Amanda missing CWT Tags
+# write.csv(checkCWT, "R_write/MissingCWTTag.csv")
+
+```
+
+3. Join with taxonomic info, QC
+```{r joinTaxonomy}
+CatchTaxon <- left_join(CatchGenCWT, fish_tax_ed_clean) 
+checkTaxa <- filter(CatchTaxon, is.na(TaxonName))
+```
+
+4. Join Sample info with seine info
+```{r joinSampleSeine, warning = FALSE, message = FALSE}
+
+SampleSeine <- left_join(fish_ref_clean, seine_clean) %>%
+  mutate(GearConditionCode = ifelse(is.na(GearConditionCode) & !is.na(ConditionCode), ConditionCode, GearConditionCode),
+    GearConditionCode = ifelse(grepl("too deep", SeineComments), 4, GearConditionCode),
+         GearConditionCode = ifelse(grepl("Too much hyacinth", SeineComments), 4, GearConditionCode)) %>%
+  select(-c(ConditionCode))
+# Converted comments of no seining to gear condition code of 4. 
+
+checkSampleSeine <- filter(SampleSeine, 
+                           SampleMethod == "BSEIN",
+                           is.na(VolumeSeined),
+                           GearConditionCode!= "4") %>%
+  arrange(SampleDate, StationCode)
+
+# Lots of missing seine info (length, width, depth). 
+
+```
+
+5. Join above with trap info
+```{r joinTrap, warning = FALSE, message = FALSE}
+SampleTrap <- left_join(SampleSeine, trap_clean) %>%
+  mutate_if(is.factor, funs(empty_as_na)) %>%
+  mutate_if(is.character, funs(empty_as_na)) %>%
+  mutate(FieldComments = ifelse(SampleMethod == "BSEIN", SeineComments,
+                                ifelse(SampleMethod %in% c("RSTR","FKTR"), TrapComments, NA)))%>%
+  select(-c(TrapComments,SeineComments))
+  
+str(SampleTrap)
+
+checkSampleTrap <- filter(SampleTrap,
+                          SampleMethod == "RSTR",
+                          GearConditionCode!="4") %>%
+  select(-c(SeineLength:VolumeSeined)) %>%
+  arrange(SampleDate, StationCode)
+
+```
+
+6. Station Number
+
+```{r joinStation, message = FALSE, warning = FALSE}
+StationNum <- left_join(SampleTrap, staNum_clean)
+
+checkStationNum <- filter(StationNum, is.na(Station.Number))
+
+# Deal with stations not on the list 
+
+```
+
+7. Join all
+
+```{r joinAll, warning = FALSE, message = FALSE}
+alldata <- full_join(StationNum, CatchTaxon) %>%
+  arrange(Datetime, StationCode)
+
+str(alldata)
+
+# Remove anything without a SampleID
+
+alldata <- filter(alldata, !is.na(SampleID))
+
+# Remove some columns
+alldata <- alldata %>%
+  select(-c(Kingdom:Superfamily, SmeltGenRowID, SalmGenRowID))
+
+alldata$SampleDate <- as.Date(alldata$SampleDate, format = "%m/%d/%Y")
+
+```
+
+
+8. Join diet data
+
+```{r joinDiet}
+
+#QAQC
+salm <- full_join(diet_clean, by = "FishTagID")
+checksalmdiet <- salm %>%
+  filter(is.na(OrganismCode.y))
+uniquesalm <- unique(checksalmdiet$FishTagID) # 296 fish IDs missing in catch table
+
+smelt <- full_join(smelt_diet_clean, CatchGenetics2, by = "FishTagID")
+checksmeltdiet <- smelt %>% filter(is.na(OrganismCode.y))
+uniquesmelt <- unique(checksmeltdiet$FishTagID) # 90 fish IDs missing in catch table
+
+### Actual Join
+
+alldataDiet0 <- full_join(alldata, diet_clean, by = c("FishTagID", "OrganismCode"))
+alldataDiet <- filter(alldataDiet0, !is.na(SampleID))
+alldataDiet$QAQCBy <- as.character(alldataDiet$QAQCBy)
+alldataDiet$Gear <- as.character(alldataDiet$Gear)
+alldataDiet$Race.y <- as.character(alldataDiet$Race.y)
+
+alldataDiet$SampleTime.x <- format(alldataDiet$SampleTime.x, "%H:%M:%S")
+alldataDiet$SampleDate.x <- format(alldataDiet$SampleDate.x, "%m/%d/%Y")
+alldataDiet$SampleTime.y <- format(alldataDiet$SampleTime.y, "%H:%M:%S")
+alldataDiet$SampleDate.y <- format(alldataDiet$SampleDate.y, "%m/%d/%Y")
+str(alldataDiet)
+
+str(diet_clean)
+noSampleID <- filter(alldataDiet, is.na(SampleID))
+```
+
+9. Filter for plus count
+```{r PlusCount}
+plusCount <- alldata %>%
+  filter(Plus.Count == "TRUE",
+         !is.na(SampleDate)) %>%
+
+  mutate(Species = ifelse(OrganismCode == "SNF", "Centrarchidae",
+                  ifelse(OrganismCode == "SCP", "Cottidae",
+                    ifelse(OrganismCode == "CAT", "Ictaluridae",
+                    ifelse(OrganismCode == "SME", "Osmeridae",
+                    ifelse(OrganismCode == "LAM", "Lampetra",
+                    ifelse(OrganismCode == "BAS", "Micropterus",
+                                        as.character(Species))))))),
+         Genus = ifelse(OrganismCode == "SNF", "Perciformes",
+                ifelse(OrganismCode == "SCP", "Cottoidei",
+                ifelse(OrganismCode == "CAT", "Siluriformes",
+                ifelse(OrganismCode == "SME", "Osmeriformes",
+                ifelse(OrganismCode == "LAM", "Petromyzontidae",
+                ifelse(OrganismCode == "BAS", "Centrarchidae",
+                                        as.character(Genus)))))))) %>%
+  dplyr::select(c("SampleID", "SampleDate", "SampleTime", "StationCode", "Station.Number", "SampleMethod", "GearID", "GearConditionCode", "VegetationRank", "TrapStatus", "Rev.Counter", "Region", "SeineLength", "SeineWidth", "SeineDepth", "VolumeSeined", "HabitatType", "SubstrateCode", "FieldComments", "DataCorrectionComments", 
+"OrganismCode", "Species", "Genus", "Count", 
+"FishIDComments")) %>%
+    mutate_if(is.factor, as.character) %>%
+  mutate_at(vars(StationCode: FishIDComments), ~replace_na(., "")) %>%
+  rename(LowestTaxon = Species,
+         Parent = Genus,
+         SamplingArea = Station.Number)
+plusCount$SampleTime <- format(plusCount$SampleTime, "%H:%M:%S")
+plusCount$SampleDate <- format(plusCount$SampleDate, "%m/%d/%Y")
+
+today = today()
+write.csv(plusCount, paste0("R_write/Fishdata_pluscount_", today, ".csv"))
+
+```
+
+10. Filter for count, create column for no catch
+* Add FishTagIDs for each data type
+* Edit the species whose lowest taxa are not genus species
+```{r Count}
+countCatch <- alldata %>%
+  filter(Plus.Count != "TRUE",
+         !is.na(SampleDate),
+         !is.na(SampleTime)) %>%
+  mutate(NoCatch = ifelse(OrganismCode == "NONE", "Y", "N"),
+         FishTagID2 = FishTagID,
+         FishTagID3 = FishTagID,
+         FishTagID4 = FishTagID,
+         Species = ifelse(OrganismCode == "SNF", "Centrarchidae",
+                  ifelse(OrganismCode == "SCP", "Cottidae",
+                    ifelse(OrganismCode == "CAT", "Ictaluridae",
+                    ifelse(OrganismCode == "SME", "Osmeridae",
+                    ifelse(OrganismCode == "LAM", "Lampetra",
+                    ifelse(OrganismCode == "BAS", "Micropterus",
+                                        as.character(Species))))))),
+         Genus = ifelse(OrganismCode == "SNF", "Perciformes",
+                ifelse(OrganismCode == "SCP", "Cottoidei",
+                ifelse(OrganismCode == "CAT", "Siluriformes",
+                ifelse(OrganismCode == "SME", "Osmeriformes",
+                ifelse(OrganismCode == "LAM", "Petromyzontidae",
+                ifelse(OrganismCode == "BAS", "Centrarchidae",
+                                        as.character(Genus)))))))) %>%
+dplyr::select(c("SampleID", "SampleDate", "SampleTime", "StationCode", "Station.Number", "SampleMethod", "GearID", "GearConditionCode", "VegetationRank", "TrapStatus", "Rev.Counter", "Region", "SeineLength", "SeineWidth", "SeineDepth", "VolumeSeined", "HabitatType", "SubstrateCode", "FieldComments", "DataCorrectionComments", "NoCatch",
+"OrganismCode", "Species", "Genus", "ForkLength", "TotalLength", "Weight", "Sex",
+"Spawning.Condition", "MarkCode", "Race", "StageCode", "Dead", 
+"CWTSample", "Genetic.Sample", "Direct.Take", "Indirect.Take", "FishTagID", "Count",
+"FishIDComments", "CWT_TagCode", "CWTComments",
+"GeneticID1", "Prob1", "GeneticID2", "Prob2", "FishTagID2", "SalmComments",
+"numChrom", "V.shape", "GeneticID", "qDS", "qLFS" ,"qWAG", "GenotypeRun", "FishTagID3", "SmeltComments")) %>%
+  mutate_if(is.factor, as.character) %>%
+  mutate_at(vars(StationCode: SmeltComments), ~replace_na(., "")) %>%
+  mutate(TrapStatus = replace(TrapStatus, SampleMethod %in% c("BSEIN", "PSEIN", "FKTR"), ""),
+         Rev.Counter = replace(Rev.Counter, SampleMethod %in% c("BSEIN", "PSEIN", "FKTR"), ""),
+         Region = replace(Region, SampleMethod != "BSEIN", ""),
+         SeineLength = replace(SeineLength, SampleMethod != "BSEIN", ""),
+         SeineWidth = replace(SeineWidth, SampleMethod != "BSEIN", ""),
+         SeineDepth = replace(SeineDepth, SampleMethod != "BSEIN", ""),
+         VolumeSeined = replace(VolumeSeined, SampleMethod != "BSEIN", ""),
+         HabitatType = replace(HabitatType, SampleMethod != "BSEIN", ""),
+         SubstrateCode = replace(SubstrateCode, SampleMethod != "BSEIN", ""),
+         CWT_TagCode = replace(CWT_TagCode, !OrganismCode %in% salmonids, ""),
+        CWTComments = replace(CWTComments, !OrganismCode %in% salmonids, ""),
+        GeneticID1 = replace(GeneticID1, !OrganismCode %in% salmonids, ""),
+        GeneticID2 = replace(GeneticID2, !OrganismCode %in% salmonids, ""),
+        Prob1 = replace(Prob1, !OrganismCode %in% salmonids, ""),
+        Prob2 = replace(Prob2, !OrganismCode %in% salmonids, ""),
+        SalmComments = replace(SalmComments, !OrganismCode %in% salmonids, ""),
+        numChrom = replace(numChrom, !OrganismCode %in% smelts, ""),
+        V.shape = replace(V.shape, !OrganismCode %in% smelts, ""),
+        GeneticID = replace(GeneticID, !OrganismCode %in% smelts, ""),
+        qDS = replace(qDS, !OrganismCode %in% smelts, ""),
+        qLFS = replace(qLFS, !OrganismCode %in% smelts, ""),
+        qWAG = replace(qWAG, !OrganismCode %in% smelts, ""),
+        GenotypeRun = replace(GenotypeRun, !OrganismCode %in% smelts, ""),
+        SmeltComments = replace(SmeltComments, !OrganismCode %in% smelts, "")) %>%
+  rename(LowestTaxon = Species,
+         Parent = Genus,
+         SamplingArea = Station.Number) %>%
+  arrange(OrganismCode)
+
+
+
+# Time formatting 
+countCatch$SampleTime <- format(countCatch$SampleTime, "%H:%M:%S")
+countCatch$SampleDate <- format(countCatch$SampleDate, "%m/%d/%Y")
+
+# Filter out count > 1
+countCatchInd <- filter(countCatch, Count == 1)
+countCatchMult <- filter(countCatch, Count != 1)
+countCatchMult2 <- countCatchMult[rep(seq_len(dim(countCatchMult)[1]), countCatchMult$Count), ]
+
+# Write files
+today <-  today()
+write.csv(countCatchInd, paste0("R_write/Fishdata_individual_", today, ".csv"))
+write.csv(countCatchMult, paste0("R_write/Fishdata_countnotequalto1_", today, ".csv"))
+write.csv(countCatchMult2, paste0("R_write/Fishdata_countnotequalto1Fixed_", today, ".csv"))
+
+summary(countCatchInd)
+checkCHN <- filter(countCatch, OrganismCode == "CHN")
+```
+
+11. NAs
+```{r na}
+nas <- alldataDiet %>%
+  filter(is.na(Plus.Count))
+```
+
+12. Filter for FishTagIds within diet file.
+Write file.
+```{r Diet file}
+DietIDs <- unique(diet_clean$FishTagID)
+
+Diet <- alldataDiet %>% 
+  filter(FishTagID %in% DietIDs) %>%
+  select(c( "SampleID", "SampleDate.x", "SampleTime.x", "StationCode.x", "SampleMethod", "OrganismCode", "Race.x", "ForkLength.x", "Weight.x", "SampleDate.y", "SampleTime.y", "StationCode.y", "Gear","Race.y",
+"ForkLength.y", "ForkLengthLabel", "Weight.y", "WeightLabel", "Fullness", "Digestion", 
+"WeightStomachFull", "WeightStomachEmpty", "PreyTaxa", "LifeStage", "HigherTaxa",
+"Count.y", "WeightPrey", "StomachBrokenDamaged", "StomachComments",
+"ProcessedBy", "QAQCBy", "FishTagID")) %>%
+  mutate_if(is.factor, as.character) %>%
+  mutate_at(vars(SampleID: FishTagID), ~replace_na(., "")) %>%
+  mutate(SampleDate.y = replace(SampleDate.y, !OrganismCode %in% dietOrgs, ""),
+       SampleTime.y = replace(SampleTime.y, !OrganismCode %in% dietOrgs, ""),
+       StationCode.y = replace(StationCode.y, !OrganismCode %in% dietOrgs, ""),
+       Gear = replace(Gear, !OrganismCode %in% dietOrgs, ""),
+       Race.y = replace(Race.y, !OrganismCode %in% dietOrgs, ""),
+        ForkLength.y = replace(ForkLength.y, !OrganismCode %in% dietOrgs, ""),
+        ForkLengthLabel = replace(ForkLengthLabel, !OrganismCode %in% dietOrgs, ""),
+        Weight.y = replace(Weight.y, !OrganismCode %in% dietOrgs, ""),
+        WeightLabel = replace(WeightLabel, !OrganismCode %in% dietOrgs, ""),
+        Fullness = replace(Fullness, !OrganismCode %in% dietOrgs, ""),
+        Digestion = replace(Digestion, !OrganismCode %in% dietOrgs, ""),
+        WeightStomachFull = replace(WeightStomachFull, !OrganismCode %in% dietOrgs, ""),
+        WeightStomachEmpty = replace(WeightStomachEmpty, !OrganismCode %in% dietOrgs, ""),
+        PreyTaxa = replace(PreyTaxa, !OrganismCode %in% dietOrgs, ""),
+        LifeStage = replace(LifeStage, !OrganismCode %in% dietOrgs, ""),
+        HigherTaxa = replace(HigherTaxa, !OrganismCode %in% dietOrgs, ""),
+        Count.y = replace(Count.y, !OrganismCode %in% dietOrgs, ""),
+        WeightPrey = replace(WeightPrey, !OrganismCode %in% dietOrgs, ""),
+        StomachBrokenDamaged = replace(StomachBrokenDamaged, !OrganismCode %in% dietOrgs, ""),
+        ProcessedBy = replace(ProcessedBy, !OrganismCode %in% dietOrgs, ""),
+        QAQCBy = replace(QAQCBy, !OrganismCode %in% dietOrgs, ""),
+        StomachComments = replace(StomachComments, !OrganismCode %in% dietOrgs, ""))  %>%
+  rename(SampleDate = SampleDate.x,
+         SampleTime = SampleTime.x,
+         StationCode = StationCode.x,
+         ForkLength = ForkLength.x,
+         Weight = Weight.x,
+         Race = Race.x,
+         SampleDate.diet = SampleDate.y,
+         SampleTime.diet = SampleTime.y,
+         StationCode.diet = StationCode.y,
+         Gear.diet = Gear,
+         ForkLength.diet = ForkLength.y,
+         Weight.diet = Weight.y,
+         Race.diet = Race.y,
+    PreyCount = Count.y)
+
+# Change time format
+Diet$SampleTime <- format(Diet$SampleTime, "%H:%M:%S")
+Diet$SampleDate <- format(Diet$SampleDate, "%m/%d/%Y")
+
+summary(Diet)
+
+# Write files
+today <-  today()
+write.csv(Diet, paste0("R_write/Diet_", today, ".csv"))
+```
+
+
+
+```{r plotcheck}
+countCatch2 <- countCatch %>%
+  mutate(month = month(SampleDate),
+         year = year(SampleDate))
+countCatch2a <- countCatch2 %>%
+  group_by(year, month, OrganismCode) %>%
+  summarize(mean.count =mean(Count))
+
+ggplot(countCatch2a, aes(x = year, y = mean.count, fill = OrganismCode)) + geom_bar(stat = "identity")
+ggplot(countCatch2a, aes(x = month, y = mean.count, fill = OrganismCode)) + geom_bar(stat = "identity")
+```
+

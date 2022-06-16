@@ -1,0 +1,7 @@
+"","SampleID","OrganismCode","ForkLength","TotalLength","Weight","Sex","Spawning.Condition","MarkCode","Race","StageCode","Dead","CWTSample","Genetic.Sample","Direct.Take","Indirect.Take","FishTagID","Count","Plus.Count","FishIDComments","SalmGenRowID","GeneticID1","Prob1","GeneticID2","Prob2","SalmComments","SmeltGenRowID","GeneticID","numChrom","V.shape","SmeltComments","qDS","qLFS","qWAG","GenotypeRun"
+"1",8176,"WAG",31,NA,0.1345,"","","n/p","n/p","n/p","No",FALSE,TRUE,FALSE,TRUE,"2018_WAG_001",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2",8806,"WAG",41,NA,NA,"","","n/p","n/p","n/p","No",FALSE,TRUE,TRUE,FALSE,"2019_WAG_008",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",8806,"WAG",42,NA,NA,"","","n/p","n/p","n/p","No",FALSE,TRUE,TRUE,FALSE,"2019_WAG_009",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4",8806,"WAG",43,NA,NA,"","","n/p","n/p","n/p","No",FALSE,TRUE,TRUE,FALSE,"2019_WAG_010",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5",8806,"WAG",43,NA,NA,"","","n/p","n/p","n/p","No",FALSE,TRUE,TRUE,FALSE,"2019_WAG_011",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6",8806,"WAG",44,NA,NA,"","","n/p","n/p","n/p","No",FALSE,TRUE,TRUE,FALSE,"2019_WAG_012",1,FALSE,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

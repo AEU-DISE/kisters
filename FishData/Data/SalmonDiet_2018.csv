@@ -1,0 +1,89 @@
+Processed by,Species,ID,Date,Time,FL (mm),wt (g),Fullness,Digestion,full wt,empty wt,Prey Taxa,LH,Higher level,Count,wt (g),Comments,QA/QC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Daphnia sp,,Cladocera,13,0.0012,,JC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Ceriodaphnia sp,,Cladocera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Chironomidae,larvae,Diptera,3,0.0005,,JC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Diptera,pupae,Diptera,1,0.0013,,JC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Cyclopoida,,Cyclopoida,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_001,2/27/2018,10:55,51,1.31,3,4,0.0405,0.0386,Insect matter,,Insecta,,0.0002,,JC
+ATE,CHN,2018Ad_plus-F_002,3/27/2018,9:55,36,0.42,2,5,0.0081,0.0068,Chironomidae,emergent,Diptera,2,0.0027,,JC
+ATE,CHN,2018Ad_plus-F_004,4/3/2018,10:20,35,0.37,1,,0.0099,0.0099,,,,,,,JC
+ATE,CHN,2018Ad_plus-F_005,4/3/2018,10:20,41,0.59,2,2,0.0145,0.0115,Daphnia sp,,Cladocera,4,0.0001,,JC
+ATE,CHN,2018Ad_plus-F_005,4/3/2018,10:20,41,0.59,2,2,0.0145,0.0115,Animal matter,,Animalia,,0.0008,,JC
+ATE,CHN,2018Ad_plus-F_006,4/3/2018,10:20,48,1.23,2,3,0.0357,0.0320,Eurycercus sp,,Cladocera,1,0.0004,,JC
+ATE,CHN,2018Ad_plus-F_007,4/3/2018,10:20,59,2.22,2,2,0.0678,0.0605,Chydoridae,,Cladocera,3,0.0008,,JC
+ATE,CHN,2018Ad_plus-F_007,4/3/2018,10:20,59,2.22,2,2,0.0678,0.0605,Insect matter,,Insecta,,0.0076,,JC
+ATE,CHN,2018Ad_plus-F_008,4/3/2018,10:20,72,4.06,1,1,0.0913,0.0904,Insect matter,,Insecta,,0.0003,,JC
+ATE,CHN,2018Ad_plus-F_009,4/4/2018,10:50,65,3.12,4,5,0.1155,0.0956,Chironomidae,adult,Diptera,12,0.0073,,JC
+ATE,CHN,2018Ad_plus-F_009,4/4/2018,10:50,65,3.12,4,5,0.1155,0.0956,Lepidoptera,adult,Lepidoptera,1,0.0186,,JC
+ATE,CHN,2018Ad_plus-F_010,4/4/2018,10:50,53,1.6,1,,0.0685,0.0685,,,,,,,JC
+ATE,CHN,2018Ad_plus-F_011,4/4/2018,10:50,74,4.4,2,4,0.0889,0.0800,Chironomidae,adult,Diptera,6,0.0062,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Daphnia pulex/pulicaria grp.,,Cladocera,16,0.0046,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Daphnia sp,,Cladocera,122,0.0505,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Chironomidae,,Diptera,4,0.0004,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Chironomidae,,Diptera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Crangonyx sp,,Amphipoda,1,0.0007,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Cyclopoida,,Cyclopoida,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Simocephalus sp,,Cladocera,2,0.0008,,JC
+ATE,CHN,2018Ad_plus-F_019,4/12/2018,14:35,78,5.49,5,4,0.1499,0.0906,Insect matter,,Insecta,,0.0001,,JC
+ATE,CHN,2018Ad_plus-F_020,4/13/2018,10:03,78,5.05,2,1,0.1058,0.0920,Insect matter,,Insecta,,0.0008,,JC
+ATE,CHN,2018Ad_plus-F_021,4/13/2018,10:03,72,3.72,1,6,0.0077,0.0073,Chironomidae,adult,Diptera,2,0.0006,,JC
+ATE,CHN,2018Ad_plus-F_022,4/13/2018,10:03,75,4.62,5,5,0.1320,0.0909,Daphnia sp,,Cladocera,44,0.0304,,JC
+ATE,CHN,2018Ad_plus-F_022,4/13/2018,10:03,75,4.62,5,5,0.1320,0.0909,Chironomidae,emergent,Diptera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_022,4/13/2018,10:03,75,4.62,5,5,0.1320,0.0909,Daphnia pulex/pulicaria grp.,,Cladocera,5,0.0011,,JC
+ATE,CHN,2018Ad_plus-F_023,4/17/2018,10:12,61,2.43,2,5,0.0738,0.0703,Chironomidae,adult,Diptera,2,0.0021,,JC
+ATE,CHN,2018Ad_plus-F_023,4/17/2018,10:12,61,2.43,2,5,0.0738,0.0703,Hyalella azteca,,Amphipoda,1,0.0003,,JC
+ATE,CHN,2018Ad_plus-F_023,4/17/2018,10:12,61,2.43,2,5,0.0738,0.0703,Daphnia sp,,Cladocera,1,0.0003,,JC
+ATE,CHN,2018Ad_plus-F_024,4/17/2018,10:12,74,4.45,3,3,0.0906,0.0717,Daphnia sp,,Cladocera,3,0.0006,,JC
+ATE,CHN,2018Ad_plus-F_024,4/17/2018,10:12,74,4.45,3,3,0.0906,0.0717,Aphididae,adult,Hemiptera,1,0.0007,,JC
+ATE,CHN,2018Ad_plus-F_024,4/17/2018,10:12,74,4.45,3,3,0.0906,0.0717,Animal matter,,Animalia,,0.0037,,JC
+ATE,CHN,2018Ad_plus-F_025,4/19/2018,10:13,38,0.47,3,4,0.0150,0.0144,Daphnia pulex/pulicaria grp.,,Cladocera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_025,4/19/2018,10:13,38,0.47,3,4,0.0150,0.0144,Aphididae,adult,Hemiptera,2,0.0007,,JC
+ATE,CHN,2018Ad_plus-F_025,4/19/2018,10:13,38,0.47,3,4,0.0150,0.0144,Insect matter,,Insecta,1,0.0002,,JC
+ATE,CHN,2018Ad_plus-F_026,4/20/2018,9:47,62,2.79,4,5,0.0873,0.0651,Trichoptera,adult,Trichoptera,7,0.0093,,JC
+ATE,CHN,2018Ad_plus-F_026,4/20/2018,9:47,62,2.79,4,5,0.0873,0.0651,Aphididae,adult,Hemiptera,2,0.0009,,JC
+ATE,CHN,2018Ad_plus-F_026,4/20/2018,9:47,62,2.79,4,5,0.0873,0.0651,Chironomidae,emergent,Diptera,2,0.0004,,JC
+ATE,CHN,2018Ad_plus-F_026,4/20/2018,9:47,62,2.79,4,5,0.0873,0.0651,Insect matter,,Insecta,,0.0058,,JC
+ATE,CHN,2018Ad_plus-F_027,4/25/2018,11:00,47,0.94,2,1,0.0268,0.0256,Insect matter,,Insecta,,0.0012,,JC
+ATE,CHN,2018Ad_plus-F_028,4/26/2018,9:57,52,1.44,3,5,0.0388,0.0307,Homoptera,,Hemiptera,1,0.0001,,JC
+ATE,CHN,2018Ad_plus-F_028,4/26/2018,9:57,52,1.44,3,5,0.0388,0.0307,Insect matter,,Insecta,,0.0029,,JC
+ATE,CHN,2018Ad_plus-F_028,4/26/2018,9:57,52,1.44,3,5,0.0388,0.0307,Neuroptera,larvae,Neuroptera,2,0.0004,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Corixidae,,Hemiptera,4,0.0029,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Acanthocyclops robustus,,Cyclopoida,6,0.0005,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Chironomidae,emergent,Diptera,7,0.0057,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Insect matter,,Insecta,,0.0012,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Daphnia sp,,Cladocera,1,0,,JC
+ATE,CHN,2018Ad_plus-F_029,4/27/2018,9:51,78,5.22,3,5,0.1074,0.0907,Plant matter,,Plant Matter,,0.0004,,JC
+ATE,CHN,2018Ad_plus-F_030,5/1/2018,10:29,69,3.44,2,6,0.0710,0.0693,Chironomidae,emergent,Diptera,1,0.0013,,JC
+ATE,CHN,2018Ad_plus-F_030,5/1/2018,10:29,69,3.44,2,6,0.0710,0.0693,Ceratopogonidae,pupae,Diptera,1,0.0005,,JC
+ATE,CHN,2018Ad_plus-F_031,5/2/2018,10:09,61,2.29,3,5,0.0502,0.0465,Chironomidae,emergent,Diptera,5,0.0018,,JC
+ATE,CHN,2018Ad_plus-F_031,5/2/2018,10:09,61,2.29,3,5,0.0502,0.0465,Hyalella azteca,,Amphipoda,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_032,5/2/2018,10:09,70,3.74,2,5,0.0820,0.0759,Chironomidae,emergent,Diptera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_033,5/2/2018,10:09,69,3.34,2,1,0.0723,0.0718,Insect matter,,Insecta,,0,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Americorophium spinicorne,,Amphipoda,1,0.0009,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Chironomidae,emergent,Diptera,73,0.0158,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Oligochaeta,,Oligochaeta,2,0.0002,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Ceratopogonidae,pupae,Diptera,2,0.0016,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Aphididae,adult,Hemiptera,19,0.0109,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Hymenoptera,,Hymenoptera,2,0.0003,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Brachycera,adult,Diptera,1,0.0003,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Isotomidae,,Collembola,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Hypogastruridae,,Collembola,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Psocoptera,adult,Psocoptera,1,0.0013,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Trichoptera,adult,Trichoptera,2,0.0045,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Chydoridae,,Cladocera,1,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_034,5/3/2018,10:16,59,2.53,5,5,0.1098,0.0478,Insect matter,,Insecta,,0.0141,,JC
+ATE,CHN,2018Ad_plus-F_035,5/3/2018,10:16,75,4.5,4,5,0.0904,0.0750,Chironomidae,emergent,Diptera,22,0.0023,,JC
+ATE,CHN,2018Ad_plus-F_035,5/3/2018,10:16,75,4.5,4,5,0.0904,0.0750,Aphididae,adult,Hemiptera,2,0.0011,,JC
+ATE,CHN,2018Ad_plus-F_035,5/3/2018,10:16,75,4.5,4,5,0.0904,0.0750,Plant matter,,Plant Matter,,0.0000,,JC
+ATE,CHN,2018Ad_plus-F_035,5/3/2018,10:16,75,4.5,4,5,0.0904,0.0750,Insect matter,,Insecta,,0.0091,,JC
+ATE,CHN,2018Ad_min-S_001,4/11/2018,16:50,83,6.64,3,3,0.1227,0.0926,Chironomidae,emergent,Diptera,1,0.0016,,JC
+ATE,CHN,2018Ad_min-S_001,4/11/2018,16:50,83,6.64,3,3,0.1227,0.0926,Plant matter,,Plant Matter,,0.0000,,JC
+ATE,CHN,2018Ad_min-S_001,4/11/2018,16:50,83,6.64,3,3,0.1227,0.0926,Insect matter,,Insecta,,0.0199,,JC
+ATE,CHN,2018Ad_min-S_001,4/11/2018,16:50,83,6.64,3,3,0.1227,0.0926,Chironomidae,larvae,Diptera,1,0.0000,,JC
+ATE,CHN,2018Ad_min-S_002,4/11/2018,16:50,90,8.03,4,4,0.1632,0.1273,Neuroptera,larvae,Neuroptera,1,0.0018,,JC
+ATE,CHN,2018Ad_min-S_002,4/11/2018,16:50,90,8.03,4,4,0.1632,0.1273,Chironomidae,emergent,Diptera,3,0.0026,,JC
+ATE,CHN,2018Ad_min-S_002,4/11/2018,16:50,90,8.03,4,4,0.1632,0.1273,Animal matter,,Animalia,,0.0143,,JC
+ATE,CHN,2018Ad_min-S_002,4/11/2018,16:50,90,8.03,4,4,0.1632,0.1273,Osphranticum labronectum,,Calanoida,1,0.0002,,JC
+ATE,CHN,2018Ad_min-S_005,4/13/2018,10:03,83.5,6.28,4,2,0.1739,0.1190,Odonata,nymph,Odonata,1,0.0156,,JC
+ATE,CHN,2018Ad_min-S_005,4/13/2018,10:03,83.5,6.28,4,2,0.1739,0.1190,Insect matter,,Insecta,,0.0020,,JC
+ATE,CHN,2018Ad_min-S_005,4/13/2018,10:03,83.5,6.28,4,2,0.1739,0.1190,Animal matter,,Animalia,,0.0269,mostly Daphnia parts,JC

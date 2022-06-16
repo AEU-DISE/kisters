@@ -1,0 +1,11 @@
+"","SampleID","OrganismCode","ForkLength","TotalLength","Weight","Sex","Spawning.Condition","MarkCode","Race","StageCode","Dead","CWTSample","Genetic.Sample","Direct.Take","Indirect.Take","FishTagID","Count","Plus.Count","FishIDComments","SalmGenRowID","GeneticID1","Prob1","GeneticID2","Prob2","SmeltGenRowID","GeneticID","numChrom","V.shape","qDS","qLFS","qWAG","GenotypeRun","LabComments"
+"1",7249,"CHN",34,NA,0.33,NA,NA,"None","F","n/p","No",FALSE,TRUE,FALSE,FALSE,"2016Ad_plus-F_240",1,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2",7298,"CHN",37,NA,0.41,NA,NA,"None","F","n/p","No",FALSE,TRUE,FALSE,FALSE,"2017Ad_plus-F_027",1,FALSE,NA,1117,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",8899,"CHN",722,773,NA,NA,NA,"None","n/p","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019_ACHN_104",1,FALSE,"Tumors on caudal fin. Floy:556/557; Good condition",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4",8909,"CHN",813,864,NA,"F",NA,"None","n/p","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019_ACHN_105",1,FALSE,"Floy: 558/559",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5",8895,"CHN",662,709,NA,"M",NA,"None","n/p","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019_ACHN_106",1,FALSE,"Floy: R-561 L-560",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6",8911,"CHN",660,714,NA,"M",NA,"None","F","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019_ACHN_107",1,FALSE,"FLOY: Left 563/right 564",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7",8521,"CHN",94,NA,12.48,NA,NA,"None","S","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019Ad_plus-S_063",1,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8",8932,"CHN",69,NA,NA,NA,NA,"n/p","W","PAR","No",FALSE,TRUE,FALSE,FALSE,"2019Ad_plus-W_011",1,FALSE,"Condition: Good",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9",8932,"CHN",80,NA,NA,NA,NA,"n/p","W","PAR","No",FALSE,TRUE,FALSE,FALSE,"2019Ad_plus-W_012",1,FALSE,"Condition: Good",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10",8932,"CHN",56,NA,NA,NA,NA,"n/p","W","PAR","No",FALSE,TRUE,FALSE,FALSE,"2019Ad_plus-W_013",1,FALSE,"Condition: Good",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

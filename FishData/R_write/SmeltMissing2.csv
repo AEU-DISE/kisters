@@ -1,0 +1,2 @@
+"","SampleID","OrganismCode","ForkLength","TotalLength","Weight","Sex","Spawning.Condition","MarkCode","Race","StageCode","Dead","CWTSample","Genetic.Sample","Direct.Take","Indirect.Take","FishTagID","Count","Plus.Count","FishIDComments","SalmGenRowID","GeneticID1","Prob1","GeneticID2","Prob2","SmeltGenRowID","GeneticID","numChrom","V.shape","qDS","qLFS","qWAG","GenotypeRun","LabComments"
+"1",7026,"DSM",36,NA,0.33,NA,NA,"n/p","n/p","n/p","Yes",FALSE,TRUE,FALSE,TRUE,"2016_DSM_025",1,FALSE,NA,NA,NA,NA,NA,NA,376,NA,"0","Y",NA,NA,NA,NA,NA

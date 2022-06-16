@@ -1,0 +1,17 @@
+"","SampleID","OrganismCode","ForkLength","TotalLength","Weight","Sex","Spawning.Condition","MarkCode","Race","StageCode","Dead","CWTSample","Genetic.Sample","Direct.Take","Indirect.Take","FishTagID","Count","Plus.Count","FishIDComments","CWT_TagCode","CWTComments"
+"1",6726,"CHN",42,NA,0.2426,NA,NA,"None","F","n/p","No",FALSE,TRUE,FALSE,TRUE,"2016Ad_minus-F_001",1,FALSE,NA,NA,NA
+"2",6772,"CHN",45,NA,0.8192,NA,NA,"A","F","n/p","Yes",FALSE,FALSE,FALSE,TRUE,"2016Ad_minus-F_002",1,FALSE,NA,NA,NA
+"3",6772,"CHN",48,NA,0.8416,NA,NA,"A","F","n/p","Yes",FALSE,FALSE,FALSE,TRUE,"2016Ad_minus-F_003",1,FALSE,NA,NA,NA
+"4",6772,"CHN",51,NA,1.6836,NA,NA,"A","F","n/p","Yes",FALSE,FALSE,FALSE,TRUE,"2016Ad_minus-F_004",1,FALSE,NA,NA,NA
+"5",6777,"CHN",49,NA,1.29,NA,NA,"A","F","n/p","Yes",FALSE,FALSE,FALSE,TRUE,"2016Ad_minus-F_005",1,FALSE,NA,NA,NA
+"6",6806,"CHN",54,NA,2.01,NA,NA,"A","F","n/p","No",FALSE,FALSE,TRUE,FALSE,"2016Ad_minus-F_074",1,FALSE,"074",NA,NA
+"7",6811,"CHN",59,NA,1.99,NA,NA,"A","F","n/p","No",FALSE,FALSE,TRUE,FALSE,"2016Ad_minus-F_060",1,FALSE,"060",NA,NA
+"8",6811,"CHN",57,NA,1.78,NA,NA,"A","F","n/p","No",FALSE,FALSE,TRUE,FALSE,"2016Ad_minus-F_062",1,FALSE,"062",NA,NA
+"9",6814,"CHN",57,NA,1.82,NA,NA,"A","F","n/p","No",FALSE,TRUE,TRUE,FALSE,"2016Ad_minus-F_008",1,FALSE,NA,NA,NA
+"10",6814,"CHN",55,NA,1.72,NA,NA,"A","F","n/p","No",FALSE,TRUE,TRUE,FALSE,"2016Ad_minus-F_009",1,FALSE,NA,NA,NA
+"11",6814,"CHN",53,NA,1.54,NA,NA,"A","F","n/p","No",FALSE,TRUE,TRUE,FALSE,"2016Ad_minus-F_010",1,FALSE,NA,NA,NA
+"12",6814,"CHN",58,NA,1.89,NA,NA,"A","F","n/p","No",FALSE,TRUE,TRUE,FALSE,"2016Ad_minus-F_012",1,FALSE,NA,NA,NA
+"13",7601,"CHN",101,NA,12.47,NA,NA,"A","n/p","CHN_S","No",FALSE,TRUE,TRUE,FALSE,"2017Ad_min-S_008",1,FALSE,"maybe ad+, cannot confirm if genetics were obtained",NA,NA
+"14",8078,"CHN",86,NA,6.97,NA,NA,"A","S","CHN_S","No",FALSE,TRUE,FALSE,FALSE,"2018Ad_min-S_003",1,FALSE,"dual-clipped",NA,NA
+"15",8100,"CHN",93.5,NA,8.18,NA,NA,"A","S","n/p","No",FALSE,TRUE,FALSE,FALSE,"2018Ad_min-S_004",1,FALSE,"dual fin-clipped",NA,NA
+"16",8521,"CHN",92,NA,9.91,NA,NA,"A","S","n/p","No",FALSE,TRUE,FALSE,FALSE,"2019Ad_min-S_006",1,FALSE,NA,NA,NA

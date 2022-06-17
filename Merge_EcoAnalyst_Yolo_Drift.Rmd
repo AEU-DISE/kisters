@@ -1,0 +1,27 @@
+---
+title: "Merge_EcoAnalyst_Yolo_Drift"
+author: "Catarina Pien"
+date: "July 2, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+
+setwd("C:/Users/cpien/OneDrive - California Department of Water Resources/Work/Database/R_code/")
+#setwd("C:/Users/Catarina/Dropbox/DWR/Database/")
+drift <- read.csv("Data/KiECO/kieco_drift_census.csv")
+ecoA <- read.csv("Data/KiECO/EcoAnalyst_taxon_tree.csv")
+```
+
+Merge EcoAnalysts and our drift data
+
+```{r , echo=FALSE}
+merge <- inner_join(drift, ecoA, by = "TaxonName") %>%
+  arrange(TaxonName)
+
+
+write.csv(merge, "R_write/drift_ecoA_similar.csv")
+notin <- anti_join(drift, ecoA, by = "TaxonName")
+```

@@ -1,0 +1,184 @@
+---
+title: "Merge_Benthic_Yolo_Families"
+author: "Catarina Pien"
+date: "July 10, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls(all=TRUE))
+library(plyr)
+library(dplyr)
+library(ggplot2)
+
+
+setwd("C:/Users/cpien/OneDrive - California Department of Water Resources/Work/Database/R_code/")
+#setwd("C:/Users/Catarina/Dropbox/DWR/Database/")
+yolo <- read.csv("Data/KiECO/zoop_drift_fish_to_import.csv")
+benthic <- read.csv("Data/KiECO/kieco_benthic.csv")
+combined <- read.csv("Data/KiECO/pre_parent.csv")
+```
+
+Merge EcoAnalysts and our drift data
+
+```{r , echo=FALSE}
+yolo_tofam <- yolo[,c(10:21)]
+merge <- left_join(benthic, yolo, by = "Family")
+write.csv(merge, "R_write/benthic_yolo_family.csv")
+
+full <- full_join(benthic, yolo, by = "Family")
+write.csv(full, "R_write/benthic_yolo_fullmerge.csv")
+
+match_order <- match_df(yolo,benthic, on = "Order")
+match_most <- match_df(yolo, benthic, on = c("Family", "Genus", "Species"))
+```
+
+
+Check all values in combined dataset
+```{r}
+# Check all values are in combined csv
+benthic$OrganismCode_b <- benthic$OrganismCode
+check_b <- anti_join(benthic, combined, by = "OrganismCode_b")
+
+check_y <- anti_join(yolo, combined, by = "TaxonName")
+```
+
+Look for previous value
+```{r}
+combined[combined==""] <- NA
+
+parent_sp <- combined %>%
+  mutate(
+    Species_par = ifelse(is.na(Species), NA,
+                        ifelse(!is.na(Genus),levels(Genus)[Genus], 
+                          ifelse(!is.na(Family), levels(Family)[Family],
+                              ifelse(!is.na(Superfamily), levels(Superfamily)[Superfamily],
+                                  ifelse(!is.na(Infraorder), levels(Infraorder)[Infraorder],
+                                      ifelse(!is.na(Suborder), levels(Suborder)[Suborder],
+                                            ifelse(!is.na(Order), levels(Order)[Order],
+                                                  ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                        ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                              ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                                    ifelse(!is.na(Class), levels(Class)[Class],
+                                                                          ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                                ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                      ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))))))))))))
+parent_genus <- parent_sp %>%
+  mutate(Genus_par = ifelse(is.na(Genus), NA,
+                  ifelse(!is.na(Family), levels(Family)[Family],
+                        ifelse(!is.na(Superfamily), levels(Superfamily)[Superfamily],
+                            ifelse(!is.na(Infraorder), levels(Infraorder)[Infraorder],
+                                 ifelse(!is.na(Suborder), levels(Suborder)[Suborder],
+                                      ifelse(!is.na(Order), levels(Order)[Order],
+                                             ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                   ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                         ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                              ifelse(!is.na(Class), levels(Class)[Class],
+                                                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                          ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))))))))))))
+parent_family <- parent_genus %>%
+  mutate(Family_par = ifelse(is.na(Family), NA,
+                        ifelse(!is.na(Superfamily), levels(Superfamily)[Superfamily],
+                            ifelse(!is.na(Infraorder), levels(Infraorder)[Infraorder],
+                                 ifelse(!is.na(Suborder), levels(Suborder)[Suborder],
+                                      ifelse(!is.na(Order), levels(Order)[Order],
+                                             ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                   ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                         ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                              ifelse(!is.na(Class), levels(Class)[Class],
+                                                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                          ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))))))))))
+
+parent_superfamily <- parent_family %>%
+  mutate(Superfamily_par = ifelse(is.na(Superfamily), NA,
+                            ifelse(!is.na(Infraorder), levels(Infraorder)[Infraorder],
+                                 ifelse(!is.na(Suborder), levels(Suborder)[Suborder],
+                                      ifelse(!is.na(Order), levels(Order)[Order],
+                                             ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                   ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                         ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                              ifelse(!is.na(Class), levels(Class)[Class],
+                                                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                          ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))))))))))
+
+parent_infraorder <- parent_superfamily %>%
+  mutate(Infraorder_par = ifelse(is.na(Infraorder), NA,
+                                 ifelse(!is.na(Suborder), levels(Suborder)[Suborder],
+                                      ifelse(!is.na(Order), levels(Order)[Order],
+                                             ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                   ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                         ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                              ifelse(!is.na(Class), levels(Class)[Class],
+                                                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                          ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))))))))
+
+
+parent_suborder <- parent_infraorder %>%
+  mutate(Suborder_par = ifelse(is.na(Suborder), NA,
+                                      ifelse(!is.na(Order), levels(Order)[Order],
+                                             ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                                                   ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                                         ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                                              ifelse(!is.na(Class), levels(Class)[Class],
+                                                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                                          ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                                                ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))))))))
+
+parent_order <- parent_suborder %>%
+  mutate(Order_par = ifelse(is.na(Order), NA,
+                          ifelse(!is.na(Superorder), levels(Superorder)[Superorder],
+                               ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                      ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                           ifelse(!is.na(Class), levels(Class)[Class],
+                                                 ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                       ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                              ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))))))
+
+parent_superorder <- parent_order %>%
+  mutate(Superorder_par = ifelse(is.na(Superorder), NA,
+                             ifelse(!is.na(Infraclass), levels(Infraclass)[Infraclass],
+                                      ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                           ifelse(!is.na(Class), levels(Class)[Class],
+                                              ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                                   ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                        ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))))))
+
+parent_infraclass <- parent_superorder %>%
+  mutate(Infraclass_par = ifelse(is.na(Infraclass), NA,
+                                ifelse(!is.na(Subclass), levels(Subclass)[Subclass],
+                                     ifelse(!is.na(Class), levels(Class)[Class],
+                                         ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                              ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                                  ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))))
+
+parent_subclass <- parent_infraclass %>%
+  mutate(Subclass_par = ifelse(is.na(Subclass), NA,
+                        ifelse(!is.na(Class), levels(Class)[Class],
+                                   ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                        ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                            ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))))
+
+parent_class <- parent_subclass %>%
+  mutate(Class_par = ifelse(is.na(Class), NA,
+                                ifelse(!is.na(Subphylum), levels(Subphylum)[Subphylum],
+                                    ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                        ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))))
+
+
+parent_subphylum <- parent_class %>%
+  mutate(Subphylum_par = ifelse(is.na(Subphylum), NA,
+                              ifelse(!is.na(Phylum), levels(Phylum)[Phylum],
+                                  ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA))))
+
+parent_phylum <- parent_subphylum %>%
+  mutate(Phylum_par = ifelse(is.na(Phylum), NA,
+                            ifelse(!is.na(Kingdom), levels(Kingdom)[Kingdom], NA)))
+
+write.csv(parent_phylum, "R_write/Parent_taxa.csv")
+
+```
+

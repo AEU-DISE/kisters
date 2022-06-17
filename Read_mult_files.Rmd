@@ -1,0 +1,38 @@
+---
+title: "Read_dayflow_files"
+author: "Catarina Pien"
+date: "August 22, 2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+rm(list=ls(all=TRUE))
+library(tidyverse)
+library(dpylr)
+```
+
+
+# Read files, Make Yolo file
+```{r read files in}
+setwd("C:/Users/cpien/OneDrive - California Department of Water Resources/Work/Database/R_code/Data/Flow/dayflow/")
+tbl <-
+    list.files(pattern = "*.csv") %>% 
+    map_df(~read_csv(., col_types = cols(.default = "c")))
+
+# Variables that should not be in the table
+wrongvar <- c("monthly totals", "OCT", "NOV", "DEC", "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "Mo", "acre-ft")
+rev <- tbl[!(tbl$Year %in% wrongvar),] # revised table
+
+# Filter so just Yolo data
+Yolo_Flow <- rev %>%
+  select(c(Year, Mo, Date, YOLO)) %>%
+  rename(Flow=YOLO)
+
+Yolo_Flow$Flow <- as.numeric(Yolo_Flow$Flow) 
+str(Yolo_Flow) 
+
+write.csv(Yolo_Flow, "C:/Users/cpien/OneDrive - California Department of Water Resources/Work/Database/R_code/Data/Flow/Yolo_dayflow_compiled.csv")
+```
+
